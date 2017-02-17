@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  GPDesignMode
+//
+//  Created by dandan on 17/2/13.
+//  Copyright © 2017年 dandan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "SVProgressHUD.h"
+#import "SDAutoLayout.h"
+#import "UIViewController+GPExtension.h"
+
+#define GPBGColor [UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.00]
+#define GPREDColor [UIColor colorWithRed:0.91 green:0.23 blue:0.20 alpha:1.00]
+#define SBVC(vcName) [UIStoryboard storyboardWithName:NSStringFromClass(vcName) bundle:nil].instantiateInitialViewController
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define GPColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define GPColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define GPRandomColor GPColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+/**
+ *  Block
+ */
+#define GPWeakSelf(type)  __weak typeof(type) weak##type = type
+#define GPStrongSelf(type)  __strong typeof(type) type = weak##type
+
+
+#endif /* PrefixHeader_pch */

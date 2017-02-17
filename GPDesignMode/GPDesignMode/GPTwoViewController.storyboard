@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pSC-b8-dHr">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Two View Controller-->
+        <scene sceneID="ZRw-7C-J4m">
+            <objects>
+                <viewController id="pSC-b8-dHr" customClass="GPTwoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P3V-gX-Pqh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lsd-tW-xCe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SoG-ld-bF7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入总金额" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zqe-FX-QZa">
+                                <rect key="frame" x="0.0" y="173" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rkm-xr-hVS">
+                                <rect key="frame" x="0.0" y="218" width="375" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择优惠条件" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cN-c4-1qw">
+                                <rect key="frame" x="0.0" y="273" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="769-R2-OMD">
+                                <rect key="frame" x="0.0" y="319" width="375" height="29"/>
+                                <segments>
+                                    <segment title="无优惠"/>
+                                    <segment title="优惠20"/>
+                                    <segment title="打8折"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7JO-tf-aiQ">
+                                <rect key="frame" x="0.0" y="422" width="375" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBs-YZ-meT">
+                                <rect key="frame" x="0.0" y="372" width="375" height="30"/>
+                                <state key="normal" title="计算结果"/>
+                                <connections>
+                                    <action selector="countBtnClick:" destination="pSC-b8-dHr" eventType="touchUpInside" id="tkU-eX-i9e"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5cN-c4-1qw" firstAttribute="top" secondItem="rkm-xr-hVS" secondAttribute="bottom" constant="25" id="0iR-AR-kdc"/>
+                            <constraint firstItem="7JO-tf-aiQ" firstAttribute="leading" secondItem="SoG-ld-bF7" secondAttribute="leading" id="6za-QV-3Kc"/>
+                            <constraint firstAttribute="trailing" secondItem="5cN-c4-1qw" secondAttribute="trailing" id="8n3-lQ-In1"/>
+                            <constraint firstItem="Zqe-FX-QZa" firstAttribute="leading" secondItem="SoG-ld-bF7" secondAttribute="leading" id="AQC-gn-yly"/>
+                            <constraint firstAttribute="trailing" secondItem="7JO-tf-aiQ" secondAttribute="trailing" id="Ak9-yV-P3C"/>
+                            <constraint firstItem="uBs-YZ-meT" firstAttribute="top" secondItem="769-R2-OMD" secondAttribute="bottom" constant="25" id="Axu-3o-VRY"/>
+                            <constraint firstItem="7JO-tf-aiQ" firstAttribute="top" secondItem="uBs-YZ-meT" secondAttribute="bottom" constant="20" id="F6W-TJ-qkf"/>
+                            <constraint firstItem="769-R2-OMD" firstAttribute="top" secondItem="5cN-c4-1qw" secondAttribute="bottom" constant="25" id="J4L-kn-LTi"/>
+                            <constraint firstAttribute="trailing" secondItem="Zqe-FX-QZa" secondAttribute="trailing" id="Jip-v5-KRa"/>
+                            <constraint firstItem="uBs-YZ-meT" firstAttribute="leading" secondItem="SoG-ld-bF7" secondAttribute="leading" id="KPL-Ad-6zh"/>
+                            <constraint firstAttribute="trailing" secondItem="rkm-xr-hVS" secondAttribute="trailing" id="QhA-6H-lzj"/>
+                            <constraint firstItem="rkm-xr-hVS" firstAttribute="leading" secondItem="SoG-ld-bF7" secondAttribute="leading" id="T3o-31-7Ki"/>
+                            <constraint firstItem="769-R2-OMD" firstAttribute="leading" secondItem="SoG-ld-bF7" secondAttribute="leading" id="TkU-YQ-fS5"/>
+                            <constraint firstItem="5cN-c4-1qw" firstAttribute="leading" secondItem="SoG-ld-bF7" secondAttribute="leading" id="WaD-gc-CUh"/>
+                            <constraint firstAttribute="trailing" secondItem="769-R2-OMD" secondAttribute="trailing" id="a1W-K0-4et"/>
+                            <constraint firstItem="Zqe-FX-QZa" firstAttribute="centerY" secondItem="SoG-ld-bF7" secondAttribute="centerY" constant="-150" id="dnk-iJ-mux"/>
+                            <constraint firstItem="rkm-xr-hVS" firstAttribute="top" secondItem="Zqe-FX-QZa" secondAttribute="bottom" constant="24" id="g9H-Wr-XE5"/>
+                            <constraint firstAttribute="trailing" secondItem="uBs-YZ-meT" secondAttribute="trailing" id="iUM-IK-Ui0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="oldMoneyTextFiled" destination="rkm-xr-hVS" id="Bob-JL-mBp"/>
+                        <outlet property="resultLabel" destination="7JO-tf-aiQ" id="ay3-oM-iRW"/>
+                        <outlet property="strategySegment" destination="769-R2-OMD" id="FEE-AZ-Efc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="toj-Vf-c1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-134" y="104"/>
+        </scene>
+    </scenes>
+</document>
