@@ -20,6 +20,8 @@
 		AC0C49B01E5C6F4B00F23D74 /* GPFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49AF1E5C6F4B00F23D74 /* GPFourViewController.m */; };
 		AC0C49B21E5C6F5500F23D74 /* GPFourViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0C49B11E5C6F5500F23D74 /* GPFourViewController.storyboard */; };
 		AC0C49B61E5C70B400F23D74 /* GPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49B51E5C70B400F23D74 /* GPBaseViewController.m */; };
+		AC1EA4601E5D4403002D3493 /* GPFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1EA45F1E5D4403002D3493 /* GPFiveViewController.m */; };
+		AC1EA4621E5D4410002D3493 /* GPFiveViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1EA4611E5D4410002D3493 /* GPFiveViewController.storyboard */; };
 		AC4D4BB51E51D94E0057CBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4BB41E51D94E0057CBBE /* main.m */; };
 		AC4D4BB81E51D94E0057CBBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */; };
 		AC4D4BBB1E51D94E0057CBBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4BBA1E51D94E0057CBBE /* ViewController.m */; };
@@ -111,6 +113,9 @@
 		AC0C49B11E5C6F5500F23D74 /* GPFourViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPFourViewController.storyboard; sourceTree = "<group>"; };
 		AC0C49B41E5C70B400F23D74 /* GPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBaseViewController.h; sourceTree = "<group>"; };
 		AC0C49B51E5C70B400F23D74 /* GPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBaseViewController.m; sourceTree = "<group>"; };
+		AC1EA45E1E5D4403002D3493 /* GPFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFiveViewController.h; sourceTree = "<group>"; };
+		AC1EA45F1E5D4403002D3493 /* GPFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFiveViewController.m; sourceTree = "<group>"; };
+		AC1EA4611E5D4410002D3493 /* GPFiveViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPFiveViewController.storyboard; sourceTree = "<group>"; };
 		AC4D4BB01E51D94E0057CBBE /* GPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4D4BB41E51D94E0057CBBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -259,6 +264,9 @@
 		AC1EA45D1E5D2E41002D3493 /* 05-工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
+				AC1EA45E1E5D4403002D3493 /* GPFiveViewController.h */,
+				AC1EA45F1E5D4403002D3493 /* GPFiveViewController.m */,
+				AC1EA4611E5D4410002D3493 /* GPFiveViewController.storyboard */,
 			);
 			name = "05-工厂模式";
 			sourceTree = "<group>";
@@ -623,6 +631,7 @@
 			files = (
 				ACE415E11E532F7D00752695 /* GPOneViewController.storyboard in Resources */,
 				AC4D4BC31E51D94E0057CBBE /* LaunchScreen.storyboard in Resources */,
+				AC1EA4621E5D4410002D3493 /* GPFiveViewController.storyboard in Resources */,
 				AC0C49671E5B1F3500F23D74 /* GPThreeViewController.storyboard in Resources */,
 				ACE416151E5331AD00752695 /* IQKeyboardManager.bundle in Resources */,
 				AC4D4BC01E51D94E0057CBBE /* Assets.xcassets in Resources */,
@@ -686,6 +695,7 @@
 				AC4D4BFF1E51EA7B0057CBBE /* SVProgressAnimatedView.m in Sources */,
 				AC0C49B01E5C6F4B00F23D74 /* GPFourViewController.m in Sources */,
 				ACE415DF1E532F6200752695 /* GPOneViewController.m in Sources */,
+				AC1EA4601E5D4403002D3493 /* GPFiveViewController.m in Sources */,
 				AC4D4BB51E51D94E0057CBBE /* main.m in Sources */,
 				AC4D4C011E51EA7B0057CBBE /* SVProgressHUD.m in Sources */,
 				ACE4160F1E5331AD00752695 /* IQTextView.m in Sources */,
