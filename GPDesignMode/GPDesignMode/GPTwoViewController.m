@@ -22,11 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.view.backgroundColor = GPBGColor;
-}
-- (void)setNavTitle:(NSString *)navTitle
-{
-    self.navigationItem.title = navTitle;
 }
 
 - (IBAction)countBtnClick:(UIButton *)sender {

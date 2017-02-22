@@ -1,13 +1,13 @@
 //
-//  GPTwoViewController.h
+//  GPThreeViewController.h
 //  GPDesignMode
 //
-//  Created by dandan on 17/2/16.
+//  Created by dandan on 17/2/20.
 //  Copyright © 2017年 dandan. All rights reserved.
 //
 
 #import "GPBaseViewController.h"
 
-@interface GPTwoViewController : GPBaseViewController
+@interface GPThreeViewController : GPBaseViewController
 
 @end

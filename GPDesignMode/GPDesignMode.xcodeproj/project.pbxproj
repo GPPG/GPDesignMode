@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0C49561E5B17B000F23D74 /* GPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49551E5B17B000F23D74 /* GPPerson.m */; };
+		AC0C49591E5B1B8E00F23D74 /* GPFinery.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49581E5B1B8E00F23D74 /* GPFinery.m */; };
+		AC0C495C1E5B1E3200F23D74 /* GPTShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C495B1E5B1E3200F23D74 /* GPTShirts.m */; };
+		AC0C495F1E5B1EA400F23D74 /* GPBigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C495E1E5B1EA400F23D74 /* GPBigTrouser.m */; };
+		AC0C49621E5B1ED700F23D74 /* GPSneakers.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49611E5B1ED700F23D74 /* GPSneakers.m */; };
+		AC0C49651E5B1F2800F23D74 /* GPThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49641E5B1F2800F23D74 /* GPThreeViewController.m */; };
+		AC0C49671E5B1F3500F23D74 /* GPThreeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0C49661E5B1F3500F23D74 /* GPThreeViewController.storyboard */; };
+		AC0C49A71E5C6BCC00F23D74 /* GPPursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49A61E5C6BCC00F23D74 /* GPPursuit.m */; };
+		AC0C49AA1E5C6CE400F23D74 /* GPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49A91E5C6CE400F23D74 /* GPProxy.m */; };
+		AC0C49AD1E5C6D6200F23D74 /* GPGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49AC1E5C6D6200F23D74 /* GPGirl.m */; };
+		AC0C49B01E5C6F4B00F23D74 /* GPFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49AF1E5C6F4B00F23D74 /* GPFourViewController.m */; };
+		AC0C49B21E5C6F5500F23D74 /* GPFourViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0C49B11E5C6F5500F23D74 /* GPFourViewController.storyboard */; };
+		AC0C49B61E5C70B400F23D74 /* GPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49B51E5C70B400F23D74 /* GPBaseViewController.m */; };
 		AC4D4BB51E51D94E0057CBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4BB41E51D94E0057CBBE /* main.m */; };
 		AC4D4BB81E51D94E0057CBBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */; };
 		AC4D4BBB1E51D94E0057CBBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4BBA1E51D94E0057CBBE /* ViewController.m */; };
@@ -73,6 +86,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC0C49541E5B17B000F23D74 /* GPPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPerson.h; sourceTree = "<group>"; };
+		AC0C49551E5B17B000F23D74 /* GPPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPerson.m; sourceTree = "<group>"; };
+		AC0C49571E5B1B8E00F23D74 /* GPFinery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFinery.h; sourceTree = "<group>"; };
+		AC0C49581E5B1B8E00F23D74 /* GPFinery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFinery.m; sourceTree = "<group>"; };
+		AC0C495A1E5B1E3200F23D74 /* GPTShirts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTShirts.h; sourceTree = "<group>"; };
+		AC0C495B1E5B1E3200F23D74 /* GPTShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTShirts.m; sourceTree = "<group>"; };
+		AC0C495D1E5B1EA400F23D74 /* GPBigTrouser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBigTrouser.h; sourceTree = "<group>"; };
+		AC0C495E1E5B1EA400F23D74 /* GPBigTrouser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBigTrouser.m; sourceTree = "<group>"; };
+		AC0C49601E5B1ED700F23D74 /* GPSneakers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSneakers.h; sourceTree = "<group>"; };
+		AC0C49611E5B1ED700F23D74 /* GPSneakers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSneakers.m; sourceTree = "<group>"; };
+		AC0C49631E5B1F2800F23D74 /* GPThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPThreeViewController.h; sourceTree = "<group>"; };
+		AC0C49641E5B1F2800F23D74 /* GPThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPThreeViewController.m; sourceTree = "<group>"; };
+		AC0C49661E5B1F3500F23D74 /* GPThreeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPThreeViewController.storyboard; sourceTree = "<group>"; };
+		AC0C49A21E5C6B3B00F23D74 /* GPGiveGift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPGiveGift.h; sourceTree = "<group>"; };
+		AC0C49A51E5C6BCC00F23D74 /* GPPursuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPursuit.h; sourceTree = "<group>"; };
+		AC0C49A61E5C6BCC00F23D74 /* GPPursuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPursuit.m; sourceTree = "<group>"; };
+		AC0C49A81E5C6CE400F23D74 /* GPProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPProxy.h; sourceTree = "<group>"; };
+		AC0C49A91E5C6CE400F23D74 /* GPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPProxy.m; sourceTree = "<group>"; };
+		AC0C49AB1E5C6D6200F23D74 /* GPGirl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPGirl.h; sourceTree = "<group>"; };
+		AC0C49AC1E5C6D6200F23D74 /* GPGirl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPGirl.m; sourceTree = "<group>"; };
+		AC0C49AE1E5C6F4B00F23D74 /* GPFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFourViewController.h; sourceTree = "<group>"; };
+		AC0C49AF1E5C6F4B00F23D74 /* GPFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFourViewController.m; sourceTree = "<group>"; };
+		AC0C49B11E5C6F5500F23D74 /* GPFourViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPFourViewController.storyboard; sourceTree = "<group>"; };
+		AC0C49B41E5C70B400F23D74 /* GPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBaseViewController.h; sourceTree = "<group>"; };
+		AC0C49B51E5C70B400F23D74 /* GPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBaseViewController.m; sourceTree = "<group>"; };
 		AC4D4BB01E51D94E0057CBBE /* GPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4D4BB41E51D94E0057CBBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -192,6 +230,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC0C49A11E5C654100F23D74 /* 04-代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AC0C49A21E5C6B3B00F23D74 /* GPGiveGift.h */,
+				AC0C49A51E5C6BCC00F23D74 /* GPPursuit.h */,
+				AC0C49A61E5C6BCC00F23D74 /* GPPursuit.m */,
+				AC0C49A81E5C6CE400F23D74 /* GPProxy.h */,
+				AC0C49A91E5C6CE400F23D74 /* GPProxy.m */,
+				AC0C49AB1E5C6D6200F23D74 /* GPGirl.h */,
+				AC0C49AC1E5C6D6200F23D74 /* GPGirl.m */,
+				AC0C49AE1E5C6F4B00F23D74 /* GPFourViewController.h */,
+				AC0C49AF1E5C6F4B00F23D74 /* GPFourViewController.m */,
+				AC0C49B11E5C6F5500F23D74 /* GPFourViewController.storyboard */,
+			);
+			name = "04-代理模式";
+			sourceTree = "<group>";
+		};
+		AC0C49B31E5C70A400F23D74 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AC0C49B41E5C70B400F23D74 /* GPBaseViewController.h */,
+				AC0C49B51E5C70B400F23D74 /* GPBaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		AC4D4BA71E51D94D0057CBBE = {
 			isa = PBXGroup;
 			children = (
@@ -215,8 +279,11 @@
 		AC4D4BB21E51D94E0057CBBE /* GPDesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				AC0C49B31E5C70A400F23D74 /* Base */,
 				AC4D4BE61E51D9C90057CBBE /* 01-简单工厂模式 */,
 				ACE4161A1E53430200752695 /* 02-策略模式 */,
+				ACB7563C1E5AF5D30080C757 /* 03-装饰模式 */,
+				AC0C49A11E5C654100F23D74 /* 04-代理模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -310,6 +377,26 @@
 			);
 			name = SDAutoLayout;
 			path = SVProgressHUD/SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		ACB7563C1E5AF5D30080C757 /* 03-装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AC0C49541E5B17B000F23D74 /* GPPerson.h */,
+				AC0C49551E5B17B000F23D74 /* GPPerson.m */,
+				AC0C49571E5B1B8E00F23D74 /* GPFinery.h */,
+				AC0C49581E5B1B8E00F23D74 /* GPFinery.m */,
+				AC0C495A1E5B1E3200F23D74 /* GPTShirts.h */,
+				AC0C495B1E5B1E3200F23D74 /* GPTShirts.m */,
+				AC0C495D1E5B1EA400F23D74 /* GPBigTrouser.h */,
+				AC0C495E1E5B1EA400F23D74 /* GPBigTrouser.m */,
+				AC0C49601E5B1ED700F23D74 /* GPSneakers.h */,
+				AC0C49611E5B1ED700F23D74 /* GPSneakers.m */,
+				AC0C49631E5B1F2800F23D74 /* GPThreeViewController.h */,
+				AC0C49641E5B1F2800F23D74 /* GPThreeViewController.m */,
+				AC0C49661E5B1F3500F23D74 /* GPThreeViewController.storyboard */,
+			);
+			name = "03-装饰模式";
 			sourceTree = "<group>";
 		};
 		ACE415E21E5331AC00752695 /* IQKeyboardManager */ = {
@@ -528,10 +615,12 @@
 			files = (
 				ACE415E11E532F7D00752695 /* GPOneViewController.storyboard in Resources */,
 				AC4D4BC31E51D94E0057CBBE /* LaunchScreen.storyboard in Resources */,
+				AC0C49671E5B1F3500F23D74 /* GPThreeViewController.storyboard in Resources */,
 				ACE416151E5331AD00752695 /* IQKeyboardManager.bundle in Resources */,
 				AC4D4BC01E51D94E0057CBBE /* Assets.xcassets in Resources */,
 				AC4D4BBE1E51D94E0057CBBE /* Main.storyboard in Resources */,
 				ACC122131E55E690003BFF09 /* GPTwoViewController.storyboard in Resources */,
+				AC0C49B21E5C6F5500F23D74 /* GPFourViewController.storyboard in Resources */,
 				AC4D4C001E51EA7B0057CBBE /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,12 +648,15 @@
 			files = (
 				ACE416091E5331AC00752695 /* IQUITextFieldView+Additions.m in Sources */,
 				ACE416141E5331AD00752695 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				AC0C49AD1E5C6D6200F23D74 /* GPGirl.m in Sources */,
 				ACE416121E5331AD00752695 /* IQTitleBarButtonItem.m in Sources */,
 				ACE4160E1E5331AD00752695 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				AC0C49621E5B1ED700F23D74 /* GPSneakers.m in Sources */,
 				AC4D4C0F1E51F1730057CBBE /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				ACE416081E5331AC00752695 /* IQUIScrollView+Additions.m in Sources */,
 				ACC122081E55DD21003BFF09 /* GPCashRebate.m in Sources */,
 				ACE416131E5331AD00752695 /* IQToolbar.m in Sources */,
+				AC0C49591E5B1B8E00F23D74 /* GPFinery.m in Sources */,
 				ACE4160C1E5331AD00752695 /* IQUIWindow+Hierarchy.m in Sources */,
 				AC4D4BEA1E51E49C0057CBBE /* GPOperation.m in Sources */,
 				ACC122021E55DCF6003BFF09 /* GPCashNormal.m in Sources */,
@@ -572,18 +664,25 @@
 				AC4D4BBB1E51D94E0057CBBE /* ViewController.m in Sources */,
 				ACE416111E5331AD00752695 /* IQPreviousNextView.m in Sources */,
 				AC4D4C051E51EB880057CBBE /* GPOperAtionDiv.m in Sources */,
+				AC0C49B61E5C70B400F23D74 /* GPBaseViewController.m in Sources */,
+				AC0C49A71E5C6BCC00F23D74 /* GPPursuit.m in Sources */,
 				ACE416071E5331AC00752695 /* IQNSArray+Sort.m in Sources */,
 				AC4D4BED1E51E8EE0057CBBE /* GPOperationAdd.m in Sources */,
+				AC0C495F1E5B1EA400F23D74 /* GPBigTrouser.m in Sources */,
 				AC4D4BFE1E51EA7B0057CBBE /* SVIndefiniteAnimatedView.m in Sources */,
 				ACE4160D1E5331AD00752695 /* IQKeyboardManager.m in Sources */,
 				ACC121FF1E55D7D9003BFF09 /* GPStrategy.m in Sources */,
 				AC4D4BB81E51D94E0057CBBE /* AppDelegate.m in Sources */,
+				AC0C49561E5B17B000F23D74 /* GPPerson.m in Sources */,
+				AC0C49AA1E5C6CE400F23D74 /* GPProxy.m in Sources */,
 				AC4D4BFF1E51EA7B0057CBBE /* SVProgressAnimatedView.m in Sources */,
+				AC0C49B01E5C6F4B00F23D74 /* GPFourViewController.m in Sources */,
 				ACE415DF1E532F6200752695 /* GPOneViewController.m in Sources */,
 				AC4D4BB51E51D94E0057CBBE /* main.m in Sources */,
 				AC4D4C011E51EA7B0057CBBE /* SVProgressHUD.m in Sources */,
 				ACE4160F1E5331AD00752695 /* IQTextView.m in Sources */,
 				AC4D4BF01E51E95A0057CBBE /* GPOperationSub.m in Sources */,
+				AC0C49651E5B1F2800F23D74 /* GPThreeViewController.m in Sources */,
 				ACC1220B1E55DD3B003BFF09 /* GPCashReturn.m in Sources */,
 				ACE416101E5331AD00752695 /* IQBarButtonItem.m in Sources */,
 				ACC1220E1E55E0BA003BFF09 /* GPCashContext.m in Sources */,
@@ -593,6 +692,7 @@
 				AC4D4C021E51EA7B0057CBBE /* SVRadialGradientLayer.m in Sources */,
 				AC4D4C081E51ED860057CBBE /* GPOperationFactory.m in Sources */,
 				ACE416191E533F3000752695 /* UIViewController+GPExtension.m in Sources */,
+				AC0C495C1E5B1E3200F23D74 /* GPTShirts.m in Sources */,
 				AC4D4C101E51F1730057CBBE /* UIView+SDAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

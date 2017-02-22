@@ -23,14 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self setupView];
 }
-#pragma mark - 初始化
-- (void)setupView
-{
-    self.view.backgroundColor = GPBGColor;
-    
-}
+
 #pragma mark - 事件响应
 - (IBAction)reslutBtnClick:(UIButton *)sender
 {
@@ -60,11 +54,7 @@
     operation.numberB = [self.numberBLabel.text doubleValue];
     self.reusltLabel.text = [NSString stringWithFormat:@"%f",[operation getResult]];
 }
-#pragma mark - set,get
-- (void)setNavTitle:(NSString *)navTitle
-{
-    self.navigationItem.title = navTitle;
-}
+
 
 
 

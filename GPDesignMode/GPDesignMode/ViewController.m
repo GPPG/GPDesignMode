@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "GPOneViewController.h"
 #import "GPTwoViewController.h"
+#import "GPThreeViewController.h"
+#import "GPFourViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *rootTableView;
@@ -34,6 +36,7 @@ static NSString * const oneCellID = @"oneCellID";
 {
     [self.view addSubview:({
         self.rootTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+        self.rootTableView.backgroundColor = GPBGColor;
         self.rootTableView.delegate = self;
         self.rootTableView.dataSource = self;
         self.rootTableView.rowHeight = SCREEN_HEIGHT * 0.12;
@@ -53,6 +56,7 @@ static NSString * const oneCellID = @"oneCellID";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *oneCell = [tableView dequeueReusableCellWithIdentifier:oneCellID];
+    oneCell.backgroundColor = GPBGColor;
     oneCell.textLabel.text = self.titleArray[indexPath.row];
     return oneCell;
 }
@@ -67,7 +71,7 @@ static NSString * const oneCellID = @"oneCellID";
 - (NSArray *)titleArray
 {
     if (!_titleArray) {
-        _titleArray = @[@"01--简单工厂模式",@"02-策略模式"];
+        _titleArray = @[@"01--简单工厂模式",@"02--策略模式",@"03--装饰模式",@"04--代理模式"];
     }
     return _titleArray;
 }
@@ -76,7 +80,7 @@ static NSString * const oneCellID = @"oneCellID";
 {
     if (!_subVcArray) {
         
-        _subVcArray = @[[GPOneViewController class],[GPTwoViewController class]];
+        _subVcArray = @[[GPOneViewController class],[GPTwoViewController class],[ GPThreeViewController class],[GPFourViewController class]];
     }
     return _subVcArray;
 }

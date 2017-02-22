@@ -6,8 +6,8 @@
 //  Copyright © 2017年 dandan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "GPBaseViewController.h"
 
-@interface GPOneViewController : UIViewController
+@interface GPOneViewController : GPBaseViewController
 
 @end

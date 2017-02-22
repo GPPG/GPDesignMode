@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DOZ-Ag-MBq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Three View Controller-->
+        <scene sceneID="Cee-Eo-pIN">
+            <objects>
+                <viewController id="DOZ-Ag-MBq" customClass="GPThreeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tws-bu-4ag"/>
+                        <viewControllerLayoutGuide type="bottom" id="f59-7W-c4t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9ms-hl-zUK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bfp-bI-Vap">
+                                <rect key="frame" x="142" y="318" width="92" height="30"/>
+                                <state key="normal" title="点击看控制台"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="DOZ-Ag-MBq" eventType="touchUpInside" id="dhx-Og-wNL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bfp-bI-Vap" firstAttribute="centerY" secondItem="9ms-hl-zUK" secondAttribute="centerY" id="3iz-hf-arP"/>
+                            <constraint firstItem="Bfp-bI-Vap" firstAttribute="centerX" secondItem="9ms-hl-zUK" secondAttribute="centerX" id="fhC-wi-WIu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RoI-fz-ivu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-158" y="-26"/>
+        </scene>
+    </scenes>
+</document>
