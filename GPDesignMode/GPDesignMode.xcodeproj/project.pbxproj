@@ -256,6 +256,13 @@
 			name = Base;
 			sourceTree = "<group>";
 		};
+		AC1EA45D1E5D2E41002D3493 /* 05-工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "05-工厂模式";
+			sourceTree = "<group>";
+		};
 		AC4D4BA71E51D94D0057CBBE = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +291,7 @@
 				ACE4161A1E53430200752695 /* 02-策略模式 */,
 				ACB7563C1E5AF5D30080C757 /* 03-装饰模式 */,
 				AC0C49A11E5C654100F23D74 /* 04-代理模式 */,
+				AC1EA45D1E5D2E41002D3493 /* 05-工厂模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
