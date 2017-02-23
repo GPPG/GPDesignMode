@@ -1,17 +1,13 @@
 //
-//  GPFiveViewController.h
+//  GPVolunteer.h
 //  GPDesignMode
 //
 //  Created by dandan on 17/2/22.
 //  Copyright © 2017年 dandan. All rights reserved.
 //
 
-#import "GPBaseViewController.h"
+#import "GPLeiFeng.h"
 
-@interface GPFiveViewController : GPBaseViewController
-
-
-
-
+@interface GPVolunteer : GPLeiFeng
 
 @end

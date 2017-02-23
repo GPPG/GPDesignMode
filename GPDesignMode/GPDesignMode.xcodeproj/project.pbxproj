@@ -43,6 +43,12 @@
 		AC4D4C081E51ED860057CBBE /* GPOperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4C071E51ED860057CBBE /* GPOperationFactory.m */; };
 		AC4D4C0F1E51F1730057CBBE /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4C0C1E51F1730057CBBE /* UITableView+SDAutoTableViewCellHeight.m */; };
 		AC4D4C101E51F1730057CBBE /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4C0E1E51F1730057CBBE /* UIView+SDAutoLayout.m */; };
+		AC6112B41E5DC2A4001D6FDE /* GPLeiFeng.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6112B31E5DC2A4001D6FDE /* GPLeiFeng.m */; };
+		AC6112B71E5DC5E8001D6FDE /* GPStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6112B61E5DC5E8001D6FDE /* GPStudent.m */; };
+		AC6112BA1E5DC63F001D6FDE /* GPVolunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6112B91E5DC63F001D6FDE /* GPVolunteer.m */; };
+		AC6112BD1E5DC6DD001D6FDE /* GPLFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6112BC1E5DC6DD001D6FDE /* GPLFactory.m */; };
+		AC6112C01E5DC745001D6FDE /* GPStudentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6112BF1E5DC745001D6FDE /* GPStudentFactory.m */; };
+		AC6112C31E5DC774001D6FDE /* GPVolunteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6112C21E5DC774001D6FDE /* GPVolunteerFactory.m */; };
 		ACC121FF1E55D7D9003BFF09 /* GPStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC121FE1E55D7D9003BFF09 /* GPStrategy.m */; };
 		ACC122021E55DCF6003BFF09 /* GPCashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC122011E55DCF6003BFF09 /* GPCashNormal.m */; };
 		ACC122081E55DD21003BFF09 /* GPCashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC122071E55DD21003BFF09 /* GPCashRebate.m */; };
@@ -159,6 +165,18 @@
 		AC4D4C0C1E51F1730057CBBE /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
 		AC4D4C0D1E51F1730057CBBE /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
 		AC4D4C0E1E51F1730057CBBE /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		AC6112B21E5DC2A4001D6FDE /* GPLeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPLeiFeng.h; sourceTree = "<group>"; };
+		AC6112B31E5DC2A4001D6FDE /* GPLeiFeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPLeiFeng.m; sourceTree = "<group>"; };
+		AC6112B51E5DC5E8001D6FDE /* GPStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPStudent.h; sourceTree = "<group>"; };
+		AC6112B61E5DC5E8001D6FDE /* GPStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPStudent.m; sourceTree = "<group>"; };
+		AC6112B81E5DC63F001D6FDE /* GPVolunteer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPVolunteer.h; sourceTree = "<group>"; };
+		AC6112B91E5DC63F001D6FDE /* GPVolunteer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPVolunteer.m; sourceTree = "<group>"; };
+		AC6112BB1E5DC6DD001D6FDE /* GPLFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPLFactory.h; sourceTree = "<group>"; };
+		AC6112BC1E5DC6DD001D6FDE /* GPLFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPLFactory.m; sourceTree = "<group>"; };
+		AC6112BE1E5DC745001D6FDE /* GPStudentFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPStudentFactory.h; sourceTree = "<group>"; };
+		AC6112BF1E5DC745001D6FDE /* GPStudentFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPStudentFactory.m; sourceTree = "<group>"; };
+		AC6112C11E5DC774001D6FDE /* GPVolunteerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPVolunteerFactory.h; sourceTree = "<group>"; };
+		AC6112C21E5DC774001D6FDE /* GPVolunteerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPVolunteerFactory.m; sourceTree = "<group>"; };
 		ACC121FD1E55D7D9003BFF09 /* GPStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPStrategy.h; sourceTree = "<group>"; };
 		ACC121FE1E55D7D9003BFF09 /* GPStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPStrategy.m; sourceTree = "<group>"; };
 		ACC122001E55DCF6003BFF09 /* GPCashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPCashNormal.h; sourceTree = "<group>"; };
@@ -267,6 +285,18 @@
 				AC1EA45E1E5D4403002D3493 /* GPFiveViewController.h */,
 				AC1EA45F1E5D4403002D3493 /* GPFiveViewController.m */,
 				AC1EA4611E5D4410002D3493 /* GPFiveViewController.storyboard */,
+				AC6112B21E5DC2A4001D6FDE /* GPLeiFeng.h */,
+				AC6112B31E5DC2A4001D6FDE /* GPLeiFeng.m */,
+				AC6112B51E5DC5E8001D6FDE /* GPStudent.h */,
+				AC6112B61E5DC5E8001D6FDE /* GPStudent.m */,
+				AC6112B81E5DC63F001D6FDE /* GPVolunteer.h */,
+				AC6112B91E5DC63F001D6FDE /* GPVolunteer.m */,
+				AC6112BB1E5DC6DD001D6FDE /* GPLFactory.h */,
+				AC6112BC1E5DC6DD001D6FDE /* GPLFactory.m */,
+				AC6112BE1E5DC745001D6FDE /* GPStudentFactory.h */,
+				AC6112BF1E5DC745001D6FDE /* GPStudentFactory.m */,
+				AC6112C11E5DC774001D6FDE /* GPVolunteerFactory.h */,
+				AC6112C21E5DC774001D6FDE /* GPVolunteerFactory.m */,
 			);
 			name = "05-工厂模式";
 			sourceTree = "<group>";
@@ -686,8 +716,11 @@
 				ACE416071E5331AC00752695 /* IQNSArray+Sort.m in Sources */,
 				AC4D4BED1E51E8EE0057CBBE /* GPOperationAdd.m in Sources */,
 				AC0C495F1E5B1EA400F23D74 /* GPBigTrouser.m in Sources */,
+				AC6112C01E5DC745001D6FDE /* GPStudentFactory.m in Sources */,
+				AC6112BA1E5DC63F001D6FDE /* GPVolunteer.m in Sources */,
 				AC4D4BFE1E51EA7B0057CBBE /* SVIndefiniteAnimatedView.m in Sources */,
 				ACE4160D1E5331AD00752695 /* IQKeyboardManager.m in Sources */,
+				AC6112B71E5DC5E8001D6FDE /* GPStudent.m in Sources */,
 				ACC121FF1E55D7D9003BFF09 /* GPStrategy.m in Sources */,
 				AC4D4BB81E51D94E0057CBBE /* AppDelegate.m in Sources */,
 				AC0C49561E5B17B000F23D74 /* GPPerson.m in Sources */,
@@ -700,9 +733,12 @@
 				AC4D4C011E51EA7B0057CBBE /* SVProgressHUD.m in Sources */,
 				ACE4160F1E5331AD00752695 /* IQTextView.m in Sources */,
 				AC4D4BF01E51E95A0057CBBE /* GPOperationSub.m in Sources */,
+				AC6112B41E5DC2A4001D6FDE /* GPLeiFeng.m in Sources */,
+				AC6112BD1E5DC6DD001D6FDE /* GPLFactory.m in Sources */,
 				AC0C49651E5B1F2800F23D74 /* GPThreeViewController.m in Sources */,
 				ACC1220B1E55DD3B003BFF09 /* GPCashReturn.m in Sources */,
 				ACE416101E5331AD00752695 /* IQBarButtonItem.m in Sources */,
+				AC6112C31E5DC774001D6FDE /* GPVolunteerFactory.m in Sources */,
 				ACC1220E1E55E0BA003BFF09 /* GPCashContext.m in Sources */,
 				ACC122111E55E681003BFF09 /* GPTwoViewController.m in Sources */,
 				ACE4160B1E5331AC00752695 /* IQUIViewController+Additions.m in Sources */,

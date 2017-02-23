@@ -7,8 +7,14 @@
 //
 
 #import "GPFiveViewController.h"
+#import "GPStudent.h"
+#import "GPVolunteer.h"
+#import "GPStudentFactory.h"
+#import "GPVolunteerFactory.h"
 
 @interface GPFiveViewController ()
+- (IBAction)btlClick:(id)sender;
+- (IBAction)VBtnClick:(id)sender;
 
 @end
 
@@ -16,22 +22,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)btlClick:(id)sender {
+    
+    GPLFactory *factory = [[GPStudentFactory alloc]init];
+    [self action:factory];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)VBtnClick:(id)sender {
+    GPLFactory *factory = [[GPVolunteerFactory alloc]init];
+    [self action:factory];
 }
-*/
+
+- (void)action:(GPLFactory *)factory
+{
+    GPLeiFeng *student = [factory creatLeiFeng];
+    [student ReadBook];
+    [student wash];
+    [student bugRice];
+    [student sweep];
+}
 
 @end

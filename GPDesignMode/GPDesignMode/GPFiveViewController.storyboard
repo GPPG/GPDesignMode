@@ -20,12 +20,34 @@
                     <view key="view" contentMode="scaleToFill" id="MiC-l9-1kM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uu6-cT-2kP">
+                                <rect key="frame" x="171.5" y="318" width="31" height="30"/>
+                                <state key="normal" title="学生"/>
+                                <connections>
+                                    <action selector="btlClick:" destination="Frs-PB-FZq" eventType="touchUpInside" id="Qbg-fO-YaM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gue-Vv-C5s">
+                                <rect key="frame" x="164" y="245" width="46" height="30"/>
+                                <state key="normal" title="志愿者"/>
+                                <connections>
+                                    <action selector="VBtnClick:" destination="Frs-PB-FZq" eventType="touchUpInside" id="3Ap-DA-zrB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Gue-Vv-C5s" firstAttribute="centerX" secondItem="Uu6-cT-2kP" secondAttribute="centerX" id="Ut7-iy-9Bu"/>
+                            <constraint firstItem="Uu6-cT-2kP" firstAttribute="centerY" secondItem="MiC-l9-1kM" secondAttribute="centerY" id="Ww2-y4-g3g"/>
+                            <constraint firstItem="Uu6-cT-2kP" firstAttribute="top" secondItem="Gue-Vv-C5s" secondAttribute="bottom" constant="43" id="h2u-Gt-VTh"/>
+                            <constraint firstItem="Uu6-cT-2kP" firstAttribute="centerX" secondItem="MiC-l9-1kM" secondAttribute="centerX" id="uwh-mc-BZr"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ens-bi-CFk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-218" y="49"/>
+            <point key="canvasLocation" x="-554" y="-134"/>
         </scene>
     </scenes>
 </document>
