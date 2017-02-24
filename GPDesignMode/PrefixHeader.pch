@@ -12,6 +12,7 @@
 #import "SVProgressHUD.h"
 #import "SDAutoLayout.h"
 #import "UIViewController+GPExtension.h"
+#import "MJExtension.h"
 
 #define GPBGColor [UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.00]
 #define GPREDColor [UIColor colorWithRed:0.91 green:0.23 blue:0.20 alpha:1.00]

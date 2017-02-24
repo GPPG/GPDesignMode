@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h3V-4c-0H5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Six View Controller-->
+        <scene sceneID="sFd-4X-GtT">
+            <objects>
+                <viewController id="h3V-4c-0H5" customClass="GPSixViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PJT-UZ-uqJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="rgi-fO-bi6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mJI-fd-4OB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSz-2P-je7">
+                                <rect key="frame" x="172.5" y="319" width="31" height="30"/>
+                                <state key="normal" title="元婴"/>
+                                <connections>
+                                    <action selector="threeBtnClick:" destination="h3V-4c-0H5" eventType="touchUpInside" id="iEN-k6-hEq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BF4-2W-f4g">
+                                <rect key="frame" x="172.5" y="271" width="31" height="30"/>
+                                <state key="normal" title="结丹"/>
+                                <connections>
+                                    <action selector="twoBtnClick:" destination="h3V-4c-0H5" eventType="touchUpInside" id="11D-x5-nbd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJN-NY-G17">
+                                <rect key="frame" x="172.5" y="223" width="31" height="30"/>
+                                <state key="normal" title="入门"/>
+                                <connections>
+                                    <action selector="oneBtnCLick:" destination="h3V-4c-0H5" eventType="touchUpInside" id="8S0-wP-CiE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BF4-2W-f4g" firstAttribute="top" secondItem="VJN-NY-G17" secondAttribute="bottom" constant="18" id="4bj-h0-YRM"/>
+                            <constraint firstItem="VJN-NY-G17" firstAttribute="leading" secondItem="BF4-2W-f4g" secondAttribute="leading" id="5uK-J1-Z1o"/>
+                            <constraint firstItem="kSz-2P-je7" firstAttribute="top" secondItem="BF4-2W-f4g" secondAttribute="bottom" constant="18" id="dTq-X4-L1g"/>
+                            <constraint firstItem="kSz-2P-je7" firstAttribute="centerX" secondItem="mJI-fd-4OB" secondAttribute="centerX" id="ffX-sN-1yx"/>
+                            <constraint firstItem="kSz-2P-je7" firstAttribute="centerY" secondItem="mJI-fd-4OB" secondAttribute="centerY" id="h28-wc-Z0y"/>
+                            <constraint firstItem="BF4-2W-f4g" firstAttribute="leading" secondItem="kSz-2P-je7" secondAttribute="leading" id="ztu-YC-HfR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="26p-Qs-iRG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-159" y="36"/>
+        </scene>
+    </scenes>
+</document>

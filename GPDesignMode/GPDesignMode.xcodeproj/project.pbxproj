@@ -20,6 +20,21 @@
 		AC0C49B01E5C6F4B00F23D74 /* GPFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49AF1E5C6F4B00F23D74 /* GPFourViewController.m */; };
 		AC0C49B21E5C6F5500F23D74 /* GPFourViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0C49B11E5C6F5500F23D74 /* GPFourViewController.storyboard */; };
 		AC0C49B61E5C70B400F23D74 /* GPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0C49B51E5C70B400F23D74 /* GPBaseViewController.m */; };
+		AC1074821E5F049C00B48FFC /* GPSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074811E5F049C00B48FFC /* GPSixViewController.m */; };
+		AC1074841E5F04D800B48FFC /* GPSixViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1074831E5F04D800B48FFC /* GPSixViewController.storyboard */; };
+		AC1074871E5F0D5200B48FFC /* GPPrototype.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074861E5F0D5200B48FFC /* GPPrototype.m */; };
+		AC10748A1E5F0DC300B48FFC /* GPWorkExperience.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074891E5F0DC300B48FFC /* GPWorkExperience.m */; };
+		AC1074A11E5F0E0300B48FFC /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10748E1E5F0E0300B48FFC /* MJExtensionConst.m */; };
+		AC1074A21E5F0E0300B48FFC /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074901E5F0E0300B48FFC /* MJFoundation.m */; };
+		AC1074A31E5F0E0300B48FFC /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074921E5F0E0300B48FFC /* MJProperty.m */; };
+		AC1074A41E5F0E0300B48FFC /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074941E5F0E0300B48FFC /* MJPropertyKey.m */; };
+		AC1074A51E5F0E0300B48FFC /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074961E5F0E0300B48FFC /* MJPropertyType.m */; };
+		AC1074A61E5F0E0300B48FFC /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074981E5F0E0300B48FFC /* NSObject+MJClass.m */; };
+		AC1074A71E5F0E0300B48FFC /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10749A1E5F0E0300B48FFC /* NSObject+MJCoding.m */; };
+		AC1074A81E5F0E0300B48FFC /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10749C1E5F0E0300B48FFC /* NSObject+MJKeyValue.m */; };
+		AC1074A91E5F0E0300B48FFC /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10749E1E5F0E0300B48FFC /* NSObject+MJProperty.m */; };
+		AC1074AA1E5F0E0300B48FFC /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074A01E5F0E0300B48FFC /* NSString+MJExtension.m */; };
+		AC1074AD1E5F0FD100B48FFC /* GPResume.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074AC1E5F0FD100B48FFC /* GPResume.m */; };
 		AC1EA4601E5D4403002D3493 /* GPFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1EA45F1E5D4403002D3493 /* GPFiveViewController.m */; };
 		AC1EA4621E5D4410002D3493 /* GPFiveViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1EA4611E5D4410002D3493 /* GPFiveViewController.storyboard */; };
 		AC4D4BB51E51D94E0057CBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4BB41E51D94E0057CBBE /* main.m */; };
@@ -119,6 +134,36 @@
 		AC0C49B11E5C6F5500F23D74 /* GPFourViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPFourViewController.storyboard; sourceTree = "<group>"; };
 		AC0C49B41E5C70B400F23D74 /* GPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBaseViewController.h; sourceTree = "<group>"; };
 		AC0C49B51E5C70B400F23D74 /* GPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBaseViewController.m; sourceTree = "<group>"; };
+		AC1074801E5F049C00B48FFC /* GPSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSixViewController.h; sourceTree = "<group>"; };
+		AC1074811E5F049C00B48FFC /* GPSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSixViewController.m; sourceTree = "<group>"; };
+		AC1074831E5F04D800B48FFC /* GPSixViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPSixViewController.storyboard; sourceTree = "<group>"; };
+		AC1074851E5F0D5200B48FFC /* GPPrototype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPrototype.h; sourceTree = "<group>"; };
+		AC1074861E5F0D5200B48FFC /* GPPrototype.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPrototype.m; sourceTree = "<group>"; };
+		AC1074881E5F0DC300B48FFC /* GPWorkExperience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPWorkExperience.h; sourceTree = "<group>"; };
+		AC1074891E5F0DC300B48FFC /* GPWorkExperience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPWorkExperience.m; sourceTree = "<group>"; };
+		AC10748C1E5F0E0300B48FFC /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		AC10748D1E5F0E0300B48FFC /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		AC10748E1E5F0E0300B48FFC /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		AC10748F1E5F0E0300B48FFC /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		AC1074901E5F0E0300B48FFC /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		AC1074911E5F0E0300B48FFC /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		AC1074921E5F0E0300B48FFC /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		AC1074931E5F0E0300B48FFC /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		AC1074941E5F0E0300B48FFC /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		AC1074951E5F0E0300B48FFC /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		AC1074961E5F0E0300B48FFC /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		AC1074971E5F0E0300B48FFC /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		AC1074981E5F0E0300B48FFC /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		AC1074991E5F0E0300B48FFC /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		AC10749A1E5F0E0300B48FFC /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		AC10749B1E5F0E0300B48FFC /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		AC10749C1E5F0E0300B48FFC /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		AC10749D1E5F0E0300B48FFC /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		AC10749E1E5F0E0300B48FFC /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		AC10749F1E5F0E0300B48FFC /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		AC1074A01E5F0E0300B48FFC /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		AC1074AB1E5F0FD100B48FFC /* GPResume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPResume.h; sourceTree = "<group>"; };
+		AC1074AC1E5F0FD100B48FFC /* GPResume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPResume.m; sourceTree = "<group>"; };
 		AC1EA45E1E5D4403002D3493 /* GPFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFiveViewController.h; sourceTree = "<group>"; };
 		AC1EA45F1E5D4403002D3493 /* GPFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFiveViewController.m; sourceTree = "<group>"; };
 		AC1EA4611E5D4410002D3493 /* GPFiveViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPFiveViewController.storyboard; sourceTree = "<group>"; };
@@ -279,6 +324,50 @@
 			name = Base;
 			sourceTree = "<group>";
 		};
+		AC10747F1E5F046500B48FFC /* 06-原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AC1074801E5F049C00B48FFC /* GPSixViewController.h */,
+				AC1074811E5F049C00B48FFC /* GPSixViewController.m */,
+				AC1074831E5F04D800B48FFC /* GPSixViewController.storyboard */,
+				AC1074851E5F0D5200B48FFC /* GPPrototype.h */,
+				AC1074861E5F0D5200B48FFC /* GPPrototype.m */,
+				AC1074881E5F0DC300B48FFC /* GPWorkExperience.h */,
+				AC1074891E5F0DC300B48FFC /* GPWorkExperience.m */,
+				AC1074AB1E5F0FD100B48FFC /* GPResume.h */,
+				AC1074AC1E5F0FD100B48FFC /* GPResume.m */,
+			);
+			name = "06-原型模式";
+			sourceTree = "<group>";
+		};
+		AC10748B1E5F0E0300B48FFC /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AC10748C1E5F0E0300B48FFC /* MJExtension.h */,
+				AC10748D1E5F0E0300B48FFC /* MJExtensionConst.h */,
+				AC10748E1E5F0E0300B48FFC /* MJExtensionConst.m */,
+				AC10748F1E5F0E0300B48FFC /* MJFoundation.h */,
+				AC1074901E5F0E0300B48FFC /* MJFoundation.m */,
+				AC1074911E5F0E0300B48FFC /* MJProperty.h */,
+				AC1074921E5F0E0300B48FFC /* MJProperty.m */,
+				AC1074931E5F0E0300B48FFC /* MJPropertyKey.h */,
+				AC1074941E5F0E0300B48FFC /* MJPropertyKey.m */,
+				AC1074951E5F0E0300B48FFC /* MJPropertyType.h */,
+				AC1074961E5F0E0300B48FFC /* MJPropertyType.m */,
+				AC1074971E5F0E0300B48FFC /* NSObject+MJClass.h */,
+				AC1074981E5F0E0300B48FFC /* NSObject+MJClass.m */,
+				AC1074991E5F0E0300B48FFC /* NSObject+MJCoding.h */,
+				AC10749A1E5F0E0300B48FFC /* NSObject+MJCoding.m */,
+				AC10749B1E5F0E0300B48FFC /* NSObject+MJKeyValue.h */,
+				AC10749C1E5F0E0300B48FFC /* NSObject+MJKeyValue.m */,
+				AC10749D1E5F0E0300B48FFC /* NSObject+MJProperty.h */,
+				AC10749E1E5F0E0300B48FFC /* NSObject+MJProperty.m */,
+				AC10749F1E5F0E0300B48FFC /* NSString+MJExtension.h */,
+				AC1074A01E5F0E0300B48FFC /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
 		AC1EA45D1E5D2E41002D3493 /* 05-工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,6 +419,7 @@
 				ACB7563C1E5AF5D30080C757 /* 03-装饰模式 */,
 				AC0C49A11E5C654100F23D74 /* 04-代理模式 */,
 				AC1EA45D1E5D2E41002D3493 /* 05-工厂模式 */,
+				AC10747F1E5F046500B48FFC /* 06-原型模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -346,6 +436,7 @@
 		AC4D4BB31E51D94E0057CBBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AC10748B1E5F0E0300B48FFC /* MJExtension */,
 				ACE416161E533B3000752695 /* Category */,
 				ACE415E21E5331AC00752695 /* IQKeyboardManager */,
 				AC4D4C091E51F1730057CBBE /* SDAutoLayout */,
@@ -661,6 +752,7 @@
 			files = (
 				ACE415E11E532F7D00752695 /* GPOneViewController.storyboard in Resources */,
 				AC4D4BC31E51D94E0057CBBE /* LaunchScreen.storyboard in Resources */,
+				AC1074841E5F04D800B48FFC /* GPSixViewController.storyboard in Resources */,
 				AC1EA4621E5D4410002D3493 /* GPFiveViewController.storyboard in Resources */,
 				AC0C49671E5B1F3500F23D74 /* GPThreeViewController.storyboard in Resources */,
 				ACE416151E5331AD00752695 /* IQKeyboardManager.bundle in Resources */,
@@ -696,6 +788,8 @@
 				ACE416091E5331AC00752695 /* IQUITextFieldView+Additions.m in Sources */,
 				ACE416141E5331AD00752695 /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				AC0C49AD1E5C6D6200F23D74 /* GPGirl.m in Sources */,
+				AC1074A21E5F0E0300B48FFC /* MJFoundation.m in Sources */,
+				AC1074A81E5F0E0300B48FFC /* NSObject+MJKeyValue.m in Sources */,
 				ACE416121E5331AD00752695 /* IQTitleBarButtonItem.m in Sources */,
 				ACE4160E1E5331AD00752695 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				AC0C49621E5B1ED700F23D74 /* GPSneakers.m in Sources */,
@@ -705,6 +799,7 @@
 				ACE416131E5331AD00752695 /* IQToolbar.m in Sources */,
 				AC0C49591E5B1B8E00F23D74 /* GPFinery.m in Sources */,
 				ACE4160C1E5331AD00752695 /* IQUIWindow+Hierarchy.m in Sources */,
+				AC1074AD1E5F0FD100B48FFC /* GPResume.m in Sources */,
 				AC4D4BEA1E51E49C0057CBBE /* GPOperation.m in Sources */,
 				ACC122021E55DCF6003BFF09 /* GPCashNormal.m in Sources */,
 				ACE4160A1E5331AC00752695 /* IQUIView+Hierarchy.m in Sources */,
@@ -717,9 +812,11 @@
 				AC4D4BED1E51E8EE0057CBBE /* GPOperationAdd.m in Sources */,
 				AC0C495F1E5B1EA400F23D74 /* GPBigTrouser.m in Sources */,
 				AC6112C01E5DC745001D6FDE /* GPStudentFactory.m in Sources */,
+				AC1074A31E5F0E0300B48FFC /* MJProperty.m in Sources */,
 				AC6112BA1E5DC63F001D6FDE /* GPVolunteer.m in Sources */,
 				AC4D4BFE1E51EA7B0057CBBE /* SVIndefiniteAnimatedView.m in Sources */,
 				ACE4160D1E5331AD00752695 /* IQKeyboardManager.m in Sources */,
+				AC1074A61E5F0E0300B48FFC /* NSObject+MJClass.m in Sources */,
 				AC6112B71E5DC5E8001D6FDE /* GPStudent.m in Sources */,
 				ACC121FF1E55D7D9003BFF09 /* GPStrategy.m in Sources */,
 				AC4D4BB81E51D94E0057CBBE /* AppDelegate.m in Sources */,
@@ -728,25 +825,34 @@
 				AC4D4BFF1E51EA7B0057CBBE /* SVProgressAnimatedView.m in Sources */,
 				AC0C49B01E5C6F4B00F23D74 /* GPFourViewController.m in Sources */,
 				ACE415DF1E532F6200752695 /* GPOneViewController.m in Sources */,
+				AC1074A91E5F0E0300B48FFC /* NSObject+MJProperty.m in Sources */,
 				AC1EA4601E5D4403002D3493 /* GPFiveViewController.m in Sources */,
 				AC4D4BB51E51D94E0057CBBE /* main.m in Sources */,
 				AC4D4C011E51EA7B0057CBBE /* SVProgressHUD.m in Sources */,
 				ACE4160F1E5331AD00752695 /* IQTextView.m in Sources */,
+				AC1074A41E5F0E0300B48FFC /* MJPropertyKey.m in Sources */,
 				AC4D4BF01E51E95A0057CBBE /* GPOperationSub.m in Sources */,
 				AC6112B41E5DC2A4001D6FDE /* GPLeiFeng.m in Sources */,
 				AC6112BD1E5DC6DD001D6FDE /* GPLFactory.m in Sources */,
+				AC1074AA1E5F0E0300B48FFC /* NSString+MJExtension.m in Sources */,
 				AC0C49651E5B1F2800F23D74 /* GPThreeViewController.m in Sources */,
 				ACC1220B1E55DD3B003BFF09 /* GPCashReturn.m in Sources */,
 				ACE416101E5331AD00752695 /* IQBarButtonItem.m in Sources */,
+				AC10748A1E5F0DC300B48FFC /* GPWorkExperience.m in Sources */,
 				AC6112C31E5DC774001D6FDE /* GPVolunteerFactory.m in Sources */,
+				AC1074871E5F0D5200B48FFC /* GPPrototype.m in Sources */,
 				ACC1220E1E55E0BA003BFF09 /* GPCashContext.m in Sources */,
 				ACC122111E55E681003BFF09 /* GPTwoViewController.m in Sources */,
 				ACE4160B1E5331AC00752695 /* IQUIViewController+Additions.m in Sources */,
+				AC1074A51E5F0E0300B48FFC /* MJPropertyType.m in Sources */,
 				AC4D4BF31E51E9A30057CBBE /* GPOperationMul.m in Sources */,
+				AC1074821E5F049C00B48FFC /* GPSixViewController.m in Sources */,
 				AC4D4C021E51EA7B0057CBBE /* SVRadialGradientLayer.m in Sources */,
+				AC1074A71E5F0E0300B48FFC /* NSObject+MJCoding.m in Sources */,
 				AC4D4C081E51ED860057CBBE /* GPOperationFactory.m in Sources */,
 				ACE416191E533F3000752695 /* UIViewController+GPExtension.m in Sources */,
 				AC0C495C1E5B1E3200F23D74 /* GPTShirts.m in Sources */,
+				AC1074A11E5F0E0300B48FFC /* MJExtensionConst.m in Sources */,
 				AC4D4C101E51F1730057CBBE /* UIView+SDAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

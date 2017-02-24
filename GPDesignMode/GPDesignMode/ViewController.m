@@ -12,6 +12,7 @@
 #import "GPThreeViewController.h"
 #import "GPFourViewController.h"
 #import "GPFiveViewController.h"
+#import "GPSixViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *rootTableView;
@@ -72,7 +73,7 @@ static NSString * const oneCellID = @"oneCellID";
 - (NSArray *)titleArray
 {
     if (!_titleArray) {
-        _titleArray = @[@"01--简单工厂模式",@"02--策略模式",@"03--装饰模式",@"04--代理模式",@"05--工厂模式"];
+        _titleArray = @[@"01--简单工厂模式",@"02--策略模式",@"03--装饰模式",@"04--代理模式",@"05--工厂模式",@"06--原型模式"];
     }
     return _titleArray;
 }
@@ -80,8 +81,7 @@ static NSString * const oneCellID = @"oneCellID";
 - (NSArray *)subVcArray
 {
     if (!_subVcArray) {
-        
-        _subVcArray = @[[GPOneViewController class],[GPTwoViewController class],[ GPThreeViewController class],[GPFourViewController class],[GPFiveViewController class]];
+        _subVcArray = @[[GPOneViewController class],[GPTwoViewController class],[ GPThreeViewController class],[GPFourViewController class],[GPFiveViewController class],[GPSixViewController class]];
     }
     return _subVcArray;
 }
