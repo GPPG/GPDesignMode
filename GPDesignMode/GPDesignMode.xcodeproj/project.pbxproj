@@ -35,6 +35,19 @@
 		AC1074A91E5F0E0300B48FFC /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10749E1E5F0E0300B48FFC /* NSObject+MJProperty.m */; };
 		AC1074AA1E5F0E0300B48FFC /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074A01E5F0E0300B48FFC /* NSString+MJExtension.m */; };
 		AC1074AD1E5F0FD100B48FFC /* GPResume.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1074AC1E5F0FD100B48FFC /* GPResume.m */; };
+		AC1ADDD31E605D8500642CC6 /* GPSevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDD21E605D8500642CC6 /* GPSevenViewController.m */; };
+		AC1ADDD51E605DBB00642CC6 /* GPSevenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1ADDD41E605DBB00642CC6 /* GPSevenViewController.storyboard */; };
+		AC1ADDD81E605DF900642CC6 /* GPSubSystemOne.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDD71E605DF900642CC6 /* GPSubSystemOne.m */; };
+		AC1ADDDB1E605E0C00642CC6 /* GPSubSystemTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDDA1E605E0C00642CC6 /* GPSubSystemTwo.m */; };
+		AC1ADDDE1E605E1F00642CC6 /* GPSubSystemThree.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDDD1E605E1F00642CC6 /* GPSubSystemThree.m */; };
+		AC1ADDE11E605E3100642CC6 /* GPSubSystemFour.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDE01E605E3100642CC6 /* GPSubSystemFour.m */; };
+		AC1ADDE41E605E4A00642CC6 /* GPFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDE31E605E4A00642CC6 /* GPFacade.m */; };
+		AC1ADDE81E60651F00642CC6 /* GPEightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDE71E60651F00642CC6 /* GPEightViewController.m */; };
+		AC1ADDEA1E60652C00642CC6 /* GPEightViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1ADDE91E60652C00642CC6 /* GPEightViewController.storyboard */; };
+		AC1ADDF11E6067BC00642CC6 /* GPPersonThinBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDF01E6067BC00642CC6 /* GPPersonThinBuilder.m */; };
+		AC1ADDF41E6067CE00642CC6 /* GPPersonFatBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDF31E6067CE00642CC6 /* GPPersonFatBuilder.m */; };
+		AC1ADDF71E6068B800642CC6 /* GPDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDF61E6068B800642CC6 /* GPDirector.m */; };
+		AC1ADDF91E60691800642CC6 /* GPPerSonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDF81E60691800642CC6 /* GPPerSonBuilder.m */; };
 		AC1EA4601E5D4403002D3493 /* GPFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1EA45F1E5D4403002D3493 /* GPFiveViewController.m */; };
 		AC1EA4621E5D4410002D3493 /* GPFiveViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1EA4611E5D4410002D3493 /* GPFiveViewController.storyboard */; };
 		AC4D4BB51E51D94E0057CBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4BB41E51D94E0057CBBE /* main.m */; };
@@ -164,6 +177,30 @@
 		AC1074A01E5F0E0300B48FFC /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
 		AC1074AB1E5F0FD100B48FFC /* GPResume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPResume.h; sourceTree = "<group>"; };
 		AC1074AC1E5F0FD100B48FFC /* GPResume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPResume.m; sourceTree = "<group>"; };
+		AC1ADDD11E605D8500642CC6 /* GPSevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSevenViewController.h; sourceTree = "<group>"; };
+		AC1ADDD21E605D8500642CC6 /* GPSevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSevenViewController.m; sourceTree = "<group>"; };
+		AC1ADDD41E605DBB00642CC6 /* GPSevenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPSevenViewController.storyboard; sourceTree = "<group>"; };
+		AC1ADDD61E605DF900642CC6 /* GPSubSystemOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSubSystemOne.h; sourceTree = "<group>"; };
+		AC1ADDD71E605DF900642CC6 /* GPSubSystemOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSubSystemOne.m; sourceTree = "<group>"; };
+		AC1ADDD91E605E0C00642CC6 /* GPSubSystemTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSubSystemTwo.h; sourceTree = "<group>"; };
+		AC1ADDDA1E605E0C00642CC6 /* GPSubSystemTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSubSystemTwo.m; sourceTree = "<group>"; };
+		AC1ADDDC1E605E1F00642CC6 /* GPSubSystemThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSubSystemThree.h; sourceTree = "<group>"; };
+		AC1ADDDD1E605E1F00642CC6 /* GPSubSystemThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSubSystemThree.m; sourceTree = "<group>"; };
+		AC1ADDDF1E605E3100642CC6 /* GPSubSystemFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSubSystemFour.h; sourceTree = "<group>"; };
+		AC1ADDE01E605E3100642CC6 /* GPSubSystemFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSubSystemFour.m; sourceTree = "<group>"; };
+		AC1ADDE21E605E4A00642CC6 /* GPFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFacade.h; sourceTree = "<group>"; };
+		AC1ADDE31E605E4A00642CC6 /* GPFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFacade.m; sourceTree = "<group>"; };
+		AC1ADDE61E60651F00642CC6 /* GPEightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPEightViewController.h; sourceTree = "<group>"; };
+		AC1ADDE71E60651F00642CC6 /* GPEightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPEightViewController.m; sourceTree = "<group>"; };
+		AC1ADDE91E60652C00642CC6 /* GPEightViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPEightViewController.storyboard; sourceTree = "<group>"; };
+		AC1ADDEC1E60669900642CC6 /* GPPerSonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPerSonBuilder.h; sourceTree = "<group>"; };
+		AC1ADDEF1E6067BC00642CC6 /* GPPersonThinBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPersonThinBuilder.h; sourceTree = "<group>"; };
+		AC1ADDF01E6067BC00642CC6 /* GPPersonThinBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPersonThinBuilder.m; sourceTree = "<group>"; };
+		AC1ADDF21E6067CE00642CC6 /* GPPersonFatBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPersonFatBuilder.h; sourceTree = "<group>"; };
+		AC1ADDF31E6067CE00642CC6 /* GPPersonFatBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPersonFatBuilder.m; sourceTree = "<group>"; };
+		AC1ADDF51E6068B800642CC6 /* GPDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDirector.h; sourceTree = "<group>"; };
+		AC1ADDF61E6068B800642CC6 /* GPDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDirector.m; sourceTree = "<group>"; };
+		AC1ADDF81E60691800642CC6 /* GPPerSonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPerSonBuilder.m; sourceTree = "<group>"; };
 		AC1EA45E1E5D4403002D3493 /* GPFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFiveViewController.h; sourceTree = "<group>"; };
 		AC1EA45F1E5D4403002D3493 /* GPFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFiveViewController.m; sourceTree = "<group>"; };
 		AC1EA4611E5D4410002D3493 /* GPFiveViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPFiveViewController.storyboard; sourceTree = "<group>"; };
@@ -368,6 +405,44 @@
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
+		AC1ADDCD1E605D2600642CC6 /* 07-外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AC1ADDD11E605D8500642CC6 /* GPSevenViewController.h */,
+				AC1ADDD21E605D8500642CC6 /* GPSevenViewController.m */,
+				AC1ADDD41E605DBB00642CC6 /* GPSevenViewController.storyboard */,
+				AC1ADDE21E605E4A00642CC6 /* GPFacade.h */,
+				AC1ADDE31E605E4A00642CC6 /* GPFacade.m */,
+				AC1ADDD61E605DF900642CC6 /* GPSubSystemOne.h */,
+				AC1ADDD71E605DF900642CC6 /* GPSubSystemOne.m */,
+				AC1ADDD91E605E0C00642CC6 /* GPSubSystemTwo.h */,
+				AC1ADDDA1E605E0C00642CC6 /* GPSubSystemTwo.m */,
+				AC1ADDDC1E605E1F00642CC6 /* GPSubSystemThree.h */,
+				AC1ADDDD1E605E1F00642CC6 /* GPSubSystemThree.m */,
+				AC1ADDDF1E605E3100642CC6 /* GPSubSystemFour.h */,
+				AC1ADDE01E605E3100642CC6 /* GPSubSystemFour.m */,
+			);
+			name = "07-外观模式";
+			sourceTree = "<group>";
+		};
+		AC1ADDE51E6064E800642CC6 /* 08-建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AC1ADDE61E60651F00642CC6 /* GPEightViewController.h */,
+				AC1ADDE71E60651F00642CC6 /* GPEightViewController.m */,
+				AC1ADDE91E60652C00642CC6 /* GPEightViewController.storyboard */,
+				AC1ADDEC1E60669900642CC6 /* GPPerSonBuilder.h */,
+				AC1ADDF81E60691800642CC6 /* GPPerSonBuilder.m */,
+				AC1ADDEF1E6067BC00642CC6 /* GPPersonThinBuilder.h */,
+				AC1ADDF01E6067BC00642CC6 /* GPPersonThinBuilder.m */,
+				AC1ADDF21E6067CE00642CC6 /* GPPersonFatBuilder.h */,
+				AC1ADDF31E6067CE00642CC6 /* GPPersonFatBuilder.m */,
+				AC1ADDF51E6068B800642CC6 /* GPDirector.h */,
+				AC1ADDF61E6068B800642CC6 /* GPDirector.m */,
+			);
+			name = "08-建造者模式";
+			sourceTree = "<group>";
+		};
 		AC1EA45D1E5D2E41002D3493 /* 05-工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,6 +495,8 @@
 				AC0C49A11E5C654100F23D74 /* 04-代理模式 */,
 				AC1EA45D1E5D2E41002D3493 /* 05-工厂模式 */,
 				AC10747F1E5F046500B48FFC /* 06-原型模式 */,
+				AC1ADDCD1E605D2600642CC6 /* 07-外观模式 */,
+				AC1ADDE51E6064E800642CC6 /* 08-建造者模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -750,6 +827,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1ADDD51E605DBB00642CC6 /* GPSevenViewController.storyboard in Resources */,
 				ACE415E11E532F7D00752695 /* GPOneViewController.storyboard in Resources */,
 				AC4D4BC31E51D94E0057CBBE /* LaunchScreen.storyboard in Resources */,
 				AC1074841E5F04D800B48FFC /* GPSixViewController.storyboard in Resources */,
@@ -758,6 +836,7 @@
 				ACE416151E5331AD00752695 /* IQKeyboardManager.bundle in Resources */,
 				AC4D4BC01E51D94E0057CBBE /* Assets.xcassets in Resources */,
 				AC4D4BBE1E51D94E0057CBBE /* Main.storyboard in Resources */,
+				AC1ADDEA1E60652C00642CC6 /* GPEightViewController.storyboard in Resources */,
 				ACC122131E55E690003BFF09 /* GPTwoViewController.storyboard in Resources */,
 				AC0C49B21E5C6F5500F23D74 /* GPFourViewController.storyboard in Resources */,
 				AC4D4C001E51EA7B0057CBBE /* SVProgressHUD.bundle in Resources */,
@@ -811,16 +890,20 @@
 				ACE416071E5331AC00752695 /* IQNSArray+Sort.m in Sources */,
 				AC4D4BED1E51E8EE0057CBBE /* GPOperationAdd.m in Sources */,
 				AC0C495F1E5B1EA400F23D74 /* GPBigTrouser.m in Sources */,
+				AC1ADDE11E605E3100642CC6 /* GPSubSystemFour.m in Sources */,
+				AC1ADDF11E6067BC00642CC6 /* GPPersonThinBuilder.m in Sources */,
 				AC6112C01E5DC745001D6FDE /* GPStudentFactory.m in Sources */,
 				AC1074A31E5F0E0300B48FFC /* MJProperty.m in Sources */,
 				AC6112BA1E5DC63F001D6FDE /* GPVolunteer.m in Sources */,
 				AC4D4BFE1E51EA7B0057CBBE /* SVIndefiniteAnimatedView.m in Sources */,
 				ACE4160D1E5331AD00752695 /* IQKeyboardManager.m in Sources */,
+				AC1ADDF91E60691800642CC6 /* GPPerSonBuilder.m in Sources */,
 				AC1074A61E5F0E0300B48FFC /* NSObject+MJClass.m in Sources */,
 				AC6112B71E5DC5E8001D6FDE /* GPStudent.m in Sources */,
 				ACC121FF1E55D7D9003BFF09 /* GPStrategy.m in Sources */,
 				AC4D4BB81E51D94E0057CBBE /* AppDelegate.m in Sources */,
 				AC0C49561E5B17B000F23D74 /* GPPerson.m in Sources */,
+				AC1ADDE41E605E4A00642CC6 /* GPFacade.m in Sources */,
 				AC0C49AA1E5C6CE400F23D74 /* GPProxy.m in Sources */,
 				AC4D4BFF1E51EA7B0057CBBE /* SVProgressAnimatedView.m in Sources */,
 				AC0C49B01E5C6F4B00F23D74 /* GPFourViewController.m in Sources */,
@@ -833,8 +916,10 @@
 				AC1074A41E5F0E0300B48FFC /* MJPropertyKey.m in Sources */,
 				AC4D4BF01E51E95A0057CBBE /* GPOperationSub.m in Sources */,
 				AC6112B41E5DC2A4001D6FDE /* GPLeiFeng.m in Sources */,
+				AC1ADDDE1E605E1F00642CC6 /* GPSubSystemThree.m in Sources */,
 				AC6112BD1E5DC6DD001D6FDE /* GPLFactory.m in Sources */,
 				AC1074AA1E5F0E0300B48FFC /* NSString+MJExtension.m in Sources */,
+				AC1ADDF71E6068B800642CC6 /* GPDirector.m in Sources */,
 				AC0C49651E5B1F2800F23D74 /* GPThreeViewController.m in Sources */,
 				ACC1220B1E55DD3B003BFF09 /* GPCashReturn.m in Sources */,
 				ACE416101E5331AD00752695 /* IQBarButtonItem.m in Sources */,
@@ -842,14 +927,19 @@
 				AC6112C31E5DC774001D6FDE /* GPVolunteerFactory.m in Sources */,
 				AC1074871E5F0D5200B48FFC /* GPPrototype.m in Sources */,
 				ACC1220E1E55E0BA003BFF09 /* GPCashContext.m in Sources */,
+				AC1ADDD81E605DF900642CC6 /* GPSubSystemOne.m in Sources */,
 				ACC122111E55E681003BFF09 /* GPTwoViewController.m in Sources */,
 				ACE4160B1E5331AC00752695 /* IQUIViewController+Additions.m in Sources */,
+				AC1ADDD31E605D8500642CC6 /* GPSevenViewController.m in Sources */,
 				AC1074A51E5F0E0300B48FFC /* MJPropertyType.m in Sources */,
+				AC1ADDE81E60651F00642CC6 /* GPEightViewController.m in Sources */,
 				AC4D4BF31E51E9A30057CBBE /* GPOperationMul.m in Sources */,
 				AC1074821E5F049C00B48FFC /* GPSixViewController.m in Sources */,
 				AC4D4C021E51EA7B0057CBBE /* SVRadialGradientLayer.m in Sources */,
 				AC1074A71E5F0E0300B48FFC /* NSObject+MJCoding.m in Sources */,
 				AC4D4C081E51ED860057CBBE /* GPOperationFactory.m in Sources */,
+				AC1ADDDB1E605E0C00642CC6 /* GPSubSystemTwo.m in Sources */,
+				AC1ADDF41E6067CE00642CC6 /* GPPersonFatBuilder.m in Sources */,
 				ACE416191E533F3000752695 /* UIViewController+GPExtension.m in Sources */,
 				AC0C495C1E5B1E3200F23D74 /* GPTShirts.m in Sources */,
 				AC1074A11E5F0E0300B48FFC /* MJExtensionConst.m in Sources */,

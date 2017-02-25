@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Oua-Io-th5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Eight View Controller-->
+        <scene sceneID="7rQ-Wh-bkV">
+            <objects>
+                <viewController id="Oua-Io-th5" customClass="GPEightViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V2k-Hd-oPx"/>
+                        <viewControllerLayoutGuide type="bottom" id="y0F-ry-Huk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ekg-2C-zLt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Db6-MP-2tN">
+                                <rect key="frame" x="172" y="318" width="31" height="30"/>
+                                <state key="normal" title="胖子"/>
+                                <connections>
+                                    <action selector="fatBtnClick:" destination="Oua-Io-th5" eventType="touchUpInside" id="SKo-hO-ajg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jw4-jT-2hd">
+                                <rect key="frame" x="172" y="265" width="31" height="30"/>
+                                <state key="normal" title="瘦子"/>
+                                <connections>
+                                    <action selector="thinBtnClick:" destination="Oua-Io-th5" eventType="touchUpInside" id="hcd-e6-EIf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Db6-MP-2tN" firstAttribute="top" secondItem="jw4-jT-2hd" secondAttribute="bottom" constant="23" id="O0W-WX-1XA"/>
+                            <constraint firstItem="Db6-MP-2tN" firstAttribute="centerX" secondItem="Ekg-2C-zLt" secondAttribute="centerX" id="b37-yN-wwW"/>
+                            <constraint firstItem="Db6-MP-2tN" firstAttribute="centerY" secondItem="Ekg-2C-zLt" secondAttribute="centerY" id="kbS-ct-d6g"/>
+                            <constraint firstItem="jw4-jT-2hd" firstAttribute="leading" secondItem="Db6-MP-2tN" secondAttribute="leading" id="wPr-1v-OPK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdk-mE-SBB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="177" y="158"/>
+        </scene>
+    </scenes>
+</document>
