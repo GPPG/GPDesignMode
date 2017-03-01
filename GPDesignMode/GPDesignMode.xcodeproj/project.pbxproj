@@ -50,6 +50,17 @@
 		AC1ADDF91E60691800642CC6 /* GPPerSonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1ADDF81E60691800642CC6 /* GPPerSonBuilder.m */; };
 		AC1EA4601E5D4403002D3493 /* GPFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1EA45F1E5D4403002D3493 /* GPFiveViewController.m */; };
 		AC1EA4621E5D4410002D3493 /* GPFiveViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1EA4611E5D4410002D3493 /* GPFiveViewController.storyboard */; };
+		AC2A72C01E66F71F0036B3C6 /* GPNineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A72BF1E66F71F0036B3C6 /* GPNineViewController.m */; };
+		AC2A72C21E66F72B0036B3C6 /* GPNineViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2A72C11E66F72B0036B3C6 /* GPNineViewController.storyboard */; };
+		AC2A72C51E66FEE70036B3C6 /* GPSQLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A72C41E66FEE70036B3C6 /* GPSQLUser.m */; };
+		AC2A72C91E66FF3E0036B3C6 /* GPSQLDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A72C81E66FF3E0036B3C6 /* GPSQLDepartment.m */; };
+		AC2A72CE1E67035B0036B3C6 /* GPFMDBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A72CD1E67035B0036B3C6 /* GPFMDBUser.m */; };
+		AC2A72D11E6703690036B3C6 /* GPRealmUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A72D01E6703690036B3C6 /* GPRealmUser.m */; };
+		AC2A72D41E67038F0036B3C6 /* GPFMDBDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A72D31E67038F0036B3C6 /* GPFMDBDepartment.m */; };
+		AC2A72D71E6703A40036B3C6 /* GPRealmDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A72D61E6703A40036B3C6 /* GPRealmDepartment.m */; };
+		AC2A72DA1E6703FB0036B3C6 /* GPOperateUSer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A72D91E6703FB0036B3C6 /* GPOperateUSer.m */; };
+		AC2A72DD1E6706870036B3C6 /* GPOperateDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A72DC1E6706870036B3C6 /* GPOperateDepartment.m */; };
+		AC2A72E11E670B570036B3C6 /* GPDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A72E01E670B570036B3C6 /* GPDataAccess.m */; };
 		AC4D4BB51E51D94E0057CBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4BB41E51D94E0057CBBE /* main.m */; };
 		AC4D4BB81E51D94E0057CBBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */; };
 		AC4D4BBB1E51D94E0057CBBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D4BBA1E51D94E0057CBBE /* ViewController.m */; };
@@ -204,6 +215,27 @@
 		AC1EA45E1E5D4403002D3493 /* GPFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFiveViewController.h; sourceTree = "<group>"; };
 		AC1EA45F1E5D4403002D3493 /* GPFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFiveViewController.m; sourceTree = "<group>"; };
 		AC1EA4611E5D4410002D3493 /* GPFiveViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPFiveViewController.storyboard; sourceTree = "<group>"; };
+		AC2A72BE1E66F71F0036B3C6 /* GPNineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNineViewController.h; sourceTree = "<group>"; };
+		AC2A72BF1E66F71F0036B3C6 /* GPNineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNineViewController.m; sourceTree = "<group>"; };
+		AC2A72C11E66F72B0036B3C6 /* GPNineViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPNineViewController.storyboard; sourceTree = "<group>"; };
+		AC2A72C31E66FEE70036B3C6 /* GPSQLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSQLUser.h; sourceTree = "<group>"; };
+		AC2A72C41E66FEE70036B3C6 /* GPSQLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSQLUser.m; sourceTree = "<group>"; };
+		AC2A72C71E66FF3E0036B3C6 /* GPSQLDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSQLDepartment.h; sourceTree = "<group>"; };
+		AC2A72C81E66FF3E0036B3C6 /* GPSQLDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSQLDepartment.m; sourceTree = "<group>"; };
+		AC2A72CC1E67035B0036B3C6 /* GPFMDBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFMDBUser.h; sourceTree = "<group>"; };
+		AC2A72CD1E67035B0036B3C6 /* GPFMDBUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFMDBUser.m; sourceTree = "<group>"; };
+		AC2A72CF1E6703690036B3C6 /* GPRealmUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPRealmUser.h; sourceTree = "<group>"; };
+		AC2A72D01E6703690036B3C6 /* GPRealmUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRealmUser.m; sourceTree = "<group>"; };
+		AC2A72D21E67038F0036B3C6 /* GPFMDBDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFMDBDepartment.h; sourceTree = "<group>"; };
+		AC2A72D31E67038F0036B3C6 /* GPFMDBDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFMDBDepartment.m; sourceTree = "<group>"; };
+		AC2A72D51E6703A40036B3C6 /* GPRealmDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPRealmDepartment.h; sourceTree = "<group>"; };
+		AC2A72D61E6703A40036B3C6 /* GPRealmDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRealmDepartment.m; sourceTree = "<group>"; };
+		AC2A72D81E6703FB0036B3C6 /* GPOperateUSer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPOperateUSer.h; sourceTree = "<group>"; };
+		AC2A72D91E6703FB0036B3C6 /* GPOperateUSer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPOperateUSer.m; sourceTree = "<group>"; };
+		AC2A72DB1E6706870036B3C6 /* GPOperateDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPOperateDepartment.h; sourceTree = "<group>"; };
+		AC2A72DC1E6706870036B3C6 /* GPOperateDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPOperateDepartment.m; sourceTree = "<group>"; };
+		AC2A72DF1E670B570036B3C6 /* GPDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDataAccess.h; sourceTree = "<group>"; };
+		AC2A72E01E670B570036B3C6 /* GPDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDataAccess.m; sourceTree = "<group>"; };
 		AC4D4BB01E51D94E0057CBBE /* GPDesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPDesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4D4BB41E51D94E0057CBBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -465,6 +497,66 @@
 			name = "05-工厂模式";
 			sourceTree = "<group>";
 		};
+		AC2A72BD1E66F6F90036B3C6 /* 09-抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A72BE1E66F71F0036B3C6 /* GPNineViewController.h */,
+				AC2A72BF1E66F71F0036B3C6 /* GPNineViewController.m */,
+				AC2A72C11E66F72B0036B3C6 /* GPNineViewController.storyboard */,
+				AC2A72DE1E670B3A0036B3C6 /* 反射工厂 */,
+				AC2A72CB1E66FFCB0036B3C6 /* 操作 Department 的对象 */,
+				AC2A72CA1E66FF610036B3C6 /* 操作 User 的对象 */,
+				AC2A72C61E66FEFE0036B3C6 /* 被操作的对象(USer,Department) */,
+			);
+			name = "09-抽象工厂模式";
+			sourceTree = "<group>";
+		};
+		AC2A72C61E66FEFE0036B3C6 /* 被操作的对象(USer,Department) */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A72C31E66FEE70036B3C6 /* GPSQLUser.h */,
+				AC2A72C41E66FEE70036B3C6 /* GPSQLUser.m */,
+				AC2A72C71E66FF3E0036B3C6 /* GPSQLDepartment.h */,
+				AC2A72C81E66FF3E0036B3C6 /* GPSQLDepartment.m */,
+			);
+			name = "被操作的对象(USer,Department)";
+			sourceTree = "<group>";
+		};
+		AC2A72CA1E66FF610036B3C6 /* 操作 User 的对象 */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A72D81E6703FB0036B3C6 /* GPOperateUSer.h */,
+				AC2A72D91E6703FB0036B3C6 /* GPOperateUSer.m */,
+				AC2A72CC1E67035B0036B3C6 /* GPFMDBUser.h */,
+				AC2A72CD1E67035B0036B3C6 /* GPFMDBUser.m */,
+				AC2A72CF1E6703690036B3C6 /* GPRealmUser.h */,
+				AC2A72D01E6703690036B3C6 /* GPRealmUser.m */,
+			);
+			name = "操作 User 的对象";
+			sourceTree = "<group>";
+		};
+		AC2A72CB1E66FFCB0036B3C6 /* 操作 Department 的对象 */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A72DB1E6706870036B3C6 /* GPOperateDepartment.h */,
+				AC2A72DC1E6706870036B3C6 /* GPOperateDepartment.m */,
+				AC2A72D21E67038F0036B3C6 /* GPFMDBDepartment.h */,
+				AC2A72D31E67038F0036B3C6 /* GPFMDBDepartment.m */,
+				AC2A72D51E6703A40036B3C6 /* GPRealmDepartment.h */,
+				AC2A72D61E6703A40036B3C6 /* GPRealmDepartment.m */,
+			);
+			name = "操作 Department 的对象";
+			sourceTree = "<group>";
+		};
+		AC2A72DE1E670B3A0036B3C6 /* 反射工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A72DF1E670B570036B3C6 /* GPDataAccess.h */,
+				AC2A72E01E670B570036B3C6 /* GPDataAccess.m */,
+			);
+			name = "反射工厂";
+			sourceTree = "<group>";
+		};
 		AC4D4BA71E51D94D0057CBBE = {
 			isa = PBXGroup;
 			children = (
@@ -497,6 +589,7 @@
 				AC10747F1E5F046500B48FFC /* 06-原型模式 */,
 				AC1ADDCD1E605D2600642CC6 /* 07-外观模式 */,
 				AC1ADDE51E6064E800642CC6 /* 08-建造者模式 */,
+				AC2A72BD1E66F6F90036B3C6 /* 09-抽象工厂模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -839,6 +932,7 @@
 				AC1ADDEA1E60652C00642CC6 /* GPEightViewController.storyboard in Resources */,
 				ACC122131E55E690003BFF09 /* GPTwoViewController.storyboard in Resources */,
 				AC0C49B21E5C6F5500F23D74 /* GPFourViewController.storyboard in Resources */,
+				AC2A72C21E66F72B0036B3C6 /* GPNineViewController.storyboard in Resources */,
 				AC4D4C001E51EA7B0057CBBE /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -864,6 +958,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2A72C51E66FEE70036B3C6 /* GPSQLUser.m in Sources */,
 				ACE416091E5331AC00752695 /* IQUITextFieldView+Additions.m in Sources */,
 				ACE416141E5331AD00752695 /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				AC0C49AD1E5C6D6200F23D74 /* GPGirl.m in Sources */,
@@ -881,6 +976,7 @@
 				AC1074AD1E5F0FD100B48FFC /* GPResume.m in Sources */,
 				AC4D4BEA1E51E49C0057CBBE /* GPOperation.m in Sources */,
 				ACC122021E55DCF6003BFF09 /* GPCashNormal.m in Sources */,
+				AC2A72DD1E6706870036B3C6 /* GPOperateDepartment.m in Sources */,
 				ACE4160A1E5331AC00752695 /* IQUIView+Hierarchy.m in Sources */,
 				AC4D4BBB1E51D94E0057CBBE /* ViewController.m in Sources */,
 				ACE416111E5331AD00752695 /* IQPreviousNextView.m in Sources */,
@@ -888,9 +984,12 @@
 				AC0C49B61E5C70B400F23D74 /* GPBaseViewController.m in Sources */,
 				AC0C49A71E5C6BCC00F23D74 /* GPPursuit.m in Sources */,
 				ACE416071E5331AC00752695 /* IQNSArray+Sort.m in Sources */,
+				AC2A72E11E670B570036B3C6 /* GPDataAccess.m in Sources */,
 				AC4D4BED1E51E8EE0057CBBE /* GPOperationAdd.m in Sources */,
 				AC0C495F1E5B1EA400F23D74 /* GPBigTrouser.m in Sources */,
 				AC1ADDE11E605E3100642CC6 /* GPSubSystemFour.m in Sources */,
+				AC2A72C01E66F71F0036B3C6 /* GPNineViewController.m in Sources */,
+				AC2A72D71E6703A40036B3C6 /* GPRealmDepartment.m in Sources */,
 				AC1ADDF11E6067BC00642CC6 /* GPPersonThinBuilder.m in Sources */,
 				AC6112C01E5DC745001D6FDE /* GPStudentFactory.m in Sources */,
 				AC1074A31E5F0E0300B48FFC /* MJProperty.m in Sources */,
@@ -917,6 +1016,7 @@
 				AC4D4BF01E51E95A0057CBBE /* GPOperationSub.m in Sources */,
 				AC6112B41E5DC2A4001D6FDE /* GPLeiFeng.m in Sources */,
 				AC1ADDDE1E605E1F00642CC6 /* GPSubSystemThree.m in Sources */,
+				AC2A72DA1E6703FB0036B3C6 /* GPOperateUSer.m in Sources */,
 				AC6112BD1E5DC6DD001D6FDE /* GPLFactory.m in Sources */,
 				AC1074AA1E5F0E0300B48FFC /* NSString+MJExtension.m in Sources */,
 				AC1ADDF71E6068B800642CC6 /* GPDirector.m in Sources */,
@@ -932,7 +1032,10 @@
 				ACE4160B1E5331AC00752695 /* IQUIViewController+Additions.m in Sources */,
 				AC1ADDD31E605D8500642CC6 /* GPSevenViewController.m in Sources */,
 				AC1074A51E5F0E0300B48FFC /* MJPropertyType.m in Sources */,
+				AC2A72CE1E67035B0036B3C6 /* GPFMDBUser.m in Sources */,
 				AC1ADDE81E60651F00642CC6 /* GPEightViewController.m in Sources */,
+				AC2A72D11E6703690036B3C6 /* GPRealmUser.m in Sources */,
+				AC2A72C91E66FF3E0036B3C6 /* GPSQLDepartment.m in Sources */,
 				AC4D4BF31E51E9A30057CBBE /* GPOperationMul.m in Sources */,
 				AC1074821E5F049C00B48FFC /* GPSixViewController.m in Sources */,
 				AC4D4C021E51EA7B0057CBBE /* SVRadialGradientLayer.m in Sources */,
@@ -940,6 +1043,7 @@
 				AC4D4C081E51ED860057CBBE /* GPOperationFactory.m in Sources */,
 				AC1ADDDB1E605E0C00642CC6 /* GPSubSystemTwo.m in Sources */,
 				AC1ADDF41E6067CE00642CC6 /* GPPersonFatBuilder.m in Sources */,
+				AC2A72D41E67038F0036B3C6 /* GPFMDBDepartment.m in Sources */,
 				ACE416191E533F3000752695 /* UIViewController+GPExtension.m in Sources */,
 				AC0C495C1E5B1E3200F23D74 /* GPTShirts.m in Sources */,
 				AC1074A11E5F0E0300B48FFC /* MJExtensionConst.m in Sources */,

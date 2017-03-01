@@ -13,7 +13,7 @@
 
 @interface GPEightViewController ()
 - (IBAction)fatBtnClick:(id)sender;
-- (IBAction)thinBtnClick:(id)sender;
+- (IBAction)thinBtnClick:(id)sender ;
 
 @end
 
