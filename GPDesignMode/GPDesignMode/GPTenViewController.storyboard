@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4tw-T2-MtA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ten View Controller-->
+        <scene sceneID="Wof-H2-0TT">
+            <objects>
+                <viewController id="4tw-T2-MtA" customClass="GPTenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TT3-de-Gs4"/>
+                        <viewControllerLayoutGuide type="bottom" id="7sa-jo-gqL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yc2-80-BNi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eig-dS-Vqv">
+                                <rect key="frame" x="172" y="195" width="30" height="30"/>
+                                <state key="normal" title="9点"/>
+                                <connections>
+                                    <action selector="nBtnClick:" destination="4tw-T2-MtA" eventType="touchUpInside" id="RE3-Zv-6OE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0u-Gz-GcL">
+                                <rect key="frame" x="172" y="318" width="32" height="30"/>
+                                <state key="normal" title="14点"/>
+                                <connections>
+                                    <action selector="nnBtnClick:" destination="4tw-T2-MtA" eventType="touchUpInside" id="d7C-fK-Pn4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTi-fo-VNa">
+                                <rect key="frame" x="172" y="429" width="34" height="30"/>
+                                <state key="normal" title="20点"/>
+                                <connections>
+                                    <action selector="nnnBtnClick:" destination="4tw-T2-MtA" eventType="touchUpInside" id="1wJ-nN-SHj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXm-vw-lg2">
+                                <rect key="frame" x="172" y="264" width="31" height="30"/>
+                                <state key="normal" title="12点"/>
+                                <connections>
+                                    <action selector="nnnnBtnClick:" destination="4tw-T2-MtA" eventType="touchUpInside" id="2IN-3Z-ZEd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdy-44-gU2">
+                                <rect key="frame" x="172" y="366" width="31" height="30"/>
+                                <state key="normal" title="17点"/>
+                                <connections>
+                                    <action selector="nnnnnBtnClick:" destination="4tw-T2-MtA" eventType="touchUpInside" id="HeC-Bi-B5J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvv-Mm-2YF">
+                                <rect key="frame" x="172" y="488" width="30" height="30"/>
+                                <state key="normal" title="1点"/>
+                                <connections>
+                                    <action selector="nnnnnnBtnClick:" destination="4tw-T2-MtA" eventType="touchUpInside" id="bj9-CF-nBr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eig-dS-Vqv" firstAttribute="centerX" secondItem="Yc2-80-BNi" secondAttribute="centerX" id="7T4-LV-ZoO"/>
+                            <constraint firstItem="yvv-Mm-2YF" firstAttribute="centerX" secondItem="Pdy-44-gU2" secondAttribute="centerX" id="BfF-se-VJ1"/>
+                            <constraint firstItem="C0u-Gz-GcL" firstAttribute="centerY" secondItem="Yc2-80-BNi" secondAttribute="centerY" id="DEP-Fl-Izz"/>
+                            <constraint firstItem="Pdy-44-gU2" firstAttribute="leading" secondItem="kTi-fo-VNa" secondAttribute="leading" id="FBG-wz-6bY"/>
+                            <constraint firstItem="yvv-Mm-2YF" firstAttribute="top" secondItem="kTi-fo-VNa" secondAttribute="bottom" constant="29" id="HDf-8L-YoX"/>
+                            <constraint firstItem="kTi-fo-VNa" firstAttribute="top" secondItem="Pdy-44-gU2" secondAttribute="bottom" constant="33" id="I2z-nG-Tbt"/>
+                            <constraint firstItem="eig-dS-Vqv" firstAttribute="leading" secondItem="fXm-vw-lg2" secondAttribute="leading" id="LY1-dj-YjX"/>
+                            <constraint firstItem="C0u-Gz-GcL" firstAttribute="leading" secondItem="Pdy-44-gU2" secondAttribute="leading" id="V7j-WS-IUY"/>
+                            <constraint firstItem="Pdy-44-gU2" firstAttribute="top" secondItem="C0u-Gz-GcL" secondAttribute="bottom" constant="18" id="XZy-kQ-6J9"/>
+                            <constraint firstItem="fXm-vw-lg2" firstAttribute="leading" secondItem="C0u-Gz-GcL" secondAttribute="leading" id="a90-rB-tHk"/>
+                            <constraint firstItem="C0u-Gz-GcL" firstAttribute="top" secondItem="fXm-vw-lg2" secondAttribute="bottom" constant="24" id="hpn-Gk-PRU"/>
+                            <constraint firstItem="fXm-vw-lg2" firstAttribute="top" secondItem="eig-dS-Vqv" secondAttribute="bottom" constant="39" id="tct-TD-iyN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="apl-Xd-T6E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-310" y="134"/>
+        </scene>
+    </scenes>
+</document>

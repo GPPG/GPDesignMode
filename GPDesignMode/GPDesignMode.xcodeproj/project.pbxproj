@@ -88,6 +88,16 @@
 		AC6112BD1E5DC6DD001D6FDE /* GPLFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6112BC1E5DC6DD001D6FDE /* GPLFactory.m */; };
 		AC6112C01E5DC745001D6FDE /* GPStudentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6112BF1E5DC745001D6FDE /* GPStudentFactory.m */; };
 		AC6112C31E5DC774001D6FDE /* GPVolunteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6112C21E5DC774001D6FDE /* GPVolunteerFactory.m */; };
+		AC84961B1E68472E00EDF062 /* GPTenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC84961A1E68472E00EDF062 /* GPTenViewController.m */; };
+		AC84961D1E68475300EDF062 /* GPTenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC84961C1E68475300EDF062 /* GPTenViewController.storyboard */; };
+		AC8496201E6847CC00EDF062 /* GPWork.m in Sources */ = {isa = PBXBuildFile; fileRef = AC84961F1E6847CC00EDF062 /* GPWork.m */; };
+		AC8496231E684D2700EDF062 /* GPState.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8496221E684D2700EDF062 /* GPState.m */; };
+		AC8496261E684D7D00EDF062 /* GPForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8496251E684D7D00EDF062 /* GPForenoonState.m */; };
+		AC8496291E684DB100EDF062 /* GPNoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8496281E684DB100EDF062 /* GPNoonState.m */; };
+		AC84962C1E684DD700EDF062 /* GPAfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = AC84962B1E684DD700EDF062 /* GPAfternoonState.m */; };
+		AC84962F1E684DE500EDF062 /* GPEventState.m in Sources */ = {isa = PBXBuildFile; fileRef = AC84962E1E684DE500EDF062 /* GPEventState.m */; };
+		AC8496321E684DF600EDF062 /* GPSleepState.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8496311E684DF600EDF062 /* GPSleepState.m */; };
+		AC8496351E684E1C00EDF062 /* GPRestState.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8496341E684E1C00EDF062 /* GPRestState.m */; };
 		ACC121FF1E55D7D9003BFF09 /* GPStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC121FE1E55D7D9003BFF09 /* GPStrategy.m */; };
 		ACC122021E55DCF6003BFF09 /* GPCashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC122011E55DCF6003BFF09 /* GPCashNormal.m */; };
 		ACC122081E55DD21003BFF09 /* GPCashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC122071E55DD21003BFF09 /* GPCashRebate.m */; };
@@ -291,6 +301,25 @@
 		AC6112BF1E5DC745001D6FDE /* GPStudentFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPStudentFactory.m; sourceTree = "<group>"; };
 		AC6112C11E5DC774001D6FDE /* GPVolunteerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPVolunteerFactory.h; sourceTree = "<group>"; };
 		AC6112C21E5DC774001D6FDE /* GPVolunteerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPVolunteerFactory.m; sourceTree = "<group>"; };
+		AC8496191E68472E00EDF062 /* GPTenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTenViewController.h; sourceTree = "<group>"; };
+		AC84961A1E68472E00EDF062 /* GPTenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTenViewController.m; sourceTree = "<group>"; };
+		AC84961C1E68475300EDF062 /* GPTenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPTenViewController.storyboard; sourceTree = "<group>"; };
+		AC84961E1E6847CC00EDF062 /* GPWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPWork.h; sourceTree = "<group>"; };
+		AC84961F1E6847CC00EDF062 /* GPWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPWork.m; sourceTree = "<group>"; };
+		AC8496211E684D2700EDF062 /* GPState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPState.h; sourceTree = "<group>"; };
+		AC8496221E684D2700EDF062 /* GPState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPState.m; sourceTree = "<group>"; };
+		AC8496241E684D7D00EDF062 /* GPForenoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPForenoonState.h; sourceTree = "<group>"; };
+		AC8496251E684D7D00EDF062 /* GPForenoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPForenoonState.m; sourceTree = "<group>"; };
+		AC8496271E684DB100EDF062 /* GPNoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNoonState.h; sourceTree = "<group>"; };
+		AC8496281E684DB100EDF062 /* GPNoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNoonState.m; sourceTree = "<group>"; };
+		AC84962A1E684DD700EDF062 /* GPAfternoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAfternoonState.h; sourceTree = "<group>"; };
+		AC84962B1E684DD700EDF062 /* GPAfternoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPAfternoonState.m; sourceTree = "<group>"; };
+		AC84962D1E684DE500EDF062 /* GPEventState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPEventState.h; sourceTree = "<group>"; };
+		AC84962E1E684DE500EDF062 /* GPEventState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPEventState.m; sourceTree = "<group>"; };
+		AC8496301E684DF600EDF062 /* GPSleepState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSleepState.h; sourceTree = "<group>"; };
+		AC8496311E684DF600EDF062 /* GPSleepState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSleepState.m; sourceTree = "<group>"; };
+		AC8496331E684E1C00EDF062 /* GPRestState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPRestState.h; sourceTree = "<group>"; };
+		AC8496341E684E1C00EDF062 /* GPRestState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRestState.m; sourceTree = "<group>"; };
 		ACC121FD1E55D7D9003BFF09 /* GPStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPStrategy.h; sourceTree = "<group>"; };
 		ACC121FE1E55D7D9003BFF09 /* GPStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPStrategy.m; sourceTree = "<group>"; };
 		ACC122001E55DCF6003BFF09 /* GPCashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPCashNormal.h; sourceTree = "<group>"; };
@@ -590,6 +619,7 @@
 				AC1ADDCD1E605D2600642CC6 /* 07-外观模式 */,
 				AC1ADDE51E6064E800642CC6 /* 08-建造者模式 */,
 				AC2A72BD1E66F6F90036B3C6 /* 09-抽象工厂模式 */,
+				AC8496181E68469A00EDF062 /* 10-状态模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -684,6 +714,32 @@
 			);
 			name = SDAutoLayout;
 			path = SVProgressHUD/SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		AC8496181E68469A00EDF062 /* 10-状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8496191E68472E00EDF062 /* GPTenViewController.h */,
+				AC84961A1E68472E00EDF062 /* GPTenViewController.m */,
+				AC84961C1E68475300EDF062 /* GPTenViewController.storyboard */,
+				AC84961E1E6847CC00EDF062 /* GPWork.h */,
+				AC84961F1E6847CC00EDF062 /* GPWork.m */,
+				AC8496211E684D2700EDF062 /* GPState.h */,
+				AC8496221E684D2700EDF062 /* GPState.m */,
+				AC8496241E684D7D00EDF062 /* GPForenoonState.h */,
+				AC8496251E684D7D00EDF062 /* GPForenoonState.m */,
+				AC8496271E684DB100EDF062 /* GPNoonState.h */,
+				AC8496281E684DB100EDF062 /* GPNoonState.m */,
+				AC84962A1E684DD700EDF062 /* GPAfternoonState.h */,
+				AC84962B1E684DD700EDF062 /* GPAfternoonState.m */,
+				AC84962D1E684DE500EDF062 /* GPEventState.h */,
+				AC84962E1E684DE500EDF062 /* GPEventState.m */,
+				AC8496301E684DF600EDF062 /* GPSleepState.h */,
+				AC8496311E684DF600EDF062 /* GPSleepState.m */,
+				AC8496331E684E1C00EDF062 /* GPRestState.h */,
+				AC8496341E684E1C00EDF062 /* GPRestState.m */,
+			);
+			name = "10-状态模式";
 			sourceTree = "<group>";
 		};
 		ACB7563C1E5AF5D30080C757 /* 03-装饰模式 */ = {
@@ -922,6 +978,7 @@
 			files = (
 				AC1ADDD51E605DBB00642CC6 /* GPSevenViewController.storyboard in Resources */,
 				ACE415E11E532F7D00752695 /* GPOneViewController.storyboard in Resources */,
+				AC84961D1E68475300EDF062 /* GPTenViewController.storyboard in Resources */,
 				AC4D4BC31E51D94E0057CBBE /* LaunchScreen.storyboard in Resources */,
 				AC1074841E5F04D800B48FFC /* GPSixViewController.storyboard in Resources */,
 				AC1EA4621E5D4410002D3493 /* GPFiveViewController.storyboard in Resources */,
@@ -975,28 +1032,35 @@
 				ACE4160C1E5331AD00752695 /* IQUIWindow+Hierarchy.m in Sources */,
 				AC1074AD1E5F0FD100B48FFC /* GPResume.m in Sources */,
 				AC4D4BEA1E51E49C0057CBBE /* GPOperation.m in Sources */,
+				AC84962C1E684DD700EDF062 /* GPAfternoonState.m in Sources */,
+				AC8496201E6847CC00EDF062 /* GPWork.m in Sources */,
 				ACC122021E55DCF6003BFF09 /* GPCashNormal.m in Sources */,
 				AC2A72DD1E6706870036B3C6 /* GPOperateDepartment.m in Sources */,
 				ACE4160A1E5331AC00752695 /* IQUIView+Hierarchy.m in Sources */,
 				AC4D4BBB1E51D94E0057CBBE /* ViewController.m in Sources */,
 				ACE416111E5331AD00752695 /* IQPreviousNextView.m in Sources */,
+				AC8496321E684DF600EDF062 /* GPSleepState.m in Sources */,
 				AC4D4C051E51EB880057CBBE /* GPOperAtionDiv.m in Sources */,
 				AC0C49B61E5C70B400F23D74 /* GPBaseViewController.m in Sources */,
 				AC0C49A71E5C6BCC00F23D74 /* GPPursuit.m in Sources */,
 				ACE416071E5331AC00752695 /* IQNSArray+Sort.m in Sources */,
+				AC8496291E684DB100EDF062 /* GPNoonState.m in Sources */,
 				AC2A72E11E670B570036B3C6 /* GPDataAccess.m in Sources */,
 				AC4D4BED1E51E8EE0057CBBE /* GPOperationAdd.m in Sources */,
 				AC0C495F1E5B1EA400F23D74 /* GPBigTrouser.m in Sources */,
 				AC1ADDE11E605E3100642CC6 /* GPSubSystemFour.m in Sources */,
 				AC2A72C01E66F71F0036B3C6 /* GPNineViewController.m in Sources */,
+				AC8496231E684D2700EDF062 /* GPState.m in Sources */,
 				AC2A72D71E6703A40036B3C6 /* GPRealmDepartment.m in Sources */,
 				AC1ADDF11E6067BC00642CC6 /* GPPersonThinBuilder.m in Sources */,
 				AC6112C01E5DC745001D6FDE /* GPStudentFactory.m in Sources */,
 				AC1074A31E5F0E0300B48FFC /* MJProperty.m in Sources */,
 				AC6112BA1E5DC63F001D6FDE /* GPVolunteer.m in Sources */,
 				AC4D4BFE1E51EA7B0057CBBE /* SVIndefiniteAnimatedView.m in Sources */,
+				AC84961B1E68472E00EDF062 /* GPTenViewController.m in Sources */,
 				ACE4160D1E5331AD00752695 /* IQKeyboardManager.m in Sources */,
 				AC1ADDF91E60691800642CC6 /* GPPerSonBuilder.m in Sources */,
+				AC8496261E684D7D00EDF062 /* GPForenoonState.m in Sources */,
 				AC1074A61E5F0E0300B48FFC /* NSObject+MJClass.m in Sources */,
 				AC6112B71E5DC5E8001D6FDE /* GPStudent.m in Sources */,
 				ACC121FF1E55D7D9003BFF09 /* GPStrategy.m in Sources */,
@@ -1029,6 +1093,8 @@
 				ACC1220E1E55E0BA003BFF09 /* GPCashContext.m in Sources */,
 				AC1ADDD81E605DF900642CC6 /* GPSubSystemOne.m in Sources */,
 				ACC122111E55E681003BFF09 /* GPTwoViewController.m in Sources */,
+				AC8496351E684E1C00EDF062 /* GPRestState.m in Sources */,
+				AC84962F1E684DE500EDF062 /* GPEventState.m in Sources */,
 				ACE4160B1E5331AC00752695 /* IQUIViewController+Additions.m in Sources */,
 				AC1ADDD31E605D8500642CC6 /* GPSevenViewController.m in Sources */,
 				AC1074A51E5F0E0300B48FFC /* MJPropertyType.m in Sources */,
