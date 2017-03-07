@@ -131,6 +131,7 @@
 		E0CB3D831E6EDE6F00DC7564 /* GPForeignCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D821E6EDE6F00DC7564 /* GPForeignCenter.m */; };
 		E0CB3D861E6EDF3F00DC7564 /* GPTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */; };
 		E0CB3D891E6EE44700DC7564 /* GPsda.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D881E6EE44700DC7564 /* GPsda.m */; };
+		E0CB3D8C1E6EE8FD00DC7564 /* GPdddd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D8B1E6EE8FD00DC7564 /* GPdddd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -392,6 +393,8 @@
 		E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTranslator.m; sourceTree = "<group>"; };
 		E0CB3D871E6EE44700DC7564 /* GPsda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPsda.h; sourceTree = "<group>"; };
 		E0CB3D881E6EE44700DC7564 /* GPsda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPsda.m; sourceTree = "<group>"; };
+		E0CB3D8A1E6EE8FD00DC7564 /* GPdddd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPdddd.h; sourceTree = "<group>"; };
+		E0CB3D8B1E6EE8FD00DC7564 /* GPdddd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPdddd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -443,6 +446,8 @@
 				AC0C49B51E5C70B400F23D74 /* GPBaseViewController.m */,
 				E0CB3D871E6EE44700DC7564 /* GPsda.h */,
 				E0CB3D881E6EE44700DC7564 /* GPsda.m */,
+				E0CB3D8A1E6EE8FD00DC7564 /* GPdddd.h */,
+				E0CB3D8B1E6EE8FD00DC7564 /* GPdddd.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -1119,6 +1124,7 @@
 				AC4D4BB81E51D94E0057CBBE /* AppDelegate.m in Sources */,
 				AC0C49561E5B17B000F23D74 /* GPPerson.m in Sources */,
 				AC1ADDE41E605E4A00642CC6 /* GPFacade.m in Sources */,
+				E0CB3D8C1E6EE8FD00DC7564 /* GPdddd.m in Sources */,
 				AC0C49AA1E5C6CE400F23D74 /* GPProxy.m in Sources */,
 				AC4D4BFF1E51EA7B0057CBBE /* SVProgressAnimatedView.m in Sources */,
 				AC0C49B01E5C6F4B00F23D74 /* GPFourViewController.m in Sources */,
