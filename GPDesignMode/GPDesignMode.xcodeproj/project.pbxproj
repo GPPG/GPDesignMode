@@ -130,6 +130,7 @@
 		E0CB3D801E6EDD5C00DC7564 /* GPCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D7F1E6EDD5C00DC7564 /* GPCenter.m */; };
 		E0CB3D831E6EDE6F00DC7564 /* GPForeignCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D821E6EDE6F00DC7564 /* GPForeignCenter.m */; };
 		E0CB3D861E6EDF3F00DC7564 /* GPTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */; };
+		E0CB3D9E1E6EFD0D00DC7564 /* Gpsafmdlafm.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D9D1E6EFD0D00DC7564 /* Gpsafmdlafm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -389,6 +390,8 @@
 		E0CB3D821E6EDE6F00DC7564 /* GPForeignCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPForeignCenter.m; sourceTree = "<group>"; };
 		E0CB3D841E6EDF3F00DC7564 /* GPTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTranslator.h; sourceTree = "<group>"; };
 		E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTranslator.m; sourceTree = "<group>"; };
+		E0CB3D9C1E6EFD0D00DC7564 /* Gpsafmdlafm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gpsafmdlafm.h; sourceTree = "<group>"; };
+		E0CB3D9D1E6EFD0D00DC7564 /* Gpsafmdlafm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gpsafmdlafm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -650,6 +653,8 @@
 				AC4D4BC11E51D94E0057CBBE /* LaunchScreen.storyboard */,
 				AC4D4BC41E51D94E0057CBBE /* Info.plist */,
 				AC4D4BB31E51D94E0057CBBE /* Supporting Files */,
+				E0CB3D9C1E6EFD0D00DC7564 /* Gpsafmdlafm.h */,
+				E0CB3D9D1E6EFD0D00DC7564 /* Gpsafmdlafm.m */,
 			);
 			path = GPDesignMode;
 			sourceTree = "<group>";
@@ -1119,6 +1124,7 @@
 				ACE415DF1E532F6200752695 /* GPOneViewController.m in Sources */,
 				AC1074A91E5F0E0300B48FFC /* NSObject+MJProperty.m in Sources */,
 				AC1EA4601E5D4403002D3493 /* GPFiveViewController.m in Sources */,
+				E0CB3D9E1E6EFD0D00DC7564 /* Gpsafmdlafm.m in Sources */,
 				AC4D4BB51E51D94E0057CBBE /* main.m in Sources */,
 				AC4D4C011E51EA7B0057CBBE /* SVProgressHUD.m in Sources */,
 				ACE4160F1E5331AD00752695 /* IQTextView.m in Sources */,
