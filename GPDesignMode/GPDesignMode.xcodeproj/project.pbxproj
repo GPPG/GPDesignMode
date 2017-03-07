@@ -130,7 +130,6 @@
 		E0CB3D801E6EDD5C00DC7564 /* GPCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D7F1E6EDD5C00DC7564 /* GPCenter.m */; };
 		E0CB3D831E6EDE6F00DC7564 /* GPForeignCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D821E6EDE6F00DC7564 /* GPForeignCenter.m */; };
 		E0CB3D861E6EDF3F00DC7564 /* GPTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */; };
-		E0CB3D951E6EF43400DC7564 /* GPasd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D941E6EF43400DC7564 /* GPasd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -390,8 +389,6 @@
 		E0CB3D821E6EDE6F00DC7564 /* GPForeignCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPForeignCenter.m; sourceTree = "<group>"; };
 		E0CB3D841E6EDF3F00DC7564 /* GPTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTranslator.h; sourceTree = "<group>"; };
 		E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTranslator.m; sourceTree = "<group>"; };
-		E0CB3D931E6EF43400DC7564 /* GPasd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPasd.h; sourceTree = "<group>"; };
-		E0CB3D941E6EF43400DC7564 /* GPasd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPasd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,8 +438,6 @@
 			children = (
 				AC0C49B41E5C70B400F23D74 /* GPBaseViewController.h */,
 				AC0C49B51E5C70B400F23D74 /* GPBaseViewController.m */,
-				E0CB3D931E6EF43400DC7564 /* GPasd.h */,
-				E0CB3D941E6EF43400DC7564 /* GPasd.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -1071,7 +1066,6 @@
 				ACE416121E5331AD00752695 /* IQTitleBarButtonItem.m in Sources */,
 				ACE4160E1E5331AD00752695 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				AC0C49621E5B1ED700F23D74 /* GPSneakers.m in Sources */,
-				E0CB3D951E6EF43400DC7564 /* GPasd.m in Sources */,
 				AC4D4C0F1E51F1730057CBBE /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				E0CB3D7D1E6EDD5100DC7564 /* GPForwards.m in Sources */,
 				ACE416081E5331AC00752695 /* IQUIScrollView+Additions.m in Sources */,
