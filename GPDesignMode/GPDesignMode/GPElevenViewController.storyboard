@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HyL-8u-PeX">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Eleven View Controller-->
+        <scene sceneID="DfB-X6-vqr">
+            <objects>
+                <viewController id="HyL-8u-PeX" customClass="GPElevenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L8x-nF-u7b"/>
+                        <viewControllerLayoutGuide type="bottom" id="TYC-cA-auX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jVc-bI-k9X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHA-Gp-bAY">
+                                <rect key="frame" x="156.5" y="228" width="62" height="30"/>
+                                <state key="normal" title="美国前锋"/>
+                                <connections>
+                                    <action selector="AForWardBtnClick:" destination="HyL-8u-PeX" eventType="touchUpInside" id="8bl-IG-1Ng"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTc-mn-uyi">
+                                <rect key="frame" x="156.5" y="318" width="62" height="30"/>
+                                <state key="normal" title="中国中锋"/>
+                                <connections>
+                                    <action selector="CCenterBtnClick:" destination="HyL-8u-PeX" eventType="touchUpInside" id="7qA-uF-AXS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKX-Lw-Wc1">
+                                <rect key="frame" x="156.5" y="407" width="62" height="30"/>
+                                <state key="normal" title="美国中锋"/>
+                                <connections>
+                                    <action selector="ACenterBtnClick:" destination="HyL-8u-PeX" eventType="touchUpInside" id="WsY-WM-I9n"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dTc-mn-uyi" firstAttribute="centerY" secondItem="jVc-bI-k9X" secondAttribute="centerY" id="5cy-ub-Y3X"/>
+                            <constraint firstItem="dHA-Gp-bAY" firstAttribute="leading" secondItem="dTc-mn-uyi" secondAttribute="leading" id="Mjo-xg-tL6"/>
+                            <constraint firstItem="dKX-Lw-Wc1" firstAttribute="top" secondItem="dTc-mn-uyi" secondAttribute="bottom" constant="59" id="Xlb-Yh-RAT"/>
+                            <constraint firstItem="dTc-mn-uyi" firstAttribute="top" secondItem="dHA-Gp-bAY" secondAttribute="bottom" constant="60" id="jvl-9d-I98"/>
+                            <constraint firstItem="dHA-Gp-bAY" firstAttribute="centerX" secondItem="jVc-bI-k9X" secondAttribute="centerX" id="pVc-jM-gNB"/>
+                            <constraint firstItem="dTc-mn-uyi" firstAttribute="leading" secondItem="dKX-Lw-Wc1" secondAttribute="leading" id="pw1-Xq-8AH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wtq-ye-tZW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-121" y="125"/>
+        </scene>
+    </scenes>
+</document>

@@ -123,6 +123,13 @@
 		ACE416141E5331AD00752695 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE416041E5331AC00752695 /* IQUIView+IQKeyboardToolbar.m */; };
 		ACE416151E5331AD00752695 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ACE416061E5331AC00752695 /* IQKeyboardManager.bundle */; };
 		ACE416191E533F3000752695 /* UIViewController+GPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE416181E533F3000752695 /* UIViewController+GPExtension.m */; };
+		E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */; };
+		E0CB3D771E6EDCBF00DC7564 /* GPElevenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */; };
+		E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D791E6EDD0400DC7564 /* GPPlayer.m */; };
+		E0CB3D7D1E6EDD5100DC7564 /* GPForwards.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D7C1E6EDD5100DC7564 /* GPForwards.m */; };
+		E0CB3D801E6EDD5C00DC7564 /* GPCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D7F1E6EDD5C00DC7564 /* GPCenter.m */; };
+		E0CB3D831E6EDE6F00DC7564 /* GPForeignCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D821E6EDE6F00DC7564 /* GPForeignCenter.m */; };
+		E0CB3D861E6EDF3F00DC7564 /* GPTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -369,6 +376,19 @@
 		ACE416061E5331AC00752695 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		ACE416171E533F3000752695 /* UIViewController+GPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GPExtension.h"; sourceTree = "<group>"; };
 		ACE416181E533F3000752695 /* UIViewController+GPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GPExtension.m"; sourceTree = "<group>"; };
+		E0CB3D731E6EDC9900DC7564 /* GPElevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPElevenViewController.h; sourceTree = "<group>"; };
+		E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPElevenViewController.m; sourceTree = "<group>"; };
+		E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPElevenViewController.storyboard; sourceTree = "<group>"; };
+		E0CB3D781E6EDD0400DC7564 /* GPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPlayer.h; sourceTree = "<group>"; };
+		E0CB3D791E6EDD0400DC7564 /* GPPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPlayer.m; sourceTree = "<group>"; };
+		E0CB3D7B1E6EDD5100DC7564 /* GPForwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPForwards.h; sourceTree = "<group>"; };
+		E0CB3D7C1E6EDD5100DC7564 /* GPForwards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPForwards.m; sourceTree = "<group>"; };
+		E0CB3D7E1E6EDD5C00DC7564 /* GPCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPCenter.h; sourceTree = "<group>"; };
+		E0CB3D7F1E6EDD5C00DC7564 /* GPCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPCenter.m; sourceTree = "<group>"; };
+		E0CB3D811E6EDE6F00DC7564 /* GPForeignCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPForeignCenter.h; sourceTree = "<group>"; };
+		E0CB3D821E6EDE6F00DC7564 /* GPForeignCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPForeignCenter.m; sourceTree = "<group>"; };
+		E0CB3D841E6EDF3F00DC7564 /* GPTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTranslator.h; sourceTree = "<group>"; };
+		E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTranslator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -620,6 +640,7 @@
 				AC1ADDE51E6064E800642CC6 /* 08-建造者模式 */,
 				AC2A72BD1E66F6F90036B3C6 /* 09-抽象工厂模式 */,
 				AC8496181E68469A00EDF062 /* 10-状态模式 */,
+				E0CB3D721E6EDC5D00DC7564 /* 11-适配器模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -869,6 +890,26 @@
 			name = "02-策略模式";
 			sourceTree = "<group>";
 		};
+		E0CB3D721E6EDC5D00DC7564 /* 11-适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E0CB3D731E6EDC9900DC7564 /* GPElevenViewController.h */,
+				E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */,
+				E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */,
+				E0CB3D781E6EDD0400DC7564 /* GPPlayer.h */,
+				E0CB3D791E6EDD0400DC7564 /* GPPlayer.m */,
+				E0CB3D7B1E6EDD5100DC7564 /* GPForwards.h */,
+				E0CB3D7C1E6EDD5100DC7564 /* GPForwards.m */,
+				E0CB3D7E1E6EDD5C00DC7564 /* GPCenter.h */,
+				E0CB3D7F1E6EDD5C00DC7564 /* GPCenter.m */,
+				E0CB3D841E6EDF3F00DC7564 /* GPTranslator.h */,
+				E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */,
+				E0CB3D811E6EDE6F00DC7564 /* GPForeignCenter.h */,
+				E0CB3D821E6EDE6F00DC7564 /* GPForeignCenter.m */,
+			);
+			name = "11-适配器模式";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -983,6 +1024,7 @@
 				AC1074841E5F04D800B48FFC /* GPSixViewController.storyboard in Resources */,
 				AC1EA4621E5D4410002D3493 /* GPFiveViewController.storyboard in Resources */,
 				AC0C49671E5B1F3500F23D74 /* GPThreeViewController.storyboard in Resources */,
+				E0CB3D771E6EDCBF00DC7564 /* GPElevenViewController.storyboard in Resources */,
 				ACE416151E5331AD00752695 /* IQKeyboardManager.bundle in Resources */,
 				AC4D4BC01E51D94E0057CBBE /* Assets.xcassets in Resources */,
 				AC4D4BBE1E51D94E0057CBBE /* Main.storyboard in Resources */,
@@ -1025,9 +1067,12 @@
 				ACE4160E1E5331AD00752695 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				AC0C49621E5B1ED700F23D74 /* GPSneakers.m in Sources */,
 				AC4D4C0F1E51F1730057CBBE /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				E0CB3D7D1E6EDD5100DC7564 /* GPForwards.m in Sources */,
 				ACE416081E5331AC00752695 /* IQUIScrollView+Additions.m in Sources */,
 				ACC122081E55DD21003BFF09 /* GPCashRebate.m in Sources */,
 				ACE416131E5331AD00752695 /* IQToolbar.m in Sources */,
+				E0CB3D861E6EDF3F00DC7564 /* GPTranslator.m in Sources */,
+				E0CB3D831E6EDE6F00DC7564 /* GPForeignCenter.m in Sources */,
 				AC0C49591E5B1B8E00F23D74 /* GPFinery.m in Sources */,
 				ACE4160C1E5331AD00752695 /* IQUIWindow+Hierarchy.m in Sources */,
 				AC1074AD1E5F0FD100B48FFC /* GPResume.m in Sources */,
@@ -1059,6 +1104,7 @@
 				AC4D4BFE1E51EA7B0057CBBE /* SVIndefiniteAnimatedView.m in Sources */,
 				AC84961B1E68472E00EDF062 /* GPTenViewController.m in Sources */,
 				ACE4160D1E5331AD00752695 /* IQKeyboardManager.m in Sources */,
+				E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */,
 				AC1ADDF91E60691800642CC6 /* GPPerSonBuilder.m in Sources */,
 				AC8496261E684D7D00EDF062 /* GPForenoonState.m in Sources */,
 				AC1074A61E5F0E0300B48FFC /* NSObject+MJClass.m in Sources */,
@@ -1085,6 +1131,7 @@
 				AC1074AA1E5F0E0300B48FFC /* NSString+MJExtension.m in Sources */,
 				AC1ADDF71E6068B800642CC6 /* GPDirector.m in Sources */,
 				AC0C49651E5B1F2800F23D74 /* GPThreeViewController.m in Sources */,
+				E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */,
 				ACC1220B1E55DD3B003BFF09 /* GPCashReturn.m in Sources */,
 				ACE416101E5331AD00752695 /* IQBarButtonItem.m in Sources */,
 				AC10748A1E5F0DC300B48FFC /* GPWorkExperience.m in Sources */,
@@ -1103,6 +1150,7 @@
 				AC2A72D11E6703690036B3C6 /* GPRealmUser.m in Sources */,
 				AC2A72C91E66FF3E0036B3C6 /* GPSQLDepartment.m in Sources */,
 				AC4D4BF31E51E9A30057CBBE /* GPOperationMul.m in Sources */,
+				E0CB3D801E6EDD5C00DC7564 /* GPCenter.m in Sources */,
 				AC1074821E5F049C00B48FFC /* GPSixViewController.m in Sources */,
 				AC4D4C021E51EA7B0057CBBE /* SVRadialGradientLayer.m in Sources */,
 				AC1074A71E5F0E0300B48FFC /* NSObject+MJCoding.m in Sources */,
