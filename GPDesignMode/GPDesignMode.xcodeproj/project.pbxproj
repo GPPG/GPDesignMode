@@ -132,6 +132,7 @@
 		E0CB3D861E6EDF3F00DC7564 /* GPTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */; };
 		E0CB3D891E6EE44700DC7564 /* GPsda.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D881E6EE44700DC7564 /* GPsda.m */; };
 		E0CB3D8C1E6EE8FD00DC7564 /* GPdddd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D8B1E6EE8FD00DC7564 /* GPdddd.m */; };
+		E0CB3D8F1E6EEC3400DC7564 /* GPsas.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D8E1E6EEC3400DC7564 /* GPsas.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -395,6 +396,8 @@
 		E0CB3D881E6EE44700DC7564 /* GPsda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPsda.m; sourceTree = "<group>"; };
 		E0CB3D8A1E6EE8FD00DC7564 /* GPdddd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPdddd.h; sourceTree = "<group>"; };
 		E0CB3D8B1E6EE8FD00DC7564 /* GPdddd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPdddd.m; sourceTree = "<group>"; };
+		E0CB3D8D1E6EEC3400DC7564 /* GPsas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPsas.h; sourceTree = "<group>"; };
+		E0CB3D8E1E6EEC3400DC7564 /* GPsas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPsas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -448,6 +451,8 @@
 				E0CB3D881E6EE44700DC7564 /* GPsda.m */,
 				E0CB3D8A1E6EE8FD00DC7564 /* GPdddd.h */,
 				E0CB3D8B1E6EE8FD00DC7564 /* GPdddd.m */,
+				E0CB3D8D1E6EEC3400DC7564 /* GPsas.h */,
+				E0CB3D8E1E6EEC3400DC7564 /* GPsas.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -1115,6 +1120,7 @@
 				E0CB3D891E6EE44700DC7564 /* GPsda.m in Sources */,
 				AC84961B1E68472E00EDF062 /* GPTenViewController.m in Sources */,
 				ACE4160D1E5331AD00752695 /* IQKeyboardManager.m in Sources */,
+				E0CB3D8F1E6EEC3400DC7564 /* GPsas.m in Sources */,
 				E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */,
 				AC1ADDF91E60691800642CC6 /* GPPerSonBuilder.m in Sources */,
 				AC8496261E684D7D00EDF062 /* GPForenoonState.m in Sources */,
