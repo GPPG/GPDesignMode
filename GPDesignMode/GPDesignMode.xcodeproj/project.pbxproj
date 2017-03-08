@@ -123,6 +123,11 @@
 		ACE416141E5331AD00752695 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE416041E5331AC00752695 /* IQUIView+IQKeyboardToolbar.m */; };
 		ACE416151E5331AD00752695 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ACE416061E5331AC00752695 /* IQKeyboardManager.bundle */; };
 		ACE416191E533F3000752695 /* UIViewController+GPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE416181E533F3000752695 /* UIViewController+GPExtension.m */; };
+		E04E05021E7029FB007928C3 /* GPTwelveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E05011E7029FB007928C3 /* GPTwelveViewController.m */; };
+		E04E05041E702A0B007928C3 /* GPTwelveViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04E05031E702A0B007928C3 /* GPTwelveViewController.storyboard */; };
+		E04E05071E702E13007928C3 /* GPGameRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E05061E702E13007928C3 /* GPGameRoll.m */; };
+		E04E050A1E702E6C007928C3 /* GPRoleStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E05091E702E6C007928C3 /* GPRoleStateMemento.m */; };
+		E04E050D1E702E8E007928C3 /* GPRoleStateCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E050C1E702E8E007928C3 /* GPRoleStateCaretaker.m */; };
 		E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */; };
 		E0CB3D771E6EDCBF00DC7564 /* GPElevenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */; };
 		E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D791E6EDD0400DC7564 /* GPPlayer.m */; };
@@ -376,6 +381,15 @@
 		ACE416061E5331AC00752695 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		ACE416171E533F3000752695 /* UIViewController+GPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GPExtension.h"; sourceTree = "<group>"; };
 		ACE416181E533F3000752695 /* UIViewController+GPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GPExtension.m"; sourceTree = "<group>"; };
+		E04E05001E7029FB007928C3 /* GPTwelveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTwelveViewController.h; sourceTree = "<group>"; };
+		E04E05011E7029FB007928C3 /* GPTwelveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTwelveViewController.m; sourceTree = "<group>"; };
+		E04E05031E702A0B007928C3 /* GPTwelveViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPTwelveViewController.storyboard; sourceTree = "<group>"; };
+		E04E05051E702E13007928C3 /* GPGameRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPGameRoll.h; sourceTree = "<group>"; };
+		E04E05061E702E13007928C3 /* GPGameRoll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPGameRoll.m; sourceTree = "<group>"; };
+		E04E05081E702E6C007928C3 /* GPRoleStateMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPRoleStateMemento.h; sourceTree = "<group>"; };
+		E04E05091E702E6C007928C3 /* GPRoleStateMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRoleStateMemento.m; sourceTree = "<group>"; };
+		E04E050B1E702E8E007928C3 /* GPRoleStateCaretaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPRoleStateCaretaker.h; sourceTree = "<group>"; };
+		E04E050C1E702E8E007928C3 /* GPRoleStateCaretaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRoleStateCaretaker.m; sourceTree = "<group>"; };
 		E0CB3D731E6EDC9900DC7564 /* GPElevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPElevenViewController.h; sourceTree = "<group>"; };
 		E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPElevenViewController.m; sourceTree = "<group>"; };
 		E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPElevenViewController.storyboard; sourceTree = "<group>"; };
@@ -641,6 +655,7 @@
 				AC2A72BD1E66F6F90036B3C6 /* 09-抽象工厂模式 */,
 				AC8496181E68469A00EDF062 /* 10-状态模式 */,
 				E0CB3D721E6EDC5D00DC7564 /* 11-适配器模式 */,
+				E04E04FF1E7029CF007928C3 /* 12-备忘录模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -890,6 +905,22 @@
 			name = "02-策略模式";
 			sourceTree = "<group>";
 		};
+		E04E04FF1E7029CF007928C3 /* 12-备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E04E05001E7029FB007928C3 /* GPTwelveViewController.h */,
+				E04E05011E7029FB007928C3 /* GPTwelveViewController.m */,
+				E04E05031E702A0B007928C3 /* GPTwelveViewController.storyboard */,
+				E04E05051E702E13007928C3 /* GPGameRoll.h */,
+				E04E05061E702E13007928C3 /* GPGameRoll.m */,
+				E04E05081E702E6C007928C3 /* GPRoleStateMemento.h */,
+				E04E05091E702E6C007928C3 /* GPRoleStateMemento.m */,
+				E04E050B1E702E8E007928C3 /* GPRoleStateCaretaker.h */,
+				E04E050C1E702E8E007928C3 /* GPRoleStateCaretaker.m */,
+			);
+			name = "12-备忘录模式";
+			sourceTree = "<group>";
+		};
 		E0CB3D721E6EDC5D00DC7564 /* 11-适配器模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1028,6 +1059,7 @@
 				ACE416151E5331AD00752695 /* IQKeyboardManager.bundle in Resources */,
 				AC4D4BC01E51D94E0057CBBE /* Assets.xcassets in Resources */,
 				AC4D4BBE1E51D94E0057CBBE /* Main.storyboard in Resources */,
+				E04E05041E702A0B007928C3 /* GPTwelveViewController.storyboard in Resources */,
 				AC1ADDEA1E60652C00642CC6 /* GPEightViewController.storyboard in Resources */,
 				ACC122131E55E690003BFF09 /* GPTwoViewController.storyboard in Resources */,
 				AC0C49B21E5C6F5500F23D74 /* GPFourViewController.storyboard in Resources */,
@@ -1073,6 +1105,7 @@
 				ACE416131E5331AD00752695 /* IQToolbar.m in Sources */,
 				E0CB3D861E6EDF3F00DC7564 /* GPTranslator.m in Sources */,
 				E0CB3D831E6EDE6F00DC7564 /* GPForeignCenter.m in Sources */,
+				E04E050D1E702E8E007928C3 /* GPRoleStateCaretaker.m in Sources */,
 				AC0C49591E5B1B8E00F23D74 /* GPFinery.m in Sources */,
 				ACE4160C1E5331AD00752695 /* IQUIWindow+Hierarchy.m in Sources */,
 				AC1074AD1E5F0FD100B48FFC /* GPResume.m in Sources */,
@@ -1103,6 +1136,7 @@
 				AC6112BA1E5DC63F001D6FDE /* GPVolunteer.m in Sources */,
 				AC4D4BFE1E51EA7B0057CBBE /* SVIndefiniteAnimatedView.m in Sources */,
 				AC84961B1E68472E00EDF062 /* GPTenViewController.m in Sources */,
+				E04E05021E7029FB007928C3 /* GPTwelveViewController.m in Sources */,
 				ACE4160D1E5331AD00752695 /* IQKeyboardManager.m in Sources */,
 				E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */,
 				AC1ADDF91E60691800642CC6 /* GPPerSonBuilder.m in Sources */,
@@ -1118,6 +1152,7 @@
 				AC0C49B01E5C6F4B00F23D74 /* GPFourViewController.m in Sources */,
 				ACE415DF1E532F6200752695 /* GPOneViewController.m in Sources */,
 				AC1074A91E5F0E0300B48FFC /* NSObject+MJProperty.m in Sources */,
+				E04E050A1E702E6C007928C3 /* GPRoleStateMemento.m in Sources */,
 				AC1EA4601E5D4403002D3493 /* GPFiveViewController.m in Sources */,
 				AC4D4BB51E51D94E0057CBBE /* main.m in Sources */,
 				AC4D4C011E51EA7B0057CBBE /* SVProgressHUD.m in Sources */,
@@ -1132,6 +1167,7 @@
 				AC1ADDF71E6068B800642CC6 /* GPDirector.m in Sources */,
 				AC0C49651E5B1F2800F23D74 /* GPThreeViewController.m in Sources */,
 				E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */,
+				E04E05071E702E13007928C3 /* GPGameRoll.m in Sources */,
 				ACC1220B1E55DD3B003BFF09 /* GPCashReturn.m in Sources */,
 				ACE416101E5331AD00752695 /* IQBarButtonItem.m in Sources */,
 				AC10748A1E5F0DC300B48FFC /* GPWorkExperience.m in Sources */,
