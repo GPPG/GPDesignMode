@@ -11,6 +11,26 @@
 
 @implementation GPGameRoll
 
+- (instancetype)init
+{
+    if (self = [super init]) {
+        self.life = 100;
+        self.attack = 100;
+        self.defense = 100;
+    }
+    return self;
+}
+- (void)readRoleState
+{
+    NSLog(@"生命值:%ld--攻击力:%ld--防御值:%ld",self.life,self.attack,self.defense);
+}
+- (void)fightBoss
+{
+    NSLog(@"被大魔王按在地板上摩擦摩擦");
+    self.life = 0;
+    self.defense = 0;
+    self.attack = 0;
+}
 - (GPRoleStateMemento *)saveRoleState
 {
     GPRoleStateMemento *roleState = [[GPRoleStateMemento alloc]init];

@@ -18,6 +18,7 @@
 #import "GPNineViewController.h"
 #import "GPTenViewController.h"
 #import "GPElevenViewController.h"
+#import "GPTwelveViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *rootTableView;
@@ -78,7 +79,7 @@ static NSString * const oneCellID = @"oneCellID";
 - (NSArray *)titleArray
 {
     if (!_titleArray) {
-        _titleArray = @[@"01--简单工厂模式",@"02--策略模式",@"03--装饰模式",@"04--代理模式",@"05--工厂模式",@"06--原型模式",@"07--外观模式",@"08--建造者模式",@"09--抽象工厂模式",@"10--状态模式",@"11-适配器模式",@"备忘录模式"];
+        _titleArray = @[@"01--简单工厂模式",@"02--策略模式",@"03--装饰模式",@"04--代理模式",@"05--工厂模式",@"06--原型模式",@"07--外观模式",@"08--建造者模式",@"09--抽象工厂模式",@"10--状态模式",@"11-适配器模式",@"12-备忘录模式"];
     }
     return _titleArray;
 }
@@ -86,7 +87,7 @@ static NSString * const oneCellID = @"oneCellID";
 - (NSArray *)subVcArray
 {
     if (!_subVcArray) {
-        _subVcArray = @[[GPOneViewController class],[GPTwoViewController class],[ GPThreeViewController class],[GPFourViewController class],[GPFiveViewController class],[GPSixViewController class],[GPSevenViewController class],[GPEightViewController class],[GPNineViewController class],[GPTenViewController class],[GPElevenViewController class],[GPElevenViewController class]];
+        _subVcArray = @[[GPOneViewController class],[GPTwoViewController class],[ GPThreeViewController class],[GPFourViewController class],[GPFiveViewController class],[GPSixViewController class],[GPSevenViewController class],[GPEightViewController class],[GPNineViewController class],[GPTenViewController class],[GPElevenViewController class],[GPTwelveViewController class]];
     }
     return _subVcArray;
 }

@@ -20,7 +20,38 @@
                     <view key="view" contentMode="scaleToFill" id="5k7-8O-r5R">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ba-FH-XYT">
+                                <rect key="frame" x="164" y="348.5" width="46" height="30"/>
+                                <state key="normal" title="战斗后"/>
+                                <connections>
+                                    <action selector="afterBattleBtnClick:" destination="mvI-Wn-E2O" eventType="touchUpInside" id="i8l-mc-voq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJ0-KV-TvA">
+                                <rect key="frame" x="164" y="279.5" width="46" height="30"/>
+                                <state key="normal" title="战斗前"/>
+                                <connections>
+                                    <action selector="beforeBattleBtnClick:" destination="mvI-Wn-E2O" eventType="touchUpInside" id="yBb-Jh-J10"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BpA-AM-fOC">
+                                <rect key="frame" x="164" y="310.5" width="46" height="30"/>
+                                <state key="normal" title="战斗吧"/>
+                                <connections>
+                                    <action selector="fightBtnClick:" destination="mvI-Wn-E2O" eventType="touchUpInside" id="2nf-ym-fby"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xJ0-KV-TvA" firstAttribute="leading" secondItem="5ba-FH-XYT" secondAttribute="leading" id="72F-qL-beY"/>
+                            <constraint firstItem="5ba-FH-XYT" firstAttribute="centerX" secondItem="5k7-8O-r5R" secondAttribute="centerX" id="CDV-gg-pvb"/>
+                            <constraint firstItem="5ba-FH-XYT" firstAttribute="top" secondItem="BpA-AM-fOC" secondAttribute="bottom" constant="8" symbolic="YES" id="Oj6-oc-vUg"/>
+                            <constraint firstItem="BpA-AM-fOC" firstAttribute="leading" secondItem="xJ0-KV-TvA" secondAttribute="leading" id="TYd-8I-5Pr"/>
+                            <constraint firstItem="5ba-FH-XYT" firstAttribute="centerY" secondItem="5k7-8O-r5R" secondAttribute="centerY" constant="30" id="apH-c2-iNi"/>
+                            <constraint firstItem="5ba-FH-XYT" firstAttribute="top" secondItem="xJ0-KV-TvA" secondAttribute="bottom" constant="39" id="whY-9N-BDZ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gk9-wL-J4u" userLabel="First Responder" sceneMemberID="firstResponder"/>

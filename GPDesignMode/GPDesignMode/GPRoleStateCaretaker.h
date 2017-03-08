@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+@class GPRoleStateMemento;
 @interface GPRoleStateCaretaker : NSObject
-
+@property (nonatomic, strong) GPRoleStateMemento *stateMemento;
 @end
