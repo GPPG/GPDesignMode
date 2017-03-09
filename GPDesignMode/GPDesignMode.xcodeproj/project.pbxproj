@@ -135,6 +135,12 @@
 		E0CB3D801E6EDD5C00DC7564 /* GPCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D7F1E6EDD5C00DC7564 /* GPCenter.m */; };
 		E0CB3D831E6EDE6F00DC7564 /* GPForeignCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D821E6EDE6F00DC7564 /* GPForeignCenter.m */; };
 		E0CB3D861E6EDF3F00DC7564 /* GPTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */; };
+		E0CECFB51E718BDA008D4FC4 /* GPCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CECFB41E718BDA008D4FC4 /* GPCompany.m */; };
+		E0CECFB81E718C99008D4FC4 /* GPConcreteCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CECFB71E718C99008D4FC4 /* GPConcreteCompany.m */; };
+		E0CECFBB1E719168008D4FC4 /* GPHRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CECFBA1E719168008D4FC4 /* GPHRDepartment.m */; };
+		E0CECFBE1E719204008D4FC4 /* GPFinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CECFBD1E719204008D4FC4 /* GPFinanceDepartment.m */; };
+		E0CECFC11E7192C1008D4FC4 /* GPThirteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CECFC01E7192C1008D4FC4 /* GPThirteenViewController.m */; };
+		E0CECFC31E719436008D4FC4 /* GPThirteenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CECFC21E719436008D4FC4 /* GPThirteenViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -403,6 +409,17 @@
 		E0CB3D821E6EDE6F00DC7564 /* GPForeignCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPForeignCenter.m; sourceTree = "<group>"; };
 		E0CB3D841E6EDF3F00DC7564 /* GPTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTranslator.h; sourceTree = "<group>"; };
 		E0CB3D851E6EDF3F00DC7564 /* GPTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTranslator.m; sourceTree = "<group>"; };
+		E0CECFB31E718BDA008D4FC4 /* GPCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPCompany.h; sourceTree = "<group>"; };
+		E0CECFB41E718BDA008D4FC4 /* GPCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPCompany.m; sourceTree = "<group>"; };
+		E0CECFB61E718C99008D4FC4 /* GPConcreteCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPConcreteCompany.h; sourceTree = "<group>"; };
+		E0CECFB71E718C99008D4FC4 /* GPConcreteCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPConcreteCompany.m; sourceTree = "<group>"; };
+		E0CECFB91E719168008D4FC4 /* GPHRDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHRDepartment.h; sourceTree = "<group>"; };
+		E0CECFBA1E719168008D4FC4 /* GPHRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHRDepartment.m; sourceTree = "<group>"; };
+		E0CECFBC1E719204008D4FC4 /* GPFinanceDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFinanceDepartment.h; sourceTree = "<group>"; };
+		E0CECFBD1E719204008D4FC4 /* GPFinanceDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFinanceDepartment.m; sourceTree = "<group>"; };
+		E0CECFBF1E7192C1008D4FC4 /* GPThirteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPThirteenViewController.h; sourceTree = "<group>"; };
+		E0CECFC01E7192C1008D4FC4 /* GPThirteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPThirteenViewController.m; sourceTree = "<group>"; };
+		E0CECFC21E719436008D4FC4 /* GPThirteenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPThirteenViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -656,6 +673,7 @@
 				AC8496181E68469A00EDF062 /* 10-状态模式 */,
 				E0CB3D721E6EDC5D00DC7564 /* 11-适配器模式 */,
 				E04E04FF1E7029CF007928C3 /* 12-备忘录模式 */,
+				E0CECFB21E7186C4008D4FC4 /* 13-组合模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -941,6 +959,24 @@
 			name = "11-适配器模式";
 			sourceTree = "<group>";
 		};
+		E0CECFB21E7186C4008D4FC4 /* 13-组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E0CECFB31E718BDA008D4FC4 /* GPCompany.h */,
+				E0CECFB41E718BDA008D4FC4 /* GPCompany.m */,
+				E0CECFB61E718C99008D4FC4 /* GPConcreteCompany.h */,
+				E0CECFB71E718C99008D4FC4 /* GPConcreteCompany.m */,
+				E0CECFB91E719168008D4FC4 /* GPHRDepartment.h */,
+				E0CECFBA1E719168008D4FC4 /* GPHRDepartment.m */,
+				E0CECFBC1E719204008D4FC4 /* GPFinanceDepartment.h */,
+				E0CECFBD1E719204008D4FC4 /* GPFinanceDepartment.m */,
+				E0CECFBF1E7192C1008D4FC4 /* GPThirteenViewController.h */,
+				E0CECFC01E7192C1008D4FC4 /* GPThirteenViewController.m */,
+				E0CECFC21E719436008D4FC4 /* GPThirteenViewController.storyboard */,
+			);
+			name = "13-组合模式";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1063,6 +1099,7 @@
 				AC1ADDEA1E60652C00642CC6 /* GPEightViewController.storyboard in Resources */,
 				ACC122131E55E690003BFF09 /* GPTwoViewController.storyboard in Resources */,
 				AC0C49B21E5C6F5500F23D74 /* GPFourViewController.storyboard in Resources */,
+				E0CECFC31E719436008D4FC4 /* GPThirteenViewController.storyboard in Resources */,
 				AC2A72C21E66F72B0036B3C6 /* GPNineViewController.storyboard in Resources */,
 				AC4D4C001E51EA7B0057CBBE /* SVProgressHUD.bundle in Resources */,
 			);
@@ -1103,14 +1140,18 @@
 				ACE416081E5331AC00752695 /* IQUIScrollView+Additions.m in Sources */,
 				ACC122081E55DD21003BFF09 /* GPCashRebate.m in Sources */,
 				ACE416131E5331AD00752695 /* IQToolbar.m in Sources */,
+				E0CECFBE1E719204008D4FC4 /* GPFinanceDepartment.m in Sources */,
 				E0CB3D861E6EDF3F00DC7564 /* GPTranslator.m in Sources */,
 				E0CB3D831E6EDE6F00DC7564 /* GPForeignCenter.m in Sources */,
+				E0CECFBB1E719168008D4FC4 /* GPHRDepartment.m in Sources */,
+				E0CECFC11E7192C1008D4FC4 /* GPThirteenViewController.m in Sources */,
 				E04E050D1E702E8E007928C3 /* GPRoleStateCaretaker.m in Sources */,
 				AC0C49591E5B1B8E00F23D74 /* GPFinery.m in Sources */,
 				ACE4160C1E5331AD00752695 /* IQUIWindow+Hierarchy.m in Sources */,
 				AC1074AD1E5F0FD100B48FFC /* GPResume.m in Sources */,
 				AC4D4BEA1E51E49C0057CBBE /* GPOperation.m in Sources */,
 				AC84962C1E684DD700EDF062 /* GPAfternoonState.m in Sources */,
+				E0CECFB51E718BDA008D4FC4 /* GPCompany.m in Sources */,
 				AC8496201E6847CC00EDF062 /* GPWork.m in Sources */,
 				ACC122021E55DCF6003BFF09 /* GPCashNormal.m in Sources */,
 				AC2A72DD1E6706870036B3C6 /* GPOperateDepartment.m in Sources */,
@@ -1168,6 +1209,7 @@
 				AC0C49651E5B1F2800F23D74 /* GPThreeViewController.m in Sources */,
 				E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */,
 				E04E05071E702E13007928C3 /* GPGameRoll.m in Sources */,
+				E0CECFB81E718C99008D4FC4 /* GPConcreteCompany.m in Sources */,
 				ACC1220B1E55DD3B003BFF09 /* GPCashReturn.m in Sources */,
 				ACE416101E5331AD00752695 /* IQBarButtonItem.m in Sources */,
 				AC10748A1E5F0DC300B48FFC /* GPWorkExperience.m in Sources */,

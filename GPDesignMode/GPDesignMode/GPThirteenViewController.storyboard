@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZNQ-Se-z1n">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Thirteen View Controller-->
+        <scene sceneID="3l5-n0-PsU">
+            <objects>
+                <viewController id="ZNQ-Se-z1n" customClass="GPThirteenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K4U-o2-FIo"/>
+                        <viewControllerLayoutGuide type="bottom" id="cTW-FL-Fnq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="93u-nH-4xX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Snf-yA-TKY">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <state key="normal" title="职责链"/>
+                                <connections>
+                                    <action selector="dutyBtnClick:" destination="ZNQ-Se-z1n" eventType="touchUpInside" id="8Ax-Hk-Dyh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PD8-E3-5PQ">
+                                <rect key="frame" x="164.5" y="218.5" width="46" height="30"/>
+                                <state key="normal" title="结构图"/>
+                                <connections>
+                                    <action selector="structureBtnClick:" destination="ZNQ-Se-z1n" eventType="touchUpInside" id="Wfu-15-1Yk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PD8-E3-5PQ" firstAttribute="centerY" secondItem="93u-nH-4xX" secondAttribute="centerY" constant="-100" id="3q1-C1-hqo"/>
+                            <constraint firstItem="Snf-yA-TKY" firstAttribute="centerY" secondItem="93u-nH-4xX" secondAttribute="centerY" id="HpM-kw-fBe"/>
+                            <constraint firstItem="Snf-yA-TKY" firstAttribute="centerX" secondItem="93u-nH-4xX" secondAttribute="centerX" id="UPK-U5-Mje"/>
+                            <constraint firstItem="PD8-E3-5PQ" firstAttribute="centerX" secondItem="93u-nH-4xX" secondAttribute="centerX" id="wUc-Y6-d2x"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oti-Xq-xkO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159" y="198"/>
+        </scene>
+    </scenes>
+</document>
