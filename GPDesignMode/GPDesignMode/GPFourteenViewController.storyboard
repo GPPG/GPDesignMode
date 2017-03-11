@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="L9r-Sw-ZtH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Fourteen View Controller-->
+        <scene sceneID="9lY-Kf-jm7">
+            <objects>
+                <viewController id="L9r-Sw-ZtH" customClass="GPFourteenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pAm-vu-vXK"/>
+                        <viewControllerLayoutGuide type="bottom" id="SKK-5W-Xpf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0gB-I7-Pwb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-rg-cp1">
+                                <rect key="frame" x="171.5" y="318" width="31" height="30"/>
+                                <state key="normal" title="单例"/>
+                                <connections>
+                                    <action selector="singletonBtnClick:" destination="L9r-Sw-ZtH" eventType="touchUpInside" id="Ui5-hi-TRn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RxZ-rg-cp1" firstAttribute="centerX" secondItem="0gB-I7-Pwb" secondAttribute="centerX" id="U7R-y1-0bE"/>
+                            <constraint firstItem="RxZ-rg-cp1" firstAttribute="centerY" secondItem="0gB-I7-Pwb" secondAttribute="centerY" id="Udp-ab-5b1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LMz-il-u4V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-399" y="64"/>
+        </scene>
+    </scenes>
+</document>

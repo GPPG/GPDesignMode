@@ -128,6 +128,9 @@
 		E04E05071E702E13007928C3 /* GPGameRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E05061E702E13007928C3 /* GPGameRoll.m */; };
 		E04E050A1E702E6C007928C3 /* GPRoleStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E05091E702E6C007928C3 /* GPRoleStateMemento.m */; };
 		E04E050D1E702E8E007928C3 /* GPRoleStateCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E050C1E702E8E007928C3 /* GPRoleStateCaretaker.m */; };
+		E06197BE1E74114800F62F19 /* GPFourteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197BD1E74114800F62F19 /* GPFourteenViewController.m */; };
+		E06197C01E74115F00F62F19 /* GPFourteenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06197BF1E74115F00F62F19 /* GPFourteenViewController.storyboard */; };
+		E06197C31E7411D000F62F19 /* GPSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197C21E7411D000F62F19 /* GPSingleton.m */; };
 		E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */; };
 		E0CB3D771E6EDCBF00DC7564 /* GPElevenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */; };
 		E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D791E6EDD0400DC7564 /* GPPlayer.m */; };
@@ -396,6 +399,11 @@
 		E04E05091E702E6C007928C3 /* GPRoleStateMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRoleStateMemento.m; sourceTree = "<group>"; };
 		E04E050B1E702E8E007928C3 /* GPRoleStateCaretaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPRoleStateCaretaker.h; sourceTree = "<group>"; };
 		E04E050C1E702E8E007928C3 /* GPRoleStateCaretaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRoleStateCaretaker.m; sourceTree = "<group>"; };
+		E06197BC1E74114800F62F19 /* GPFourteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFourteenViewController.h; sourceTree = "<group>"; };
+		E06197BD1E74114800F62F19 /* GPFourteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFourteenViewController.m; sourceTree = "<group>"; };
+		E06197BF1E74115F00F62F19 /* GPFourteenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPFourteenViewController.storyboard; sourceTree = "<group>"; };
+		E06197C11E7411D000F62F19 /* GPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSingleton.h; sourceTree = "<group>"; };
+		E06197C21E7411D000F62F19 /* GPSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSingleton.m; sourceTree = "<group>"; };
 		E0CB3D731E6EDC9900DC7564 /* GPElevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPElevenViewController.h; sourceTree = "<group>"; };
 		E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPElevenViewController.m; sourceTree = "<group>"; };
 		E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPElevenViewController.storyboard; sourceTree = "<group>"; };
@@ -674,6 +682,7 @@
 				E0CB3D721E6EDC5D00DC7564 /* 11-适配器模式 */,
 				E04E04FF1E7029CF007928C3 /* 12-备忘录模式 */,
 				E0CECFB21E7186C4008D4FC4 /* 13-组合模式 */,
+				E06197BB1E7410F000F62F19 /* 14-单例模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -939,6 +948,18 @@
 			name = "12-备忘录模式";
 			sourceTree = "<group>";
 		};
+		E06197BB1E7410F000F62F19 /* 14-单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E06197BC1E74114800F62F19 /* GPFourteenViewController.h */,
+				E06197BD1E74114800F62F19 /* GPFourteenViewController.m */,
+				E06197BF1E74115F00F62F19 /* GPFourteenViewController.storyboard */,
+				E06197C11E7411D000F62F19 /* GPSingleton.h */,
+				E06197C21E7411D000F62F19 /* GPSingleton.m */,
+			);
+			name = "14-单例模式";
+			sourceTree = "<group>";
+		};
 		E0CB3D721E6EDC5D00DC7564 /* 11-适配器模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1099,6 +1120,7 @@
 				AC1ADDEA1E60652C00642CC6 /* GPEightViewController.storyboard in Resources */,
 				ACC122131E55E690003BFF09 /* GPTwoViewController.storyboard in Resources */,
 				AC0C49B21E5C6F5500F23D74 /* GPFourViewController.storyboard in Resources */,
+				E06197C01E74115F00F62F19 /* GPFourteenViewController.storyboard in Resources */,
 				E0CECFC31E719436008D4FC4 /* GPThirteenViewController.storyboard in Resources */,
 				AC2A72C21E66F72B0036B3C6 /* GPNineViewController.storyboard in Resources */,
 				AC4D4C001E51EA7B0057CBBE /* SVProgressHUD.bundle in Resources */,
@@ -1160,6 +1182,7 @@
 				ACE416111E5331AD00752695 /* IQPreviousNextView.m in Sources */,
 				AC8496321E684DF600EDF062 /* GPSleepState.m in Sources */,
 				AC4D4C051E51EB880057CBBE /* GPOperAtionDiv.m in Sources */,
+				E06197C31E7411D000F62F19 /* GPSingleton.m in Sources */,
 				AC0C49B61E5C70B400F23D74 /* GPBaseViewController.m in Sources */,
 				AC0C49A71E5C6BCC00F23D74 /* GPPursuit.m in Sources */,
 				ACE416071E5331AC00752695 /* IQNSArray+Sort.m in Sources */,
@@ -1229,6 +1252,7 @@
 				AC2A72C91E66FF3E0036B3C6 /* GPSQLDepartment.m in Sources */,
 				AC4D4BF31E51E9A30057CBBE /* GPOperationMul.m in Sources */,
 				E0CB3D801E6EDD5C00DC7564 /* GPCenter.m in Sources */,
+				E06197BE1E74114800F62F19 /* GPFourteenViewController.m in Sources */,
 				AC1074821E5F049C00B48FFC /* GPSixViewController.m in Sources */,
 				AC4D4C021E51EA7B0057CBBE /* SVRadialGradientLayer.m in Sources */,
 				AC1074A71E5F0E0300B48FFC /* NSObject+MJCoding.m in Sources */,
@@ -1334,7 +1358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1376,7 +1400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1391,6 +1415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = GPDesignMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GPYY.com.GPDesignMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1404,6 +1429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = GPDesignMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GPYY.com.GPDesignMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
