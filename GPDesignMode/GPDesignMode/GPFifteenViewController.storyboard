@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="E9p-Tb-rza">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Fifteen View Controller-->
+        <scene sceneID="k3C-Zm-cVY">
+            <objects>
+                <viewController id="E9p-Tb-rza" customClass="GPFifteenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="knj-8I-kNc"/>
+                        <viewControllerLayoutGuide type="bottom" id="BZO-5L-FKe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zct-I8-vQz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZI-In-uiR">
+                                <rect key="frame" x="168" y="319" width="40" height="30"/>
+                                <state key="normal" title="小米6"/>
+                                <connections>
+                                    <action selector="runSoft:" destination="E9p-Tb-rza" eventType="touchUpInside" id="sRn-Em-hVe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4O-xa-cQX">
+                                <rect key="frame" x="168.5" y="228" width="40" height="30"/>
+                                <state key="normal" title="苹果8"/>
+                                <connections>
+                                    <action selector="appleRunSoft:" destination="E9p-Tb-rza" eventType="touchUpInside" id="6F6-ZT-ZIJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dZI-In-uiR" firstAttribute="centerX" secondItem="Zct-I8-vQz" secondAttribute="centerX" id="Uza-fU-0Wa"/>
+                            <constraint firstItem="G4O-xa-cQX" firstAttribute="centerX" secondItem="dZI-In-uiR" secondAttribute="centerX" id="WEI-PB-lak"/>
+                            <constraint firstItem="dZI-In-uiR" firstAttribute="centerY" secondItem="Zct-I8-vQz" secondAttribute="centerY" id="sU9-d0-glh"/>
+                            <constraint firstItem="dZI-In-uiR" firstAttribute="top" secondItem="G4O-xa-cQX" secondAttribute="bottom" constant="61" id="z71-4g-Lzx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cd3-cC-siU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4" y="169"/>
+        </scene>
+    </scenes>
+</document>

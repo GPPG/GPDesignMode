@@ -131,6 +131,14 @@
 		E06197BE1E74114800F62F19 /* GPFourteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197BD1E74114800F62F19 /* GPFourteenViewController.m */; };
 		E06197C01E74115F00F62F19 /* GPFourteenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06197BF1E74115F00F62F19 /* GPFourteenViewController.storyboard */; };
 		E06197C31E7411D000F62F19 /* GPSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197C21E7411D000F62F19 /* GPSingleton.m */; };
+		E06197C71E751FFC00F62F19 /* GPFifteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197C61E751FFC00F62F19 /* GPFifteenViewController.m */; };
+		E06197C91E75200900F62F19 /* GPFifteenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06197C81E75200900F62F19 /* GPFifteenViewController.storyboard */; };
+		E06197CC1E75207800F62F19 /* GPHandSetSoft.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197CB1E75207800F62F19 /* GPHandSetSoft.m */; };
+		E06197CF1E75209E00F62F19 /* GPhandSetGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197CE1E75209E00F62F19 /* GPhandSetGame.m */; };
+		E06197D21E7520D100F62F19 /* GPHandSetAddRessList.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197D11E7520D100F62F19 /* GPHandSetAddRessList.m */; };
+		E06197D51E7520FC00F62F19 /* GPHandSetBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197D41E7520FC00F62F19 /* GPHandSetBrand.m */; };
+		E06197D81E75216800F62F19 /* GPHandSetBrandXiaoMi.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197D71E75216800F62F19 /* GPHandSetBrandXiaoMi.m */; };
+		E06197DB1E7521C700F62F19 /* GPHandSetBrandApple.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197DA1E7521C700F62F19 /* GPHandSetBrandApple.m */; };
 		E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */; };
 		E0CB3D771E6EDCBF00DC7564 /* GPElevenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */; };
 		E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D791E6EDD0400DC7564 /* GPPlayer.m */; };
@@ -404,6 +412,21 @@
 		E06197BF1E74115F00F62F19 /* GPFourteenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPFourteenViewController.storyboard; sourceTree = "<group>"; };
 		E06197C11E7411D000F62F19 /* GPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSingleton.h; sourceTree = "<group>"; };
 		E06197C21E7411D000F62F19 /* GPSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSingleton.m; sourceTree = "<group>"; };
+		E06197C51E751FFC00F62F19 /* GPFifteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFifteenViewController.h; sourceTree = "<group>"; };
+		E06197C61E751FFC00F62F19 /* GPFifteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFifteenViewController.m; sourceTree = "<group>"; };
+		E06197C81E75200900F62F19 /* GPFifteenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPFifteenViewController.storyboard; sourceTree = "<group>"; };
+		E06197CA1E75207800F62F19 /* GPHandSetSoft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHandSetSoft.h; sourceTree = "<group>"; };
+		E06197CB1E75207800F62F19 /* GPHandSetSoft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHandSetSoft.m; sourceTree = "<group>"; };
+		E06197CD1E75209E00F62F19 /* GPhandSetGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPhandSetGame.h; sourceTree = "<group>"; };
+		E06197CE1E75209E00F62F19 /* GPhandSetGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPhandSetGame.m; sourceTree = "<group>"; };
+		E06197D01E7520D100F62F19 /* GPHandSetAddRessList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHandSetAddRessList.h; sourceTree = "<group>"; };
+		E06197D11E7520D100F62F19 /* GPHandSetAddRessList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHandSetAddRessList.m; sourceTree = "<group>"; };
+		E06197D31E7520FC00F62F19 /* GPHandSetBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHandSetBrand.h; sourceTree = "<group>"; };
+		E06197D41E7520FC00F62F19 /* GPHandSetBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHandSetBrand.m; sourceTree = "<group>"; };
+		E06197D61E75216800F62F19 /* GPHandSetBrandXiaoMi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHandSetBrandXiaoMi.h; sourceTree = "<group>"; };
+		E06197D71E75216800F62F19 /* GPHandSetBrandXiaoMi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHandSetBrandXiaoMi.m; sourceTree = "<group>"; };
+		E06197D91E7521C700F62F19 /* GPHandSetBrandApple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHandSetBrandApple.h; sourceTree = "<group>"; };
+		E06197DA1E7521C700F62F19 /* GPHandSetBrandApple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHandSetBrandApple.m; sourceTree = "<group>"; };
 		E0CB3D731E6EDC9900DC7564 /* GPElevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPElevenViewController.h; sourceTree = "<group>"; };
 		E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPElevenViewController.m; sourceTree = "<group>"; };
 		E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPElevenViewController.storyboard; sourceTree = "<group>"; };
@@ -683,6 +706,7 @@
 				E04E04FF1E7029CF007928C3 /* 12-备忘录模式 */,
 				E0CECFB21E7186C4008D4FC4 /* 13-组合模式 */,
 				E06197BB1E7410F000F62F19 /* 14-单例模式 */,
+				E06197C41E741F9900F62F19 /* 15-桥接模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -960,6 +984,28 @@
 			name = "14-单例模式";
 			sourceTree = "<group>";
 		};
+		E06197C41E741F9900F62F19 /* 15-桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E06197C51E751FFC00F62F19 /* GPFifteenViewController.h */,
+				E06197C61E751FFC00F62F19 /* GPFifteenViewController.m */,
+				E06197C81E75200900F62F19 /* GPFifteenViewController.storyboard */,
+				E06197CA1E75207800F62F19 /* GPHandSetSoft.h */,
+				E06197CB1E75207800F62F19 /* GPHandSetSoft.m */,
+				E06197CD1E75209E00F62F19 /* GPhandSetGame.h */,
+				E06197CE1E75209E00F62F19 /* GPhandSetGame.m */,
+				E06197D01E7520D100F62F19 /* GPHandSetAddRessList.h */,
+				E06197D11E7520D100F62F19 /* GPHandSetAddRessList.m */,
+				E06197D31E7520FC00F62F19 /* GPHandSetBrand.h */,
+				E06197D41E7520FC00F62F19 /* GPHandSetBrand.m */,
+				E06197D61E75216800F62F19 /* GPHandSetBrandXiaoMi.h */,
+				E06197D71E75216800F62F19 /* GPHandSetBrandXiaoMi.m */,
+				E06197D91E7521C700F62F19 /* GPHandSetBrandApple.h */,
+				E06197DA1E7521C700F62F19 /* GPHandSetBrandApple.m */,
+			);
+			name = "15-桥接模式";
+			sourceTree = "<group>";
+		};
 		E0CB3D721E6EDC5D00DC7564 /* 11-适配器模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1121,6 +1167,7 @@
 				ACC122131E55E690003BFF09 /* GPTwoViewController.storyboard in Resources */,
 				AC0C49B21E5C6F5500F23D74 /* GPFourViewController.storyboard in Resources */,
 				E06197C01E74115F00F62F19 /* GPFourteenViewController.storyboard in Resources */,
+				E06197C91E75200900F62F19 /* GPFifteenViewController.storyboard in Resources */,
 				E0CECFC31E719436008D4FC4 /* GPThirteenViewController.storyboard in Resources */,
 				AC2A72C21E66F72B0036B3C6 /* GPNineViewController.storyboard in Resources */,
 				AC4D4C001E51EA7B0057CBBE /* SVProgressHUD.bundle in Resources */,
@@ -1159,6 +1206,7 @@
 				AC0C49621E5B1ED700F23D74 /* GPSneakers.m in Sources */,
 				AC4D4C0F1E51F1730057CBBE /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				E0CB3D7D1E6EDD5100DC7564 /* GPForwards.m in Sources */,
+				E06197D81E75216800F62F19 /* GPHandSetBrandXiaoMi.m in Sources */,
 				ACE416081E5331AC00752695 /* IQUIScrollView+Additions.m in Sources */,
 				ACC122081E55DD21003BFF09 /* GPCashRebate.m in Sources */,
 				ACE416131E5331AD00752695 /* IQToolbar.m in Sources */,
@@ -1205,6 +1253,7 @@
 				E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */,
 				AC1ADDF91E60691800642CC6 /* GPPerSonBuilder.m in Sources */,
 				AC8496261E684D7D00EDF062 /* GPForenoonState.m in Sources */,
+				E06197D21E7520D100F62F19 /* GPHandSetAddRessList.m in Sources */,
 				AC1074A61E5F0E0300B48FFC /* NSObject+MJClass.m in Sources */,
 				AC6112B71E5DC5E8001D6FDE /* GPStudent.m in Sources */,
 				ACC121FF1E55D7D9003BFF09 /* GPStrategy.m in Sources */,
@@ -1218,6 +1267,7 @@
 				AC1074A91E5F0E0300B48FFC /* NSObject+MJProperty.m in Sources */,
 				E04E050A1E702E6C007928C3 /* GPRoleStateMemento.m in Sources */,
 				AC1EA4601E5D4403002D3493 /* GPFiveViewController.m in Sources */,
+				E06197CC1E75207800F62F19 /* GPHandSetSoft.m in Sources */,
 				AC4D4BB51E51D94E0057CBBE /* main.m in Sources */,
 				AC4D4C011E51EA7B0057CBBE /* SVProgressHUD.m in Sources */,
 				ACE4160F1E5331AD00752695 /* IQTextView.m in Sources */,
@@ -1239,6 +1289,7 @@
 				AC6112C31E5DC774001D6FDE /* GPVolunteerFactory.m in Sources */,
 				AC1074871E5F0D5200B48FFC /* GPPrototype.m in Sources */,
 				ACC1220E1E55E0BA003BFF09 /* GPCashContext.m in Sources */,
+				E06197C71E751FFC00F62F19 /* GPFifteenViewController.m in Sources */,
 				AC1ADDD81E605DF900642CC6 /* GPSubSystemOne.m in Sources */,
 				ACC122111E55E681003BFF09 /* GPTwoViewController.m in Sources */,
 				AC8496351E684E1C00EDF062 /* GPRestState.m in Sources */,
@@ -1247,8 +1298,10 @@
 				AC1ADDD31E605D8500642CC6 /* GPSevenViewController.m in Sources */,
 				AC1074A51E5F0E0300B48FFC /* MJPropertyType.m in Sources */,
 				AC2A72CE1E67035B0036B3C6 /* GPFMDBUser.m in Sources */,
+				E06197CF1E75209E00F62F19 /* GPhandSetGame.m in Sources */,
 				AC1ADDE81E60651F00642CC6 /* GPEightViewController.m in Sources */,
 				AC2A72D11E6703690036B3C6 /* GPRealmUser.m in Sources */,
+				E06197DB1E7521C700F62F19 /* GPHandSetBrandApple.m in Sources */,
 				AC2A72C91E66FF3E0036B3C6 /* GPSQLDepartment.m in Sources */,
 				AC4D4BF31E51E9A30057CBBE /* GPOperationMul.m in Sources */,
 				E0CB3D801E6EDD5C00DC7564 /* GPCenter.m in Sources */,
@@ -1256,6 +1309,7 @@
 				AC1074821E5F049C00B48FFC /* GPSixViewController.m in Sources */,
 				AC4D4C021E51EA7B0057CBBE /* SVRadialGradientLayer.m in Sources */,
 				AC1074A71E5F0E0300B48FFC /* NSObject+MJCoding.m in Sources */,
+				E06197D51E7520FC00F62F19 /* GPHandSetBrand.m in Sources */,
 				AC4D4C081E51ED860057CBBE /* GPOperationFactory.m in Sources */,
 				AC1ADDDB1E605E0C00642CC6 /* GPSubSystemTwo.m in Sources */,
 				AC1ADDF41E6067CE00642CC6 /* GPPersonFatBuilder.m in Sources */,
