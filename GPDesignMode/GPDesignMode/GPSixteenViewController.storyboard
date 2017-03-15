@@ -20,12 +20,34 @@
                     <view key="view" contentMode="scaleToFill" id="YxT-Uf-jhK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TT-2u-whD">
+                                <rect key="frame" x="156" y="318" width="62" height="30"/>
+                                <state key="normal" title="烤大鸡翅"/>
+                                <connections>
+                                    <action selector="barkChickBtnClick:" destination="epe-at-uDM" eventType="touchUpInside" id="14B-pH-4kE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uR8-Ze-h6u">
+                                <rect key="frame" x="156" y="212" width="62" height="30"/>
+                                <state key="normal" title="烤羊肉串"/>
+                                <connections>
+                                    <action selector="barkMuttonBtnClick:" destination="epe-at-uDM" eventType="touchUpInside" id="AVk-ZM-4SL"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5TT-2u-whD" firstAttribute="centerY" secondItem="YxT-Uf-jhK" secondAttribute="centerY" id="16p-tk-PCU"/>
+                            <constraint firstItem="5TT-2u-whD" firstAttribute="centerX" secondItem="YxT-Uf-jhK" secondAttribute="centerX" id="ETT-9j-NZl"/>
+                            <constraint firstItem="5TT-2u-whD" firstAttribute="top" secondItem="uR8-Ze-h6u" secondAttribute="bottom" constant="76" id="VcE-Q8-DUG"/>
+                            <constraint firstItem="uR8-Ze-h6u" firstAttribute="leading" secondItem="5TT-2u-whD" secondAttribute="leading" id="mRr-7I-94T"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CAv-59-o5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="94" y="120"/>
+            <point key="canvasLocation" x="-158" y="109"/>
         </scene>
     </scenes>
 </document>

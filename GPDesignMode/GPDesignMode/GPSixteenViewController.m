@@ -7,8 +7,14 @@
 //
 
 #import "GPSixteenViewController.h"
+#import "GPBarbecuer.h"
+#import "GPBakeMuttonCommand.h"
+#import "GPBakeChickenWingCommand.h"
+#import "GPWaiter.h"
 
 @interface GPSixteenViewController ()
+- (IBAction)barkMuttonBtnClick:(id)sender;
+- (IBAction)barkChickBtnClick:(id)sender;
 
 @end
 
@@ -16,22 +22,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)barkMuttonBtnClick:(id)sender {
+    GPBarbecuer *barbecuer = [[GPBarbecuer alloc]init];
+    GPWaiter *waiter = [[GPWaiter alloc]init];
+    GPCommand *bakeMuttonCommand = [[GPBakeMuttonCommand alloc]initWithBarbecuer:barbecuer];
+    for (int i = 0; i < 100; i ++) {
+        [waiter setOrder:bakeMuttonCommand];
+    }
+    [waiter notify];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)barkChickBtnClick:(id)sender {
+    GPBarbecuer *barbecuer = [[GPBarbecuer alloc]init];
+    GPWaiter *waiter = [[GPWaiter alloc]init];
+    GPCommand *bakeChickenCommand = [[GPBakeChickenWingCommand alloc]initWithBarbecuer:barbecuer];
+    for (int i = 0; i < 10; i ++) {
+        [waiter setOrder:bakeChickenCommand];
+    }
+    [waiter notify];
 }
-*/
-
 @end

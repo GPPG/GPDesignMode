@@ -128,6 +128,11 @@
 		E04E05071E702E13007928C3 /* GPGameRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E05061E702E13007928C3 /* GPGameRoll.m */; };
 		E04E050A1E702E6C007928C3 /* GPRoleStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E05091E702E6C007928C3 /* GPRoleStateMemento.m */; };
 		E04E050D1E702E8E007928C3 /* GPRoleStateCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E050C1E702E8E007928C3 /* GPRoleStateCaretaker.m */; };
+		E0507AE11E796CA80010EB2F /* GPBarbecuer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0507AE01E796CA80010EB2F /* GPBarbecuer.m */; };
+		E0507AE41E796D6F0010EB2F /* GPCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E0507AE31E796D6F0010EB2F /* GPCommand.m */; };
+		E0507AE71E796DCB0010EB2F /* GPBakeMuttonCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E0507AE61E796DCB0010EB2F /* GPBakeMuttonCommand.m */; };
+		E0507AEA1E796DE60010EB2F /* GPBakeChickenWingCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E0507AE91E796DE60010EB2F /* GPBakeChickenWingCommand.m */; };
+		E0507AED1E796F580010EB2F /* GPWaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0507AEC1E796F580010EB2F /* GPWaiter.m */; };
 		E06197BE1E74114800F62F19 /* GPFourteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197BD1E74114800F62F19 /* GPFourteenViewController.m */; };
 		E06197C01E74115F00F62F19 /* GPFourteenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06197BF1E74115F00F62F19 /* GPFourteenViewController.storyboard */; };
 		E06197C31E7411D000F62F19 /* GPSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197C21E7411D000F62F19 /* GPSingleton.m */; };
@@ -409,6 +414,16 @@
 		E04E05091E702E6C007928C3 /* GPRoleStateMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRoleStateMemento.m; sourceTree = "<group>"; };
 		E04E050B1E702E8E007928C3 /* GPRoleStateCaretaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPRoleStateCaretaker.h; sourceTree = "<group>"; };
 		E04E050C1E702E8E007928C3 /* GPRoleStateCaretaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRoleStateCaretaker.m; sourceTree = "<group>"; };
+		E0507ADF1E796CA80010EB2F /* GPBarbecuer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBarbecuer.h; sourceTree = "<group>"; };
+		E0507AE01E796CA80010EB2F /* GPBarbecuer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBarbecuer.m; sourceTree = "<group>"; };
+		E0507AE21E796D6F0010EB2F /* GPCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPCommand.h; sourceTree = "<group>"; };
+		E0507AE31E796D6F0010EB2F /* GPCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPCommand.m; sourceTree = "<group>"; };
+		E0507AE51E796DCB0010EB2F /* GPBakeMuttonCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBakeMuttonCommand.h; sourceTree = "<group>"; };
+		E0507AE61E796DCB0010EB2F /* GPBakeMuttonCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBakeMuttonCommand.m; sourceTree = "<group>"; };
+		E0507AE81E796DE60010EB2F /* GPBakeChickenWingCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBakeChickenWingCommand.h; sourceTree = "<group>"; };
+		E0507AE91E796DE60010EB2F /* GPBakeChickenWingCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBakeChickenWingCommand.m; sourceTree = "<group>"; };
+		E0507AEB1E796F580010EB2F /* GPWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPWaiter.h; sourceTree = "<group>"; };
+		E0507AEC1E796F580010EB2F /* GPWaiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPWaiter.m; sourceTree = "<group>"; };
 		E06197BC1E74114800F62F19 /* GPFourteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFourteenViewController.h; sourceTree = "<group>"; };
 		E06197BD1E74114800F62F19 /* GPFourteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFourteenViewController.m; sourceTree = "<group>"; };
 		E06197BF1E74115F00F62F19 /* GPFourteenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPFourteenViewController.storyboard; sourceTree = "<group>"; };
@@ -1018,6 +1033,16 @@
 				E06197DC1E75243A00F62F19 /* GPSixteenViewController.h */,
 				E06197DD1E75243A00F62F19 /* GPSixteenViewController.m */,
 				E06197E01E75248200F62F19 /* GPSixteenViewController.storyboard */,
+				E0507ADF1E796CA80010EB2F /* GPBarbecuer.h */,
+				E0507AE01E796CA80010EB2F /* GPBarbecuer.m */,
+				E0507AE21E796D6F0010EB2F /* GPCommand.h */,
+				E0507AE31E796D6F0010EB2F /* GPCommand.m */,
+				E0507AE51E796DCB0010EB2F /* GPBakeMuttonCommand.h */,
+				E0507AE61E796DCB0010EB2F /* GPBakeMuttonCommand.m */,
+				E0507AE81E796DE60010EB2F /* GPBakeChickenWingCommand.h */,
+				E0507AE91E796DE60010EB2F /* GPBakeChickenWingCommand.m */,
+				E0507AEB1E796F580010EB2F /* GPWaiter.h */,
+				E0507AEC1E796F580010EB2F /* GPWaiter.m */,
 			);
 			name = "16-命令模式";
 			sourceTree = "<group>";
@@ -1248,6 +1273,7 @@
 				AC8496321E684DF600EDF062 /* GPSleepState.m in Sources */,
 				AC4D4C051E51EB880057CBBE /* GPOperAtionDiv.m in Sources */,
 				E06197C31E7411D000F62F19 /* GPSingleton.m in Sources */,
+				E0507AE41E796D6F0010EB2F /* GPCommand.m in Sources */,
 				AC0C49B61E5C70B400F23D74 /* GPBaseViewController.m in Sources */,
 				AC0C49A71E5C6BCC00F23D74 /* GPPursuit.m in Sources */,
 				ACE416071E5331AC00752695 /* IQNSArray+Sort.m in Sources */,
@@ -1283,9 +1309,11 @@
 				AC0C49B01E5C6F4B00F23D74 /* GPFourViewController.m in Sources */,
 				ACE415DF1E532F6200752695 /* GPOneViewController.m in Sources */,
 				AC1074A91E5F0E0300B48FFC /* NSObject+MJProperty.m in Sources */,
+				E0507AEA1E796DE60010EB2F /* GPBakeChickenWingCommand.m in Sources */,
 				E04E050A1E702E6C007928C3 /* GPRoleStateMemento.m in Sources */,
 				AC1EA4601E5D4403002D3493 /* GPFiveViewController.m in Sources */,
 				E06197CC1E75207800F62F19 /* GPHandSetSoft.m in Sources */,
+				E0507AE71E796DCB0010EB2F /* GPBakeMuttonCommand.m in Sources */,
 				AC4D4BB51E51D94E0057CBBE /* main.m in Sources */,
 				AC4D4C011E51EA7B0057CBBE /* SVProgressHUD.m in Sources */,
 				ACE4160F1E5331AD00752695 /* IQTextView.m in Sources */,
@@ -1297,6 +1325,7 @@
 				AC6112BD1E5DC6DD001D6FDE /* GPLFactory.m in Sources */,
 				AC1074AA1E5F0E0300B48FFC /* NSString+MJExtension.m in Sources */,
 				AC1ADDF71E6068B800642CC6 /* GPDirector.m in Sources */,
+				E0507AE11E796CA80010EB2F /* GPBarbecuer.m in Sources */,
 				AC0C49651E5B1F2800F23D74 /* GPThreeViewController.m in Sources */,
 				E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */,
 				E04E05071E702E13007928C3 /* GPGameRoll.m in Sources */,
@@ -1312,6 +1341,7 @@
 				ACC122111E55E681003BFF09 /* GPTwoViewController.m in Sources */,
 				AC8496351E684E1C00EDF062 /* GPRestState.m in Sources */,
 				AC84962F1E684DE500EDF062 /* GPEventState.m in Sources */,
+				E0507AED1E796F580010EB2F /* GPWaiter.m in Sources */,
 				ACE4160B1E5331AC00752695 /* IQUIViewController+Additions.m in Sources */,
 				AC1ADDD31E605D8500642CC6 /* GPSevenViewController.m in Sources */,
 				AC1074A51E5F0E0300B48FFC /* MJPropertyType.m in Sources */,
