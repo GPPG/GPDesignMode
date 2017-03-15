@@ -139,6 +139,8 @@
 		E06197D51E7520FC00F62F19 /* GPHandSetBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197D41E7520FC00F62F19 /* GPHandSetBrand.m */; };
 		E06197D81E75216800F62F19 /* GPHandSetBrandXiaoMi.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197D71E75216800F62F19 /* GPHandSetBrandXiaoMi.m */; };
 		E06197DB1E7521C700F62F19 /* GPHandSetBrandApple.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197DA1E7521C700F62F19 /* GPHandSetBrandApple.m */; };
+		E06197DE1E75243A00F62F19 /* GPSixteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197DD1E75243A00F62F19 /* GPSixteenViewController.m */; };
+		E06197E11E75248200F62F19 /* GPSixteenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06197E01E75248200F62F19 /* GPSixteenViewController.storyboard */; };
 		E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */; };
 		E0CB3D771E6EDCBF00DC7564 /* GPElevenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */; };
 		E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D791E6EDD0400DC7564 /* GPPlayer.m */; };
@@ -427,6 +429,9 @@
 		E06197D71E75216800F62F19 /* GPHandSetBrandXiaoMi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHandSetBrandXiaoMi.m; sourceTree = "<group>"; };
 		E06197D91E7521C700F62F19 /* GPHandSetBrandApple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHandSetBrandApple.h; sourceTree = "<group>"; };
 		E06197DA1E7521C700F62F19 /* GPHandSetBrandApple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHandSetBrandApple.m; sourceTree = "<group>"; };
+		E06197DC1E75243A00F62F19 /* GPSixteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSixteenViewController.h; sourceTree = "<group>"; };
+		E06197DD1E75243A00F62F19 /* GPSixteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSixteenViewController.m; sourceTree = "<group>"; };
+		E06197E01E75248200F62F19 /* GPSixteenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPSixteenViewController.storyboard; sourceTree = "<group>"; };
 		E0CB3D731E6EDC9900DC7564 /* GPElevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPElevenViewController.h; sourceTree = "<group>"; };
 		E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPElevenViewController.m; sourceTree = "<group>"; };
 		E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPElevenViewController.storyboard; sourceTree = "<group>"; };
@@ -707,6 +712,7 @@
 				E0CECFB21E7186C4008D4FC4 /* 13-组合模式 */,
 				E06197BB1E7410F000F62F19 /* 14-单例模式 */,
 				E06197C41E741F9900F62F19 /* 15-桥接模式 */,
+				E06197DF1E75243F00F62F19 /* 16-命令模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -1006,6 +1012,16 @@
 			name = "15-桥接模式";
 			sourceTree = "<group>";
 		};
+		E06197DF1E75243F00F62F19 /* 16-命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E06197DC1E75243A00F62F19 /* GPSixteenViewController.h */,
+				E06197DD1E75243A00F62F19 /* GPSixteenViewController.m */,
+				E06197E01E75248200F62F19 /* GPSixteenViewController.storyboard */,
+			);
+			name = "16-命令模式";
+			sourceTree = "<group>";
+		};
 		E0CB3D721E6EDC5D00DC7564 /* 11-适配器模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1163,6 +1179,7 @@
 				AC4D4BC01E51D94E0057CBBE /* Assets.xcassets in Resources */,
 				AC4D4BBE1E51D94E0057CBBE /* Main.storyboard in Resources */,
 				E04E05041E702A0B007928C3 /* GPTwelveViewController.storyboard in Resources */,
+				E06197E11E75248200F62F19 /* GPSixteenViewController.storyboard in Resources */,
 				AC1ADDEA1E60652C00642CC6 /* GPEightViewController.storyboard in Resources */,
 				ACC122131E55E690003BFF09 /* GPTwoViewController.storyboard in Resources */,
 				AC0C49B21E5C6F5500F23D74 /* GPFourViewController.storyboard in Resources */,
@@ -1257,6 +1274,7 @@
 				AC1074A61E5F0E0300B48FFC /* NSObject+MJClass.m in Sources */,
 				AC6112B71E5DC5E8001D6FDE /* GPStudent.m in Sources */,
 				ACC121FF1E55D7D9003BFF09 /* GPStrategy.m in Sources */,
+				E06197DE1E75243A00F62F19 /* GPSixteenViewController.m in Sources */,
 				AC4D4BB81E51D94E0057CBBE /* AppDelegate.m in Sources */,
 				AC0C49561E5B17B000F23D74 /* GPPerson.m in Sources */,
 				AC1ADDE41E605E4A00642CC6 /* GPFacade.m in Sources */,
