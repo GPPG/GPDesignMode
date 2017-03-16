@@ -34,7 +34,6 @@
     self.work = [[GPWork alloc]init];
 }
 
-
 - (IBAction)nBtnClick:(id)sender {
     self.work.hour = 9;
     [self.work writeProgram];

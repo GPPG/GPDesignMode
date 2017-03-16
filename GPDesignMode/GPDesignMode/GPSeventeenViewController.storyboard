@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RfI-1c-8pe">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Seventeen View Controller-->
+        <scene sceneID="bVa-sP-ZP5">
+            <objects>
+                <viewController id="RfI-1c-8pe" customClass="GPSeventeenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V31-eM-n9L"/>
+                        <viewControllerLayoutGuide type="bottom" id="BVd-Rl-N2C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UpL-Dm-med">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xb-e4-5ez">
+                                <rect key="frame" x="159" y="318" width="68" height="30"/>
+                                <state key="normal" title="加薪2000"/>
+                                <connections>
+                                    <action selector="jiaxinOneBtnClick:" destination="RfI-1c-8pe" eventType="touchUpInside" id="zyh-Kv-fNJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzY-vy-Fz1">
+                                <rect key="frame" x="159" y="231" width="56" height="30"/>
+                                <state key="normal" title="请假3天"/>
+                                <connections>
+                                    <action selector="qingjiaBtnClick:" destination="RfI-1c-8pe" eventType="touchUpInside" id="yZg-17-S0r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcr-22-XvW">
+                                <rect key="frame" x="159" y="393" width="68" height="30"/>
+                                <state key="normal" title="加薪3000"/>
+                                <connections>
+                                    <action selector="jiaxinTwoBtnClick:" destination="RfI-1c-8pe" eventType="touchUpInside" id="xKd-Sm-cgj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DzY-vy-Fz1" firstAttribute="leading" secondItem="3xb-e4-5ez" secondAttribute="leading" id="3I9-Xj-Ptk"/>
+                            <constraint firstItem="DzY-vy-Fz1" firstAttribute="centerX" secondItem="UpL-Dm-med" secondAttribute="centerX" id="KCy-no-oOB"/>
+                            <constraint firstItem="3xb-e4-5ez" firstAttribute="centerY" secondItem="UpL-Dm-med" secondAttribute="centerY" id="Shl-Rt-8e5"/>
+                            <constraint firstItem="3xb-e4-5ez" firstAttribute="top" secondItem="DzY-vy-Fz1" secondAttribute="bottom" constant="57" id="iae-Vd-i6j"/>
+                            <constraint firstItem="3xb-e4-5ez" firstAttribute="leading" secondItem="wcr-22-XvW" secondAttribute="leading" id="lkO-fs-dS2"/>
+                            <constraint firstItem="wcr-22-XvW" firstAttribute="top" secondItem="3xb-e4-5ez" secondAttribute="bottom" constant="45" id="n2A-HJ-VYt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nma-yd-QSk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="-367"/>
+        </scene>
+    </scenes>
+</document>
