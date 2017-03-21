@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Q5n-0G-FuI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Eighteen View Controller-->
+        <scene sceneID="4df-Je-I4J">
+            <objects>
+                <viewController id="Q5n-0G-FuI" customClass="GPEighteenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oym-iY-ujf"/>
+                        <viewControllerLayoutGuide type="bottom" id="w14-8n-VNc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UUZ-xu-dZV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cx5-Bk-N7c">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <state key="normal" title="打仗了"/>
+                                <connections>
+                                    <action selector="onFireBtnClick:" destination="Q5n-0G-FuI" eventType="touchUpInside" id="gu7-rI-lA5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cx5-Bk-N7c" firstAttribute="centerX" secondItem="UUZ-xu-dZV" secondAttribute="centerX" id="IfS-UJ-Dhh"/>
+                            <constraint firstItem="cx5-Bk-N7c" firstAttribute="centerY" secondItem="UUZ-xu-dZV" secondAttribute="centerY" id="OHC-b8-srm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gvc-fh-ADo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159" y="-579"/>
+        </scene>
+    </scenes>
+</document>
