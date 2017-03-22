@@ -162,6 +162,10 @@
 		E06197E11E75248200F62F19 /* GPSixteenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06197E01E75248200F62F19 /* GPSixteenViewController.storyboard */; };
 		E0A7FFDD1E82C3FA00B6A2A3 /* GPNineteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A7FFDC1E82C3FA00B6A2A3 /* GPNineteenViewController.m */; };
 		E0A7FFDF1E82C40900B6A2A3 /* GPNineteenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A7FFDE1E82C40900B6A2A3 /* GPNineteenViewController.storyboard */; };
+		E0A7FFE21E82C49700B6A2A3 /* GPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A7FFE11E82C49700B6A2A3 /* GPUser.m */; };
+		E0A7FFE51E82C4CA00B6A2A3 /* GPWebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A7FFE41E82C4CA00B6A2A3 /* GPWebSite.m */; };
+		E0A7FFE81E82C53D00B6A2A3 /* GPConcreteWebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A7FFE71E82C53D00B6A2A3 /* GPConcreteWebSite.m */; };
+		E0A7FFEB1E82C5C800B6A2A3 /* GPWebSiteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A7FFEA1E82C5C800B6A2A3 /* GPWebSiteFactory.m */; };
 		E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */; };
 		E0CB3D771E6EDCBF00DC7564 /* GPElevenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */; };
 		E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D791E6EDD0400DC7564 /* GPPlayer.m */; };
@@ -492,6 +496,14 @@
 		E0A7FFDB1E82C3FA00B6A2A3 /* GPNineteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNineteenViewController.h; sourceTree = "<group>"; };
 		E0A7FFDC1E82C3FA00B6A2A3 /* GPNineteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNineteenViewController.m; sourceTree = "<group>"; };
 		E0A7FFDE1E82C40900B6A2A3 /* GPNineteenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPNineteenViewController.storyboard; sourceTree = "<group>"; };
+		E0A7FFE01E82C49700B6A2A3 /* GPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUser.h; sourceTree = "<group>"; };
+		E0A7FFE11E82C49700B6A2A3 /* GPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUser.m; sourceTree = "<group>"; };
+		E0A7FFE31E82C4CA00B6A2A3 /* GPWebSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPWebSite.h; sourceTree = "<group>"; };
+		E0A7FFE41E82C4CA00B6A2A3 /* GPWebSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPWebSite.m; sourceTree = "<group>"; };
+		E0A7FFE61E82C53D00B6A2A3 /* GPConcreteWebSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPConcreteWebSite.h; sourceTree = "<group>"; };
+		E0A7FFE71E82C53D00B6A2A3 /* GPConcreteWebSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPConcreteWebSite.m; sourceTree = "<group>"; };
+		E0A7FFE91E82C5C800B6A2A3 /* GPWebSiteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPWebSiteFactory.h; sourceTree = "<group>"; };
+		E0A7FFEA1E82C5C800B6A2A3 /* GPWebSiteFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPWebSiteFactory.m; sourceTree = "<group>"; };
 		E0CB3D731E6EDC9900DC7564 /* GPElevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPElevenViewController.h; sourceTree = "<group>"; };
 		E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPElevenViewController.m; sourceTree = "<group>"; };
 		E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPElevenViewController.storyboard; sourceTree = "<group>"; };
@@ -1141,6 +1153,14 @@
 				E0A7FFDB1E82C3FA00B6A2A3 /* GPNineteenViewController.h */,
 				E0A7FFDC1E82C3FA00B6A2A3 /* GPNineteenViewController.m */,
 				E0A7FFDE1E82C40900B6A2A3 /* GPNineteenViewController.storyboard */,
+				E0A7FFE01E82C49700B6A2A3 /* GPUser.h */,
+				E0A7FFE11E82C49700B6A2A3 /* GPUser.m */,
+				E0A7FFE31E82C4CA00B6A2A3 /* GPWebSite.h */,
+				E0A7FFE41E82C4CA00B6A2A3 /* GPWebSite.m */,
+				E0A7FFE61E82C53D00B6A2A3 /* GPConcreteWebSite.h */,
+				E0A7FFE71E82C53D00B6A2A3 /* GPConcreteWebSite.m */,
+				E0A7FFE91E82C5C800B6A2A3 /* GPWebSiteFactory.h */,
+				E0A7FFEA1E82C5C800B6A2A3 /* GPWebSiteFactory.m */,
 			);
 			name = "19-亨元模式";
 			sourceTree = "<group>";
@@ -1353,8 +1373,10 @@
 				E0CB3D7D1E6EDD5100DC7564 /* GPForwards.m in Sources */,
 				E06197D81E75216800F62F19 /* GPHandSetBrandXiaoMi.m in Sources */,
 				ACE416081E5331AC00752695 /* IQUIScrollView+Additions.m in Sources */,
+				E0A7FFE81E82C53D00B6A2A3 /* GPConcreteWebSite.m in Sources */,
 				ACC122081E55DD21003BFF09 /* GPCashRebate.m in Sources */,
 				ACE416131E5331AD00752695 /* IQToolbar.m in Sources */,
+				E0A7FFE21E82C49700B6A2A3 /* GPUser.m in Sources */,
 				E0CECFBE1E719204008D4FC4 /* GPFinanceDepartment.m in Sources */,
 				E0575FE81E7AC44500FB7E19 /* GPManger.m in Sources */,
 				E0CB3D861E6EDF3F00DC7564 /* GPTranslator.m in Sources */,
@@ -1379,6 +1401,7 @@
 				AC8496321E684DF600EDF062 /* GPSleepState.m in Sources */,
 				AC4D4C051E51EB880057CBBE /* GPOperAtionDiv.m in Sources */,
 				E06197C31E7411D000F62F19 /* GPSingleton.m in Sources */,
+				E0A7FFEB1E82C5C800B6A2A3 /* GPWebSiteFactory.m in Sources */,
 				E0507AE41E796D6F0010EB2F /* GPCommand.m in Sources */,
 				AC0C49B61E5C70B400F23D74 /* GPBaseViewController.m in Sources */,
 				AC0C49A71E5C6BCC00F23D74 /* GPPursuit.m in Sources */,
@@ -1401,6 +1424,7 @@
 				AC4D4BFE1E51EA7B0057CBBE /* SVIndefiniteAnimatedView.m in Sources */,
 				AC84961B1E68472E00EDF062 /* GPTenViewController.m in Sources */,
 				E04E05021E7029FB007928C3 /* GPTwelveViewController.m in Sources */,
+				E0A7FFE51E82C4CA00B6A2A3 /* GPWebSite.m in Sources */,
 				ACE4160D1E5331AD00752695 /* IQKeyboardManager.m in Sources */,
 				E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */,
 				AC1ADDF91E60691800642CC6 /* GPPerSonBuilder.m in Sources */,
