@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GPWebSite.h"
 
 @interface GPWebSiteFactory : NSObject
+
+- (GPWebSite *)getWebSiteCategory:(NSString *)webKey;
+- (NSInteger)getWebSiteCount;
 
 @end
