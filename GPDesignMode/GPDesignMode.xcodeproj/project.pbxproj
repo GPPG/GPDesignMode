@@ -160,6 +160,8 @@
 		E06197DB1E7521C700F62F19 /* GPHandSetBrandApple.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197DA1E7521C700F62F19 /* GPHandSetBrandApple.m */; };
 		E06197DE1E75243A00F62F19 /* GPSixteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06197DD1E75243A00F62F19 /* GPSixteenViewController.m */; };
 		E06197E11E75248200F62F19 /* GPSixteenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06197E01E75248200F62F19 /* GPSixteenViewController.storyboard */; };
+		E0A7FFDD1E82C3FA00B6A2A3 /* GPNineteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A7FFDC1E82C3FA00B6A2A3 /* GPNineteenViewController.m */; };
+		E0A7FFDF1E82C40900B6A2A3 /* GPNineteenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A7FFDE1E82C40900B6A2A3 /* GPNineteenViewController.storyboard */; };
 		E0CB3D751E6EDC9900DC7564 /* GPElevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */; };
 		E0CB3D771E6EDCBF00DC7564 /* GPElevenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */; };
 		E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CB3D791E6EDD0400DC7564 /* GPPlayer.m */; };
@@ -487,6 +489,9 @@
 		E06197DC1E75243A00F62F19 /* GPSixteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSixteenViewController.h; sourceTree = "<group>"; };
 		E06197DD1E75243A00F62F19 /* GPSixteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSixteenViewController.m; sourceTree = "<group>"; };
 		E06197E01E75248200F62F19 /* GPSixteenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPSixteenViewController.storyboard; sourceTree = "<group>"; };
+		E0A7FFDB1E82C3FA00B6A2A3 /* GPNineteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNineteenViewController.h; sourceTree = "<group>"; };
+		E0A7FFDC1E82C3FA00B6A2A3 /* GPNineteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNineteenViewController.m; sourceTree = "<group>"; };
+		E0A7FFDE1E82C40900B6A2A3 /* GPNineteenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPNineteenViewController.storyboard; sourceTree = "<group>"; };
 		E0CB3D731E6EDC9900DC7564 /* GPElevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPElevenViewController.h; sourceTree = "<group>"; };
 		E0CB3D741E6EDC9900DC7564 /* GPElevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPElevenViewController.m; sourceTree = "<group>"; };
 		E0CB3D761E6EDCBF00DC7564 /* GPElevenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPElevenViewController.storyboard; sourceTree = "<group>"; };
@@ -770,6 +775,7 @@
 				E06197DF1E75243F00F62F19 /* 16-命令模式 */,
 				E0575FE51E7AC3A700FB7E19 /* 17-职责链模式 */,
 				E03E1EB11E815FC100940801 /* 18-中介者模式 */,
+				E0A7FFDA1E82C3CB00B6A2A3 /* 19-亨元模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -1129,6 +1135,16 @@
 			name = "16-命令模式";
 			sourceTree = "<group>";
 		};
+		E0A7FFDA1E82C3CB00B6A2A3 /* 19-亨元模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7FFDB1E82C3FA00B6A2A3 /* GPNineteenViewController.h */,
+				E0A7FFDC1E82C3FA00B6A2A3 /* GPNineteenViewController.m */,
+				E0A7FFDE1E82C40900B6A2A3 /* GPNineteenViewController.storyboard */,
+			);
+			name = "19-亨元模式";
+			sourceTree = "<group>";
+		};
 		E0CB3D721E6EDC5D00DC7564 /* 11-适配器模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1296,6 +1312,7 @@
 				E06197C91E75200900F62F19 /* GPFifteenViewController.storyboard in Resources */,
 				E0CECFC31E719436008D4FC4 /* GPThirteenViewController.storyboard in Resources */,
 				AC2A72C21E66F72B0036B3C6 /* GPNineViewController.storyboard in Resources */,
+				E0A7FFDF1E82C40900B6A2A3 /* GPNineteenViewController.storyboard in Resources */,
 				AC4D4C001E51EA7B0057CBBE /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1404,6 +1421,7 @@
 				AC1074A91E5F0E0300B48FFC /* NSObject+MJProperty.m in Sources */,
 				E0507AEA1E796DE60010EB2F /* GPBakeChickenWingCommand.m in Sources */,
 				E04E050A1E702E6C007928C3 /* GPRoleStateMemento.m in Sources */,
+				E0A7FFDD1E82C3FA00B6A2A3 /* GPNineteenViewController.m in Sources */,
 				AC1EA4601E5D4403002D3493 /* GPFiveViewController.m in Sources */,
 				E06197CC1E75207800F62F19 /* GPHandSetSoft.m in Sources */,
 				E0507AE71E796DCB0010EB2F /* GPBakeMuttonCommand.m in Sources */,
