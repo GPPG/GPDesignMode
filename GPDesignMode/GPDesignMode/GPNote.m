@@ -17,7 +17,7 @@
 - (void)excute:(NSString *)key plValue:(NSInteger)value
 {
     NSString *note = self.noteDic[key];
-    NSLog(@"音符:%@",note);
+    NSLog(@"%@",note);
 }
 - (NSDictionary *)noteDic
 {

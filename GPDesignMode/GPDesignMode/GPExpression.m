@@ -17,7 +17,7 @@
     }else{
         
         NSString *playKey = [contecxt.playText substringToIndex:1];
-        NSString *plValueStr = [contecxt.playText substringWithRange:NSMakeRange(1, 2)];
+        NSString *plValueStr = [contecxt.playText substringWithRange:NSMakeRange(1, contecxt.playText.length - 1)];
         NSInteger plValue = [plValueStr integerValue];
         contecxt.playText = [contecxt.playText substringFromIndex:2];
         [self excute:playKey plValue:plValue];

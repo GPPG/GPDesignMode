@@ -140,6 +140,7 @@
 		E0503A0C1E8414EA0077D206 /* GPPlayContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E0503A0B1E8414EA0077D206 /* GPPlayContext.m */; };
 		E0503A0F1E8415250077D206 /* GPExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = E0503A0E1E8415250077D206 /* GPExpression.m */; };
 		E0503A121E8417940077D206 /* GPNote.m in Sources */ = {isa = PBXBuildFile; fileRef = E0503A111E8417940077D206 /* GPNote.m */; };
+		E0503A151E8419400077D206 /* GPScale.m in Sources */ = {isa = PBXBuildFile; fileRef = E0503A141E8419400077D206 /* GPScale.m */; };
 		E0507AE11E796CA80010EB2F /* GPBarbecuer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0507AE01E796CA80010EB2F /* GPBarbecuer.m */; };
 		E0507AE41E796D6F0010EB2F /* GPCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E0507AE31E796D6F0010EB2F /* GPCommand.m */; };
 		E0507AE71E796DCB0010EB2F /* GPBakeMuttonCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E0507AE61E796DCB0010EB2F /* GPBakeMuttonCommand.m */; };
@@ -461,6 +462,8 @@
 		E0503A0E1E8415250077D206 /* GPExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPExpression.m; sourceTree = "<group>"; };
 		E0503A101E8417940077D206 /* GPNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNote.h; sourceTree = "<group>"; };
 		E0503A111E8417940077D206 /* GPNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNote.m; sourceTree = "<group>"; };
+		E0503A131E8419400077D206 /* GPScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPScale.h; sourceTree = "<group>"; };
+		E0503A141E8419400077D206 /* GPScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPScale.m; sourceTree = "<group>"; };
 		E0507ADF1E796CA80010EB2F /* GPBarbecuer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBarbecuer.h; sourceTree = "<group>"; };
 		E0507AE01E796CA80010EB2F /* GPBarbecuer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBarbecuer.m; sourceTree = "<group>"; };
 		E0507AE21E796D6F0010EB2F /* GPCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPCommand.h; sourceTree = "<group>"; };
@@ -1100,6 +1103,8 @@
 				E0503A0E1E8415250077D206 /* GPExpression.m */,
 				E0503A101E8417940077D206 /* GPNote.h */,
 				E0503A111E8417940077D206 /* GPNote.m */,
+				E0503A131E8419400077D206 /* GPScale.h */,
+				E0503A141E8419400077D206 /* GPScale.m */,
 			);
 			name = "20-解释器模式";
 			sourceTree = "<group>";
@@ -1511,6 +1516,7 @@
 				ACC122111E55E681003BFF09 /* GPTwoViewController.m in Sources */,
 				AC8496351E684E1C00EDF062 /* GPRestState.m in Sources */,
 				AC84962F1E684DE500EDF062 /* GPEventState.m in Sources */,
+				E0503A151E8419400077D206 /* GPScale.m in Sources */,
 				E0507AED1E796F580010EB2F /* GPWaiter.m in Sources */,
 				ACE4160B1E5331AC00752695 /* IQUIViewController+Additions.m in Sources */,
 				AC1ADDD31E605D8500642CC6 /* GPSevenViewController.m in Sources */,

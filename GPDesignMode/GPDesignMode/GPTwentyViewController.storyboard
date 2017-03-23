@@ -20,7 +20,20 @@
                     <view key="view" contentMode="scaleToFill" id="JO3-3M-DqC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzf-2u-rfa">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <state key="normal" title="上海滩"/>
+                                <connections>
+                                    <action selector="playBtnClick:" destination="awT-MR-gS0" eventType="touchUpInside" id="HHE-ch-f5U"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nzf-2u-rfa" firstAttribute="centerX" secondItem="JO3-3M-DqC" secondAttribute="centerX" id="cvw-4t-ZO3"/>
+                            <constraint firstItem="nzf-2u-rfa" firstAttribute="centerY" secondItem="JO3-3M-DqC" secondAttribute="centerY" id="wDq-By-QtK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="py3-wP-ca9" userLabel="First Responder" sceneMemberID="firstResponder"/>
