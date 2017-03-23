@@ -135,6 +135,10 @@
 		E04E05071E702E13007928C3 /* GPGameRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E05061E702E13007928C3 /* GPGameRoll.m */; };
 		E04E050A1E702E6C007928C3 /* GPRoleStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E05091E702E6C007928C3 /* GPRoleStateMemento.m */; };
 		E04E050D1E702E8E007928C3 /* GPRoleStateCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E050C1E702E8E007928C3 /* GPRoleStateCaretaker.m */; };
+		E0503A071E8414610077D206 /* GPTwentyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0503A061E8414610077D206 /* GPTwentyViewController.m */; };
+		E0503A091E84147A0077D206 /* GPTwentyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0503A081E84147A0077D206 /* GPTwentyViewController.storyboard */; };
+		E0503A0C1E8414EA0077D206 /* GPPlayContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E0503A0B1E8414EA0077D206 /* GPPlayContext.m */; };
+		E0503A0F1E8415250077D206 /* GPExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = E0503A0E1E8415250077D206 /* GPExpression.m */; };
 		E0507AE11E796CA80010EB2F /* GPBarbecuer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0507AE01E796CA80010EB2F /* GPBarbecuer.m */; };
 		E0507AE41E796D6F0010EB2F /* GPCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E0507AE31E796D6F0010EB2F /* GPCommand.m */; };
 		E0507AE71E796DCB0010EB2F /* GPBakeMuttonCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E0507AE61E796DCB0010EB2F /* GPBakeMuttonCommand.m */; };
@@ -447,6 +451,13 @@
 		E04E05091E702E6C007928C3 /* GPRoleStateMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRoleStateMemento.m; sourceTree = "<group>"; };
 		E04E050B1E702E8E007928C3 /* GPRoleStateCaretaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPRoleStateCaretaker.h; sourceTree = "<group>"; };
 		E04E050C1E702E8E007928C3 /* GPRoleStateCaretaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRoleStateCaretaker.m; sourceTree = "<group>"; };
+		E0503A051E8414610077D206 /* GPTwentyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTwentyViewController.h; sourceTree = "<group>"; };
+		E0503A061E8414610077D206 /* GPTwentyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTwentyViewController.m; sourceTree = "<group>"; };
+		E0503A081E84147A0077D206 /* GPTwentyViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPTwentyViewController.storyboard; sourceTree = "<group>"; };
+		E0503A0A1E8414EA0077D206 /* GPPlayContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPlayContext.h; sourceTree = "<group>"; };
+		E0503A0B1E8414EA0077D206 /* GPPlayContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPlayContext.m; sourceTree = "<group>"; };
+		E0503A0D1E8415250077D206 /* GPExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPExpression.h; sourceTree = "<group>"; };
+		E0503A0E1E8415250077D206 /* GPExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPExpression.m; sourceTree = "<group>"; };
 		E0507ADF1E796CA80010EB2F /* GPBarbecuer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBarbecuer.h; sourceTree = "<group>"; };
 		E0507AE01E796CA80010EB2F /* GPBarbecuer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBarbecuer.m; sourceTree = "<group>"; };
 		E0507AE21E796D6F0010EB2F /* GPCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPCommand.h; sourceTree = "<group>"; };
@@ -788,6 +799,7 @@
 				E0575FE51E7AC3A700FB7E19 /* 17-职责链模式 */,
 				E03E1EB11E815FC100940801 /* 18-中介者模式 */,
 				E0A7FFDA1E82C3CB00B6A2A3 /* 19-亨元模式 */,
+				E0503A041E84143A0077D206 /* 20-解释器模式 */,
 				AC4D4BB61E51D94E0057CBBE /* AppDelegate.h */,
 				AC4D4BB71E51D94E0057CBBE /* AppDelegate.m */,
 				AC4D4BB91E51D94E0057CBBE /* ViewController.h */,
@@ -1073,6 +1085,20 @@
 			name = "12-备忘录模式";
 			sourceTree = "<group>";
 		};
+		E0503A041E84143A0077D206 /* 20-解释器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E0503A051E8414610077D206 /* GPTwentyViewController.h */,
+				E0503A061E8414610077D206 /* GPTwentyViewController.m */,
+				E0503A081E84147A0077D206 /* GPTwentyViewController.storyboard */,
+				E0503A0A1E8414EA0077D206 /* GPPlayContext.h */,
+				E0503A0B1E8414EA0077D206 /* GPPlayContext.m */,
+				E0503A0D1E8415250077D206 /* GPExpression.h */,
+				E0503A0E1E8415250077D206 /* GPExpression.m */,
+			);
+			name = "20-解释器模式";
+			sourceTree = "<group>";
+		};
 		E0575FE51E7AC3A700FB7E19 /* 17-职责链模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1320,6 +1346,7 @@
 				AC0C49671E5B1F3500F23D74 /* GPThreeViewController.storyboard in Resources */,
 				E0CB3D771E6EDCBF00DC7564 /* GPElevenViewController.storyboard in Resources */,
 				ACE416151E5331AD00752695 /* IQKeyboardManager.bundle in Resources */,
+				E0503A091E84147A0077D206 /* GPTwentyViewController.storyboard in Resources */,
 				AC4D4BC01E51D94E0057CBBE /* Assets.xcassets in Resources */,
 				AC4D4BBE1E51D94E0057CBBE /* Main.storyboard in Resources */,
 				E03E1EB61E815FFF00940801 /* GPEighteenViewController.storyboard in Resources */,
@@ -1465,6 +1492,7 @@
 				E0CB3D7A1E6EDD0400DC7564 /* GPPlayer.m in Sources */,
 				E04E05071E702E13007928C3 /* GPGameRoll.m in Sources */,
 				E0CECFB81E718C99008D4FC4 /* GPConcreteCompany.m in Sources */,
+				E0503A071E8414610077D206 /* GPTwentyViewController.m in Sources */,
 				ACC1220B1E55DD3B003BFF09 /* GPCashReturn.m in Sources */,
 				ACE416101E5331AD00752695 /* IQBarButtonItem.m in Sources */,
 				AC10748A1E5F0DC300B48FFC /* GPWorkExperience.m in Sources */,
@@ -1481,6 +1509,7 @@
 				ACE4160B1E5331AC00752695 /* IQUIViewController+Additions.m in Sources */,
 				AC1ADDD31E605D8500642CC6 /* GPSevenViewController.m in Sources */,
 				AC1074A51E5F0E0300B48FFC /* MJPropertyType.m in Sources */,
+				E0503A0C1E8414EA0077D206 /* GPPlayContext.m in Sources */,
 				E0575FF01E7AC59600FB7E19 /* GPRequest.m in Sources */,
 				AC2A72CE1E67035B0036B3C6 /* GPFMDBUser.m in Sources */,
 				E06197CF1E75209E00F62F19 /* GPhandSetGame.m in Sources */,
@@ -1491,6 +1520,7 @@
 				AC4D4BF31E51E9A30057CBBE /* GPOperationMul.m in Sources */,
 				E03E1EBC1E81634900940801 /* GPCountry.m in Sources */,
 				E0CB3D801E6EDD5C00DC7564 /* GPCenter.m in Sources */,
+				E0503A0F1E8415250077D206 /* GPExpression.m in Sources */,
 				E06197BE1E74114800F62F19 /* GPFourteenViewController.m in Sources */,
 				AC1074821E5F049C00B48FFC /* GPSixViewController.m in Sources */,
 				AC4D4C021E51EA7B0057CBBE /* SVRadialGradientLayer.m in Sources */,
