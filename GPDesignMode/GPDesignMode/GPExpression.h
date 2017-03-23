@@ -12,5 +12,5 @@
 @interface GPExpression : NSObject
 
 - (void)interpret:(GPPlayContext *)contecxt;
-
+- (void)excute:(NSString *)key plValue:(NSInteger)value;
 @end
